@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mcnet.lubosmikula.cz/sitemap.xml

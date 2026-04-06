@@ -3,771 +3,338 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mcnet s.r.o. – Datové sítě od návrhu po provoz</title>
-  <meta name="description" content="Mcnet s.r.o. projektuje, staví a spravuje optické a metalické datové sítě na severní Moravě, Olomoucku, Zlínsku a v přilehlých regionech Polska a Slovenska.">
-  <meta name="keywords" content="optické sítě, metalické sítě, datové sítě, výstavba sítí, správa sítí, severní Morava, Ostrava, optika">
-  <meta property="og:title" content="Mcnet s.r.o. – Datové sítě od návrhu po provoz">
-  <meta property="og:description" content="Projektujeme, stavíme a spravujeme optické a metalické datové sítě.">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="cs_CZ">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <title>MCnet — Optické a datové sítě | Frýdek-Místek</title>
+  <meta name="description" content="Projektujeme, budujeme a spravujeme optickou a datovou infrastrukturu. 25+ let zkušeností, 25 000+ optických svarů, 50+ realizovaných projektů.">
+  <meta name="keywords" content="optická síť, datová síť, strukturovaná kabeláž, FTTH, Wi-Fi pokrytí, kamerové systémy, elektroinstalace, Ostrava, Frýdek-Místek, Moravskoslezský kraj">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://mcnet.lubosmikula.cz/">
 
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mcnet.lubosmikula.cz/">
+  <meta property="og:title" content="MCnet — Sítě, které fungují na desetiletí">
+  <meta property="og:description" content="Projektujeme, budujeme a spravujeme optickou a datovou infrastrukturu pro průmysl, obce a developery.">
+  <meta property="og:image" content="https://mcnet.lubosmikula.cz/og-image.jpg">
+  <meta property="og:locale" content="cs_CZ">
+  <meta property="og:site_name" content="MCnet">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MCnet — Sítě, které fungují na desetiletí">
+  <meta name="twitter:description" content="Optické a datové sítě, strukturovaná kabeláž, Wi-Fi pokrytí. 25+ let praxe.">
+
+  <!-- Schema.org JSON-LD -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Mcnet s.r.o.",
-    "description": "Projektování, výstavba a správa optických a metalických datových sítí.",
-    "slogan": "Datové sítě od návrhu po provoz",
-    "areaServed": ["Moravskoslezský kraj", "Olomoucký kraj", "Zlínský kraj", "Polsko", "Slovensko"],
-    "serviceType": ["Optické sítě", "Metalické sítě", "Datové sítě"],
-    "contactPoint": [
-      {
-        "@type": "ContactPoint",
-        "telephone": "+420777701721",
-        "email": "lubos.mikula@mcnet.cz",
-        "contactType": "Optické a metalické sítě"
-      },
-      {
-        "@type": "ContactPoint",
-        "email": "josef.mikula@mcnet.cz",
-        "contactType": "Manažer staveb"
-      }
-    ]
+    "@type": "LocalBusiness",
+    "name": "MCnet, s.r.o.",
+    "description": "Projektování, výstavba a správa optických a datových sítí",
+    "url": "https://mcnet.lubosmikula.cz",
+    "telephone": "+420-XXX-XXX-XXX",
+    "email": "info@mcnet.cz",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Frýdek-Místek",
+      "addressLocality": "Frýdek-Místek",
+      "addressRegion": "Moravskoslezský kraj",
+      "addressCountry": "CZ"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "49.6833",
+      "longitude": "18.3667"
+    },
+    "openingHours": "Mo-Fr 08:00-17:00",
+    "sameAs": [],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Služby MCnet",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Optické sítě", "url": "https://mcnet.lubosmikula.cz/sluzby/opticke-site/" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Datové sítě a kabeláž", "url": "https://mcnet.lubosmikula.cz/sluzby/datove-site/" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kamerové systémy", "url": "https://mcnet.lubosmikula.cz/sluzby/kamerove-systemy/" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Elektroinstalace", "url": "https://mcnet.lubosmikula.cz/sluzby/elektroinstalace/" } }
+      ]
+    },
+    "foundingDate": "1999",
+    "numberOfEmployees": { "@type": "QuantitativeValue", "value": 3 },
+    "areaServed": { "@type": "State", "name": "Česká republika" }
   }
   </script>
 
+  <link rel="stylesheet" href="/css/style.css">
   <style>
-    :root {
-      --black: #080c10;
-      --dark: #0d1117;
-      --panel: #111820;
-      --border: #1e2d3d;
-      --accent: #00aaff;
-      --accent2: #0066cc;
-      --text: #c9d1d9;
-      --muted: #586069;
-      --white: #f0f6fc;
-      --font-display: 'Bebas Neue', sans-serif;
-      --font-body: 'DM Sans', sans-serif;
-    }
-
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    html { scroll-behavior: smooth; }
-
-    body {
-      font-family: var(--font-body);
-      background: var(--black);
-      color: var(--text);
-      line-height: 1.6;
-      overflow-x: hidden;
-    }
-
-    /* GRID OVERLAY */
-    body::before {
-      content: '';
-      position: fixed;
-      inset: 0;
-      background-image:
-        linear-gradient(rgba(0,170,255,0.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(0,170,255,0.03) 1px, transparent 1px);
-      background-size: 60px 60px;
-      pointer-events: none;
-      z-index: 0;
-    }
-
-    /* NAV */
-    nav {
-      position: fixed;
-      top: 0; left: 0; right: 0;
-      z-index: 100;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 1.25rem 4rem;
-      background: rgba(8,12,16,0.85);
-      backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border);
-    }
-
-    .nav-logo {
-      font-family: var(--font-display);
-      font-size: 1.6rem;
-      letter-spacing: 0.08em;
-      color: var(--white);
-      text-decoration: none;
-    }
-
-    .nav-logo span { color: var(--accent); }
-
-    .nav-links {
-      display: flex;
-      gap: 2.5rem;
-      list-style: none;
-    }
-
-    .nav-links a {
-      color: var(--muted);
-      text-decoration: none;
-      font-size: 0.85rem;
-      font-weight: 500;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      transition: color 0.2s;
-    }
-
-    .nav-links a:hover { color: var(--accent); }
-
-    /* HERO */
-    #hero {
-      position: relative;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      padding: 8rem 4rem 4rem;
-      overflow: hidden;
-    }
-
-    .hero-bg {
-      position: absolute;
-      inset: 0;
-      background:
-        radial-gradient(ellipse 80% 60% at 60% 50%, rgba(0,102,204,0.12) 0%, transparent 70%),
-        radial-gradient(ellipse 40% 40% at 80% 20%, rgba(0,170,255,0.08) 0%, transparent 60%);
-      z-index: 0;
-    }
-
-    /* Animated fiber lines */
-    .fiber-lines {
-      position: absolute;
-      right: 0; top: 0;
-      width: 55%;
-      height: 100%;
-      z-index: 0;
-      overflow: hidden;
-    }
-
-    .fiber-lines svg {
-      width: 100%;
-      height: 100%;
-      opacity: 0.15;
-    }
-
-    .fiber-line {
-      fill: none;
-      stroke: var(--accent);
-      stroke-width: 1;
-      stroke-dasharray: 800;
-      stroke-dashoffset: 800;
-      animation: drawLine 3s ease forwards;
-    }
-
-    .fiber-line:nth-child(2) { animation-delay: 0.3s; stroke: #0077dd; }
-    .fiber-line:nth-child(3) { animation-delay: 0.6s; }
-    .fiber-line:nth-child(4) { animation-delay: 0.9s; stroke: #0077dd; }
-    .fiber-line:nth-child(5) { animation-delay: 1.2s; }
-
-    @keyframes drawLine {
-      to { stroke-dashoffset: 0; }
-    }
-
-    .hero-content {
-      position: relative;
-      z-index: 1;
-      max-width: 700px;
-    }
-
-    .hero-tag {
-      display: inline-block;
-      font-size: 0.75rem;
-      font-weight: 500;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: var(--accent);
-      border: 1px solid rgba(0,170,255,0.3);
-      padding: 0.3rem 0.9rem;
-      margin-bottom: 2rem;
-      animation: fadeUp 0.8s ease forwards;
-      opacity: 0;
-    }
-
-    .hero-title {
-      font-family: var(--font-display);
-      font-size: clamp(4rem, 8vw, 7rem);
-      line-height: 0.95;
-      letter-spacing: 0.02em;
-      color: var(--white);
-      margin-bottom: 1.5rem;
-      animation: fadeUp 0.8s 0.15s ease forwards;
-      opacity: 0;
-    }
-
-    .hero-title span { color: var(--accent); }
-
-    .hero-sub {
-      font-size: 1.15rem;
-      color: var(--text);
-      font-weight: 300;
-      max-width: 500px;
-      margin-bottom: 3rem;
-      animation: fadeUp 0.8s 0.3s ease forwards;
-      opacity: 0;
-    }
-
-    .hero-cta {
-      display: flex;
-      gap: 1rem;
-      flex-wrap: wrap;
-      animation: fadeUp 0.8s 0.45s ease forwards;
-      opacity: 0;
-    }
-
-    .btn-primary {
-      display: inline-block;
-      padding: 0.9rem 2rem;
-      background: var(--accent);
-      color: var(--black);
-      font-weight: 600;
-      font-size: 0.9rem;
-      text-decoration: none;
-      letter-spacing: 0.05em;
-      transition: background 0.2s, transform 0.2s;
-    }
-
-    .btn-primary:hover { background: #33bbff; transform: translateY(-2px); }
-
-    .btn-secondary {
-      display: inline-block;
-      padding: 0.9rem 2rem;
-      border: 1px solid var(--border);
-      color: var(--text);
-      font-weight: 500;
-      font-size: 0.9rem;
-      text-decoration: none;
-      letter-spacing: 0.05em;
-      transition: border-color 0.2s, color 0.2s;
-    }
-
-    .btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
-
-    @keyframes fadeUp {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    /* SECTIONS */
-    section {
-      position: relative;
-      z-index: 1;
-      padding: 6rem 4rem;
-    }
-
-    .section-label {
-      font-size: 0.72rem;
-      letter-spacing: 0.25em;
-      text-transform: uppercase;
-      color: var(--accent);
-      margin-bottom: 1rem;
-    }
-
-    .section-title {
-      font-family: var(--font-display);
-      font-size: clamp(2.5rem, 5vw, 4rem);
-      color: var(--white);
-      letter-spacing: 0.02em;
-      line-height: 1;
-      margin-bottom: 3rem;
-    }
-
-    /* SERVICES */
-    #sluzby { background: var(--dark); border-top: 1px solid var(--border); }
-
-    .services-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1px;
-      background: var(--border);
-      border: 1px solid var(--border);
-    }
-
-    .service-card {
-      background: var(--panel);
-      padding: 2.5rem;
-      transition: background 0.2s;
-    }
-
-    .service-card:hover { background: #161e28; }
-
-    .service-icon {
-      width: 40px;
-      height: 40px;
-      margin-bottom: 1.5rem;
-      color: var(--accent);
-    }
-
-    .service-card h3 {
-      font-family: var(--font-display);
-      font-size: 1.6rem;
-      color: var(--white);
-      letter-spacing: 0.05em;
-      margin-bottom: 0.75rem;
-    }
-
-    .service-card p {
-      font-size: 0.9rem;
-      color: var(--muted);
-      line-height: 1.7;
-    }
-
-    /* REGION */
-    #region { background: var(--black); border-top: 1px solid var(--border); }
-
-    .region-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 4rem;
-      align-items: start;
-    }
-
-    .region-list {
-      list-style: none;
-      display: flex;
-      flex-direction: column;
-      gap: 0.75rem;
-    }
-
-    .region-list li {
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
-      font-size: 1rem;
-      color: var(--text);
-      padding: 1rem 1.25rem;
-      border: 1px solid var(--border);
-      transition: border-color 0.2s;
-    }
-
-    .region-list li:hover { border-color: var(--accent); }
-
-    .region-list li::before {
-      content: '';
-      width: 6px;
-      height: 6px;
-      background: var(--accent);
-      flex-shrink: 0;
-    }
-
-    .region-text p {
-      color: var(--muted);
-      line-height: 1.8;
-      margin-bottom: 1rem;
-    }
-
-    /* REFERENCE */
-    #reference { background: var(--dark); border-top: 1px solid var(--border); }
-
-    .ref-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 1.5rem;
-    }
-
-    .ref-card {
-      border: 1px solid var(--border);
-      padding: 2rem;
-      position: relative;
-      overflow: hidden;
-      transition: border-color 0.2s;
-    }
-
-    .ref-card:hover { border-color: var(--accent); }
-
-    .ref-card::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0;
-      width: 3px;
-      height: 100%;
-      background: var(--accent);
-      transform: scaleY(0);
-      transform-origin: top;
-      transition: transform 0.3s;
-    }
-
-    .ref-card:hover::before { transform: scaleY(1); }
-
-    .ref-type {
-      font-size: 0.7rem;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: var(--accent);
-      margin-bottom: 0.75rem;
-    }
-
-    .ref-card h3 {
-      font-size: 1.05rem;
-      font-weight: 500;
-      color: var(--white);
-      margin-bottom: 0.5rem;
-    }
-
-    .ref-card p {
-      font-size: 0.88rem;
-      color: var(--muted);
-    }
-
-    /* CONTACT */
-    #kontakt { background: var(--black); border-top: 1px solid var(--border); }
-
-    .contact-grid {
-      display: grid;
-      grid-template-columns: 1fr 1.2fr;
-      gap: 5rem;
-      align-items: start;
-    }
-
-    .contact-info { display: flex; flex-direction: column; gap: 2rem; }
-
-    .contact-person {
-      padding: 1.5rem;
-      border: 1px solid var(--border);
-    }
-
-    .contact-person .role {
-      font-size: 0.72rem;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: var(--accent);
-      margin-bottom: 0.5rem;
-    }
-
-    .contact-person .name {
-      font-family: var(--font-display);
-      font-size: 1.4rem;
-      color: var(--white);
-      letter-spacing: 0.05em;
-      margin-bottom: 0.75rem;
-    }
-
-    .contact-person a {
-      display: block;
-      color: var(--muted);
-      text-decoration: none;
-      font-size: 0.9rem;
-      transition: color 0.2s;
-      margin-bottom: 0.25rem;
-    }
-
-    .contact-person a:hover { color: var(--accent); }
-
-    /* FORM */
-    .contact-form { display: flex; flex-direction: column; gap: 1rem; }
-
-    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-
-    .form-group { display: flex; flex-direction: column; gap: 0.4rem; }
-
-    .form-group label {
-      font-size: 0.75rem;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--muted);
-    }
-
-    .form-group input,
-    .form-group textarea,
-    .form-group select {
-      background: var(--panel);
-      border: 1px solid var(--border);
-      color: var(--text);
-      padding: 0.85rem 1rem;
-      font-family: var(--font-body);
-      font-size: 0.9rem;
-      outline: none;
-      transition: border-color 0.2s;
-      width: 100%;
-    }
-
-    .form-group input:focus,
-    .form-group textarea:focus,
-    .form-group select:focus {
-      border-color: var(--accent);
-    }
-
-    .form-group textarea { resize: vertical; min-height: 130px; }
-
-    .form-group select option { background: var(--panel); }
-
-    .form-submit {
-      align-self: flex-start;
-      padding: 0.9rem 2.5rem;
-      background: var(--accent);
-      color: var(--black);
-      border: none;
-      font-family: var(--font-body);
-      font-weight: 600;
-      font-size: 0.9rem;
-      letter-spacing: 0.05em;
-      cursor: pointer;
-      transition: background 0.2s, transform 0.2s;
-    }
-
-    .form-submit:hover { background: #33bbff; transform: translateY(-2px); }
-
-    /* FOOTER */
-    footer {
-      position: relative;
-      z-index: 1;
-      border-top: 1px solid var(--border);
-      padding: 2rem 4rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      background: var(--dark);
-    }
-
-    footer p { font-size: 0.8rem; color: var(--muted); }
-
-    /* RESPONSIVE */
-    @media (max-width: 900px) {
-      nav { padding: 1rem 2rem; }
-      .nav-links { display: none; }
-      #hero { padding: 7rem 2rem 4rem; }
-      section { padding: 4rem 2rem; }
-      .region-grid,
-      .contact-grid { grid-template-columns: 1fr; gap: 2.5rem; }
-      .form-row { grid-template-columns: 1fr; }
-      footer { padding: 1.5rem 2rem; flex-direction: column; gap: 0.5rem; text-align: center; }
-      .fiber-lines { width: 100%; opacity: 0.07; }
-    }
+    .hero-wrap { position: relative; padding: 72px 52px 0; max-width: 1140px; margin: 0 auto; }
+    canvas { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 1; }
+    .hero-inner { position: relative; z-index: 2; }
+    .eyebrow { display: inline-flex; align-items: center; gap: 10px; font-size: 11px; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; color: var(--blue); margin-bottom: 32px; }
+    .eyebrow-line { width: 28px; height: 1px; background: var(--blue); }
+    .eyebrow-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--blue); animation: pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1;transform:scale(1);} 50%{opacity:.5;transform:scale(.7);} }
+    .headline { font-family: 'Syne', sans-serif; font-size: clamp(40px,5.5vw,68px); font-weight: 800; line-height: 1.0; letter-spacing: -.02em; color: var(--cream); margin-bottom: 28px; }
+    .headline .accent { color: var(--blue); position: relative; display: inline-block; }
+    .headline .accent::after { content: ''; position: absolute; bottom: -4px; left: 0; width: 100%; height: 2px; background: var(--blue); opacity: .4; transform: scaleX(0); transform-origin: left; animation: lineIn .6s .8s ease forwards; }
+    @keyframes lineIn { to { transform: scaleX(1); } }
+    .subline { font-size: 15px; font-weight: 300; line-height: 1.75; color: var(--muted); max-width: 540px; margin-bottom: 44px; }
+    .hero-actions { display: flex; align-items: center; gap: 16px; margin-bottom: 80px; }
+    .stats { display: grid; grid-template-columns: repeat(3,1fr); border-top: 1px solid var(--dimmer); padding: 44px 0 52px; }
+    .stat { padding-right: 40px; border-right: 1px solid var(--dimmer); }
+    .stat:last-child { border-right: none; padding-left: 40px; padding-right: 0; }
+    .stat:nth-child(2) { padding-left: 40px; }
+    .stat-n { font-family: 'Syne', sans-serif; font-size: 48px; font-weight: 800; color: var(--cream); line-height: 1; letter-spacing: -.03em; }
+    .stat-n sup { font-size: 20px; color: var(--blue); vertical-align: super; font-weight: 700; }
+    .stat-l { font-size: 12px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-top: 8px; }
+    .stat-d { font-size: 11px; font-weight: 300; color: rgba(245,242,236,.3); margin-top: 3px; }
+    .divider-label { font-size: 10px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: rgba(245,242,236,.25); display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+    .divider-label::before,.divider-label::after { content: ''; flex: 1; height: 1px; background: rgba(245,242,236,.07); }
+    .show-more { display: flex; justify-content: center; margin-top: 36px; }
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity .6s ease, transform .6s ease; }
+    .reveal.revealed { opacity: 1; transform: none; }
+    @media(max-width:900px){.hero-wrap{padding:48px 24px 0;}.stats{grid-template-columns:1fr;}.stat{border-right:none;padding:16px 0;border-bottom:1px solid var(--dimmer);}.stat:last-child{border-bottom:none;}}
   </style>
 </head>
 <body>
 
-  <nav>
-    <a href="#hero" class="nav-logo">MC<span>NET</span></a>
-    <ul class="nav-links">
-      <li><a href="#sluzby">Služby</a></li>
-      <li><a href="#region">Region</a></li>
-      <li><a href="#reference">Reference</a></li>
-      <li><a href="#kontakt">Kontakt</a></li>
-    </ul>
-  </nav>
+<!-- NAV -->
+<nav class="nav">
+  <a href="/" class="nav-logo">MC<span>net</span></a>
+  <ul class="nav-links">
+    <li><a href="/sluzby/">Služby</a></li>
+    <li><a href="/reference/">Reference</a></li>
+    <li><a href="/o-firme/">O firmě</a></li>
+    <li><a href="/aktuality/">Aktuality</a></li>
+    <li><a href="/kontakt/">Kontakt</a></li>
+  </ul>
+  <a href="/kontakt/" class="nav-cta">Poptávka</a>
+</nav>
 
-  <!-- HERO -->
-  <section id="hero">
-    <div class="hero-bg"></div>
-    <div class="fiber-lines">
-      <svg viewBox="0 0 600 800" preserveAspectRatio="xMidYMid slice">
-        <path class="fiber-line" d="M600,100 C400,150 200,200 0,300"/>
-        <path class="fiber-line" d="M600,250 C450,280 300,350 100,500"/>
-        <path class="fiber-line" d="M600,400 C500,380 350,420 0,480"/>
-        <path class="fiber-line" d="M600,550 C480,520 320,560 150,650"/>
-        <path class="fiber-line" d="M600,700 C420,680 250,700 0,750"/>
-        <circle cx="200" cy="280" r="3" fill="#00aaff" opacity="0.6"/>
-        <circle cx="350" cy="380" r="3" fill="#00aaff" opacity="0.6"/>
-        <circle cx="480" cy="450" r="3" fill="#00aaff" opacity="0.4"/>
-        <circle cx="120" cy="490" r="3" fill="#00aaff" opacity="0.5"/>
-      </svg>
+<!-- HERO -->
+<div class="hero-wrap" id="heroWrap">
+  <canvas id="netCanvas"></canvas>
+  <div class="hero-inner">
+    <div class="eyebrow fade-up delay-1">
+      <span class="eyebrow-line"></span>
+      <span class="eyebrow-dot"></span>
+      Optické a datové sítě
     </div>
-    <div class="hero-content">
-      <span class="hero-tag">Mcnet s.r.o.</span>
-      <h1 class="hero-title">DATOVÉ<br>SÍTĚ OD<br>NÁVRHU<br><span>PO PROVOZ</span></h1>
-      <p class="hero-sub">Projektujeme, stavíme a spravujeme optické a metalické datové sítě na Moravě a v přilehlých regionech.</p>
-      <div class="hero-cta">
-        <a href="#kontakt" class="btn-primary">Nezávazná poptávka</a>
-        <a href="#sluzby" class="btn-secondary">Naše služby</a>
-      </div>
+    <h1 class="headline fade-up delay-2">
+      Sítě, které fungují<br>
+      <span class="accent">na desetiletí</span>
+    </h1>
+    <p class="subline fade-up delay-3">
+      Projektujeme, budujeme a spravujeme optickou a datovou infrastrukturu — pro ty, kteří očekávají spolehlivý provoz bez starostí.
+    </p>
+    <div class="hero-actions fade-up delay-4">
+      <a href="/kontakt/" class="btn-primary">Nezávazná poptávka</a>
+      <a href="/reference/" class="btn-secondary">Zobrazit reference</a>
     </div>
-  </section>
-
-  <!-- SLUŽBY -->
-  <section id="sluzby">
-    <div class="section-label">Co děláme</div>
-    <div class="section-title">NAŠE SLUŽBY</div>
-    <div class="services-grid">
-      <div class="service-card">
-        <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-          <circle cx="12" cy="12" r="3"/><path d="M3 12h3m12 0h3M12 3v3m0 12v3"/>
-          <path d="M5.6 5.6l2.1 2.1m8.6 8.6l2.1 2.1m0-12.8l-2.1 2.1M7.7 16.3l-2.1 2.1"/>
-        </svg>
-        <h3>Optické sítě</h3>
-        <p>Návrh, výstavba a správa optických datových sítí. Pokládka kabelů, sváření vláken, měření a dokumentace tras.</p>
+    <div class="stats fade-up delay-5">
+      <div class="stat">
+        <div class="stat-n">25<sup>+</sup></div>
+        <div class="stat-l">Let zkušeností</div>
+        <div class="stat-d">Na trhu od roku 1999</div>
       </div>
-      <div class="service-card">
-        <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-          <rect x="2" y="3" width="20" height="14" rx="2"/>
-          <path d="M8 21h8m-4-4v4"/>
-        </svg>
-        <h3>Metalické sítě</h3>
-        <p>Instalace a správa strukturované kabeláže, měděných datových rozvodů a aktivních prvků sítě.</p>
+      <div class="stat">
+        <div class="stat-n">25 000<sup>+</sup></div>
+        <div class="stat-l">Optických svarů</div>
+        <div class="stat-d">Kumulativně za historii firmy</div>
       </div>
-      <div class="service-card">
-        <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-          <path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/>
-        </svg>
-        <h3>Projektová dokumentace</h3>
-        <p>Zpracování kompletní projektové dokumentace pro stavební povolení i realizaci. Zaměření tras, geodetické podklady.</p>
-      </div>
-      <div class="service-card">
-        <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-        </svg>
-        <h3>Správa a údržba</h3>
-        <p>Dlouhodobá správa sítí, pravidelná údržba, odstraňování poruch a monitoring. Servisní smlouvy na míru.</p>
-      </div>
-
-      <div class="service-card">
-        <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-          <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
-        </svg>
-        <h3>Měření a diagnostika</h3>
-        <p>OTDR měření optických tras, certifikace kabeláže, diagnostika poruch. Kompletní měřicí protokoly.</p>
+      <div class="stat">
+        <div class="stat-n">50<sup>+</sup></div>
+        <div class="stat-l">Realizovaných projektů</div>
+        <div class="stat-d">Průmysl, obce, developeři</div>
       </div>
     </div>
-  </section>
+  </div>
+</div>
 
-  <!-- REGION -->
-  <section id="region">
-    <div class="section-label">Kde působíme</div>
-    <div class="section-title">OBLAST PŮSOBENÍ</div>
-    <div class="region-grid">
-      <div>
-        <ul class="region-list">
-          <li>Česká republika</li>
-          <li>Polsko</li>
-          <li>Slovensko</li>
-        </ul>
+<!-- SERVICES STRIP -->
+<div class="services-strip">
+  <span class="strip-label">Služby</span>
+  <span class="chip hi">Optické sítě</span>
+  <span class="chip hi">Datové sítě</span>
+  <span class="chip">Strukturovaná kabeláž</span>
+  <span class="chip">Wi-Fi a AP</span>
+  <span class="chip">Kamerové systémy</span>
+  <span class="chip">Elektroinstalace</span>
+</div>
+
+<!-- SERVICES -->
+<div class="section reveal">
+  <div class="sec-eyebrow"><span class="sec-eyebrow-line"></span>Co děláme</div>
+  <h2 class="sec-title">Komplexní řešení<br>pod jednou střechou</h2>
+  <p class="sec-sub">Od optické páteře po datovou zásuvku — celý životní cyklus komunikační infrastruktury bez nutnosti koordinovat více dodavatelů.</p>
+
+  <div class="primary-grid">
+    <div class="svc-card primary">
+      <span class="svc-badge badge-p">Hlavní oblast</span>
+      <div class="svc-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/><path d="M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/></svg></div>
+      <h3 class="svc-title">Optické sítě</h3>
+      <p class="svc-desc">Projektujeme a realizujeme optickou infrastrukturu pro průmyslové areály, obce i bytové domy. Od trasování po certifikaci.</p>
+      <div class="svc-pills">
+        <span class="svc-pill">Projektování tras</span>
+        <span class="svc-pill">Výstavba FTTH / FTTB</span>
+        <span class="svc-pill">Svařování vláken</span>
+        <span class="svc-pill">Měření a certifikace</span>
+        <span class="svc-pill">Správa a servis</span>
       </div>
-      <div class="region-text">
-        <p>Realizujeme projekty po celé České republice s důrazem na Moravu a Slezsko. Naše kapacity pokrývají rovněž přeshraniční projekty v Polsku a na Slovensku.</p>
-        <p>Pro realizaci projektů v zahraničí disponujeme zkušenostmi s tamní legislativou a navazujícími standardy pro výstavbu datové infrastruktury.</p>
-        <p>Máte projekt mimo standardní oblast? Kontaktujte nás – každý případ posoudíme individuálně.</p>
-      </div>
+      <a href="/sluzby/opticke-site/" class="svc-link">Více o optických sítích →</a>
     </div>
-  </section>
-
-  <!-- REFERENCE -->
-  <section id="reference">
-    <div class="section-label">Naše práce</div>
-    <div class="section-title">VYBRANÉ REFERENCE</div>
-    <div class="ref-grid">
-      <div class="ref-card">
-        <div class="ref-type">Optická síť · Zdravotnictví</div>
-        <h3>Nemocnice Ostrava Fifejdy</h3>
-        <p>Páteřní areálové optické rozvody nemocničního komplexu. Pokládka, sváření vláken, certifikace a kompletní dokumentace tras.</p>
+    <div class="svc-card primary">
+      <span class="svc-badge badge-p">Hlavní oblast</span>
+      <div class="svc-icon"><svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M6 7h.01M10 7h8M6 11h.01M10 11h8"/></svg></div>
+      <h3 class="svc-title">Datové sítě a kabeláž</h3>
+      <p class="svc-desc">Strukturovaná kabeláž, aktivní prvky a Wi-Fi pokrytí pro administrativní budovy, výrobní haly i bytové komplexy.</p>
+      <div class="svc-pills">
+        <span class="svc-pill">Strukturovaná kabeláž</span>
+        <span class="svc-pill">Datové zásuvky RJ45</span>
+        <span class="svc-pill">Patch panely, racky</span>
+        <span class="svc-pill">Wi-Fi a AP instalace</span>
       </div>
-      <div class="ref-card">
-        <div class="ref-type">Optická síť · Sport</div>
-        <h3>Sportoviště Karviná</h3>
-        <p>Areálové optické rozvody sportovního komplexu. Návrh trasy, výstavba, měření a předání do provozu.</p>
-      </div>
-      <div class="ref-card">
-        <div class="ref-type">Datová infrastruktura · Státní správa</div>
-        <h3>Projekty budov Policie ČR</h3>
-        <p>Výstavba datové infrastruktury pro objekty Policie České republiky. Realizace dle bezpečnostních požadavků a norem.</p>
-      </div>
-      <div class="ref-card">
-        <div class="ref-type">Metalická kabeláž · Školství</div>
-        <h3>SUŠ Poděbradova Ostrava</h3>
-        <p>Komplexní strukturovaná metalická kabeláž pro školní budovu. Datové rozvody, patch panely, aktivní prvky sítě.</p>
-      </div>
-      <div class="ref-card">
-        <div class="ref-type">Měření a diagnostika · Automotive</div>
-        <h3>Hyundai Nošovice</h3>
-        <p>OTDR diagnostika optických tras v areálu výrobního závodu. Kompletní měřicí protokoly a vyhodnocení stavu sítě.</p>
-      </div>
-      <div class="ref-card">
-        <div class="ref-type">Optická kabeláž · Průmysl &amp; Budovy</div>
-        <h3>Ukončování optiky a zafukování</h3>
-        <p>Desítky realizací ukončování optické kabeláže v budovách a areálech včetně zafukování optických vláken do HDPE chrániček.</p>
-      </div>
+      <a href="/sluzby/datove-site/" class="svc-link">Více o datových sítích →</a>
     </div>
-  </section>
+  </div>
 
-  <!-- KONTAKT -->
-  <section id="kontakt">
-    <div class="section-label">Spojte se s námi</div>
-    <div class="section-title">KONTAKT</div>
-    <div class="contact-grid">
-      <div class="contact-info">
-        <div class="contact-person">
-          <div class="role">Optické a metalické sítě</div>
-          <div class="name">Luboš Mikula</div>
-          <a href="tel:+420777701721">+420 777 701 721</a>
-          <a href="mailto:lubos.mikula@mcnet.cz">lubos.mikula@mcnet.cz</a>
-        </div>
-        <div class="contact-person">
-          <div class="role">Manažer staveb</div>
-          <div class="name">Josef Mikula</div>
-          <a href="mailto:josef.mikula@mcnet.cz">josef.mikula@mcnet.cz</a>
-        </div>
-        <div class="contact-person">
-          <div class="role">Společnost</div>
-          <div class="name">Mcnet s.r.o.</div>
-          <p style="font-size:0.88rem;color:var(--muted);">Moravskoslezský kraj, Česká republika</p>
+  <div class="divider-label">Doplňkové služby</div>
+
+  <div class="secondary-grid">
+    <div class="svc-card secondary">
+      <span class="svc-badge badge-s">Doplňkové</span>
+      <div class="svc-icon"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="2"/><circle cx="12" cy="10" r="3"/><path d="M7 21v-1a5 5 0 0 1 10 0v1"/></svg></div>
+      <h3 class="svc-title">Kamerové systémy</h3>
+      <p class="svc-desc">Návrh a instalace IP kamer a CCTV systémů integrovaných do datové infrastruktury.</p>
+      <div class="svc-pills"><span class="svc-pill">IP kamery</span><span class="svc-pill">CCTV</span><span class="svc-pill">NVR / DVR</span></div>
+      <a href="/sluzby/kamerove-systemy/" class="svc-link">Více →</a>
+    </div>
+    <div class="svc-card secondary">
+      <span class="svc-badge badge-s">Doplňkové</span>
+      <div class="svc-icon"><svg viewBox="0 0 24 24"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg></div>
+      <h3 class="svc-title">IP zvonky a interkom</h3>
+      <p class="svc-desc">Instalace IP videovrátných a interkomových systémů pro bytové domy a průmyslové objekty.</p>
+      <div class="svc-pills"><span class="svc-pill">IP videovrátné</span><span class="svc-pill">Interkom</span></div>
+      <a href="/sluzby/ip-zvonky/" class="svc-link">Více →</a>
+    </div>
+    <div class="svc-card secondary">
+      <span class="svc-badge badge-s">Doplňkové</span>
+      <div class="svc-icon"><svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+      <h3 class="svc-title">Elektroinstalace</h3>
+      <p class="svc-desc">Silnoproudé a slaboproudé rozvody, rozvaděče a elektrorevize jako součást komplexní dodávky.</p>
+      <div class="svc-pills"><span class="svc-pill">Silnoproud</span><span class="svc-pill">Slaboproud</span><span class="svc-pill">Revize</span></div>
+      <a href="/sluzby/elektroinstalace/" class="svc-link">Více →</a>
+    </div>
+  </div>
+</div>
+
+<hr class="sec-divider">
+
+<!-- REFERENCE -->
+<div style="background:var(--navy2);">
+<div class="section reveal">
+  <div class="sec-eyebrow"><span class="sec-eyebrow-line"></span>Co jsme postavili</div>
+  <h2 class="sec-title">Realizované projekty</h2>
+  <p class="sec-sub">Výběr z dokončených projektů napříč sektory. Od dokumentace po předání a servis.</p>
+
+  <div class="filters">
+    <button class="filter-btn active" data-filter="vse">Vše</button>
+    <button class="filter-btn" data-filter="obec">Obce a veřejný sektor</button>
+    <button class="filter-btn" data-filter="prumysl">Průmysl a výroba</button>
+    <button class="filter-btn" data-filter="developer">Developeři</button>
+    <button class="filter-btn" data-filter="it">IT infrastruktura</button>
+  </div>
+
+  <div class="proj-grid" id="projGrid">
+    <article class="proj-card" data-sector="obec">
+      <div class="proj-thumb thumb-obec">
+        <span class="proj-sector sb-obec">Obec</span>
+        <span class="proj-year">2023</span>
+        <div class="thumb-ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg></div>
+      </div>
+      <div class="proj-body">
+        <h3 class="proj-title">Optická síť obce Brušperk</h3>
+        <div class="proj-loc">Brušperk, MSK</div>
+        <p class="proj-desc">Páteřní optická síť propojující obecní úřad, školu, kulturní dům a 3 místní části.</p>
+        <div class="proj-tags"><span class="proj-tag">FTTH</span><span class="proj-tag">Optika</span><span class="proj-tag">Projektová dok.</span></div>
+        <div class="proj-stats">
+          <div><div class="ps-num">8,4 km</div><div class="ps-lbl">trasa</div></div>
+          <div><div class="ps-num">320+</div><div class="ps-lbl">svarů</div></div>
+          <div><div class="ps-num">6</div><div class="ps-lbl">lokalit</div></div>
         </div>
       </div>
+    </article>
+    <article class="proj-card" data-sector="prumysl">
+      <div class="proj-thumb thumb-prumysl">
+        <span class="proj-sector sb-prumysl">Průmysl</span>
+        <span class="proj-year">2024</span>
+        <div class="thumb-ico"><svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M6 7h.01M10 7h8"/></svg></div>
+      </div>
+      <div class="proj-body">
+        <h3 class="proj-title">Datová infrastruktura výrobního závodu</h3>
+        <div class="proj-loc">Ostrava-Kunčice</div>
+        <p class="proj-desc">Kompletní strukturovaná kabeláž a Wi-Fi pokrytí výrobní haly 12 000 m².</p>
+        <div class="proj-tags"><span class="proj-tag">Kabeláž</span><span class="proj-tag">Wi-Fi</span><span class="proj-tag">Průmyslové AP</span></div>
+        <div class="proj-stats">
+          <div><div class="ps-num">12 000 m²</div><div class="ps-lbl">plocha</div></div>
+          <div><div class="ps-num">480+</div><div class="ps-lbl">konektorů</div></div>
+          <div><div class="ps-num">18</div><div class="ps-lbl">AP bodů</div></div>
+        </div>
+      </div>
+    </article>
+    <article class="proj-card" data-sector="developer">
+      <div class="proj-thumb thumb-developer">
+        <span class="proj-sector sb-developer">Developer</span>
+        <span class="proj-year">2023</span>
+        <div class="thumb-ico"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></div>
+      </div>
+      <div class="proj-body">
+        <h3 class="proj-title">Bytový komplex Nová Poruba</h3>
+        <div class="proj-loc">Ostrava-Poruba</div>
+        <p class="proj-desc">FTTH přípojky, strukturovaná kabeláž, IP videovrátné a kamery pro 4 bytové domy.</p>
+        <div class="proj-tags"><span class="proj-tag">FTTB</span><span class="proj-tag">IP videovrátné</span><span class="proj-tag">Kamery</span></div>
+        <div class="proj-stats">
+          <div><div class="ps-num">96</div><div class="ps-lbl">bytů</div></div>
+          <div><div class="ps-num">4</div><div class="ps-lbl">domy</div></div>
+          <div><div class="ps-num">24</div><div class="ps-lbl">kamer</div></div>
+        </div>
+      </div>
+    </article>
+  </div>
 
-      <form class="contact-form" onsubmit="handleSubmit(event)">
-        <div class="form-row">
-          <div class="form-group">
-            <label for="name">Jméno a příjmení</label>
-            <input type="text" id="name" name="name" required placeholder="Jan Novák">
-          </div>
-          <div class="form-group">
-            <label for="company">Firma</label>
-            <input type="text" id="company" name="company" placeholder="Název firmy">
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="form-group">
-            <label for="email">E-mail</label>
-            <input type="email" id="email" name="email" required placeholder="jan@firma.cz">
-          </div>
-          <div class="form-group">
-            <label for="phone">Telefon</label>
-            <input type="tel" id="phone" name="phone" placeholder="+420 000 000 000">
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="service">Oblast poptávky</label>
-          <select id="service" name="service">
-            <option value="">Vyberte oblast</option>
-            <option>Optické sítě</option>
-            <option>Metalické sítě</option>
-            <option>Projektová dokumentace</option>
-            <option>Správa a údržba sítí</option>
-            <option>Jiné</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="message">Popis projektu</label>
-          <textarea id="message" name="message" placeholder="Popište stručně váš projekt nebo dotaz..."></textarea>
-        </div>
-        <button type="submit" class="form-submit">Odeslat poptávku</button>
-        <div id="form-success" style="display:none;color:#00aaff;font-size:0.9rem;margin-top:0.5rem;">
-          Děkujeme! Ozveme se co nejdříve.
-        </div>
-      </form>
+  <div class="show-more">
+    <a href="/reference/" class="btn-outline">Všechny projekty</a>
+  </div>
+</div>
+</div>
+
+<!-- CTA BANNER -->
+<div class="cta-banner reveal">
+  <div class="cta-inner">
+    <div>
+      <h2 class="cta-title">Máte projekt na stole?</h2>
+      <p class="cta-sub">Rádi se podíváme na vaši situaci a navrhneme řešení na míru. Nezávazná konzultace je zdarma.</p>
     </div>
-  </section>
+    <div class="cta-actions">
+      <a href="/kontakt/" class="btn-primary">Nezávazná poptávka</a>
+      <a href="/kontakt/" class="btn-secondary">Kontaktovat nás</a>
+    </div>
+  </div>
+</div>
 
-  <footer>
-    <p>&copy; 2026 Mcnet s.r.o. Všechna práva vyhrazena.</p>
-    <p>Datové sítě od návrhu po provoz</p>
-  </footer>
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-logo">MC<span>net</span></div>
+    <div class="footer-info">
+      MCnet, s.r.o. &nbsp;·&nbsp; IČO: 25394720 &nbsp;·&nbsp; Frýdek-Místek<br>
+      info@mcnet.cz &nbsp;·&nbsp; +420 XXX XXX XXX
+    </div>
+    <div class="footer-links">
+      <a href="/gdpr/">GDPR</a>
+      <a href="/kontakt/">Kontakt</a>
+    </div>
+  </div>
+</footer>
 
-  <script>
-    function handleSubmit(e) {
-      e.preventDefault();
-      document.getElementById('form-success').style.display = 'block';
-      e.target.reset();
-    }
-  </script>
-
+<script src="/js/main.js"></script>
 </body>
 </html>
