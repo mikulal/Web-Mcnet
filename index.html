@@ -13,54 +13,42 @@
   <meta property="og:title" content="MCnet — Sítě, které fungují na desetiletí">
   <meta property="og:description" content="Projektujeme, budujeme a spravujeme optickou a datovou infrastrukturu pro průmysl, obce a developery.">
   <meta property="og:locale" content="cs_CZ">
-  <meta property="og:site_name" content="MCnet">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "MCnet, s.r.o.",
-    "description": "Projektování, výstavba a správa optických a datových sítí",
-    "url": "https://mcnet.lubosmikula.cz",
-    "telephone": "+420-XXX-XXX-XXX",
-    "email": "info@mcnet.cz",
-    "address": { "@type": "PostalAddress", "addressLocality": "Frýdek-Místek", "addressCountry": "CZ" },
-    "foundingDate": "1999",
-    "areaServed": { "@type": "Country", "name": "Česká republika" }
-  }
-  </script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"MCnet, s.r.o.","url":"https://mcnet.lubosmikula.cz","address":{"@type":"PostalAddress","addressLocality":"Frýdek-Místek","addressCountry":"CZ"},"foundingDate":"1999"}</script>
   <link rel="stylesheet" href="/css/style.css">
   <style>
-    .hero-wrap { position: relative; padding: 60px 48px 0; max-width: 1100px; margin: 0 auto; }
-    canvas { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 1; }
-    .hero-inner { position: relative; z-index: 2; }
-    .eyebrow { display: inline-flex; align-items: center; gap: 10px; font-size: 11px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--blue); margin-bottom: 24px; }
+    .hero-wrap { position: relative; z-index: 1; }
+    .hero-inner { max-width: var(--max); margin: 0 auto; padding: 64px 48px 0; }
+    .eyebrow { display: inline-flex; align-items: center; gap: 10px; font-size: 11px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--blue); margin-bottom: 24px; }
     .eyebrow-line { width: 24px; height: 1px; background: var(--blue); }
     .eyebrow-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--blue); animation: pulse 2s infinite; }
     @keyframes pulse { 0%,100%{opacity:1;transform:scale(1);} 50%{opacity:.5;transform:scale(.7);} }
-    .headline { font-family: 'Syne', sans-serif; font-size: clamp(34px, 4.5vw, 58px); font-weight: 800; line-height: 1.05; letter-spacing: -.02em; color: var(--cream); margin-bottom: 20px; }
+    .headline { font-family: 'Syne', sans-serif; font-size: clamp(32px, 4vw, 54px); font-weight: 800; line-height: 1.08; letter-spacing: -.02em; color: var(--cream); margin-bottom: 20px; }
     .headline .accent { color: var(--blue); position: relative; display: inline-block; }
-    .headline .accent::after { content: ''; position: absolute; bottom: -3px; left: 0; width: 100%; height: 2px; background: var(--blue); opacity: .35; transform: scaleX(0); transform-origin: left; animation: lineIn .6s .8s ease forwards; }
+    .headline .accent::after { content: ''; position: absolute; bottom: -3px; left: 0; width: 100%; height: 2px; background: var(--blue); opacity: .35; transform: scaleX(0); transform-origin: left; animation: lineIn .6s .9s ease forwards; }
     @keyframes lineIn { to { transform: scaleX(1); } }
-    .subline { font-size: 14px; font-weight: 300; line-height: 1.75; color: var(--muted); max-width: 500px; margin-bottom: 36px; }
-    .hero-actions { display: flex; align-items: center; gap: 12px; margin-bottom: 56px; }
-    .stats { display: grid; grid-template-columns: repeat(3,1fr); border-top: 1px solid var(--dimmer); padding: 36px 0 48px; }
+    .subline { font-size: 15px; font-weight: 400; line-height: 1.75; color: var(--muted); max-width: 500px; margin-bottom: 36px; }
+    .hero-actions { display: flex; align-items: center; gap: 12px; margin-bottom: 60px; }
+    .stats { display: grid; grid-template-columns: repeat(3,1fr); border-top: 1px solid var(--dimmer); padding: 36px 0 52px; }
     .stat { padding-right: 36px; border-right: 1px solid var(--dimmer); }
     .stat:last-child { border-right: none; padding-left: 36px; padding-right: 0; }
     .stat:nth-child(2) { padding-left: 36px; }
     .stat-n { font-family: 'Syne', sans-serif; font-size: 36px; font-weight: 800; color: var(--cream); line-height: 1; letter-spacing: -.02em; white-space: nowrap; }
     .stat-n sup { font-size: 16px; color: var(--blue); vertical-align: super; font-weight: 700; }
-    .stat-l { font-size: 11px; font-weight: 500; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); margin-top: 6px; }
-    .stat-d { font-size: 11px; font-weight: 300; color: rgba(245,242,236,.28); margin-top: 2px; }
-    @media(max-width:900px){
-      .hero-wrap{padding:40px 20px 0;}
+    .stat-l { font-size: 11px; font-weight: 500; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-top: 6px; }
+    .stat-d { font-size: 11px; font-weight: 400; color: rgba(245,242,236,.28); margin-top: 2px; }
+    @media(max-width:960px){
+      .hero-inner{padding:40px 20px 0;}
       .stats{grid-template-columns:1fr;}
       .stat{border-right:none;padding:14px 0;border-bottom:1px solid var(--dimmer);}
       .stat:last-child{border-bottom:none;}
-      .stat-n{font-size:32px;}
+      .stat-n{font-size:30px;}
     }
   </style>
 </head>
 <body>
+
+<!-- CANVAS — full window background -->
+<canvas id="networkBg"></canvas>
 
 <nav class="nav">
   <a href="/" class="nav-logo">MC<span>net</span></a>
@@ -74,8 +62,8 @@
   <a href="/kontakt/" class="nav-cta">Poptávka</a>
 </nav>
 
-<div class="hero-wrap" id="heroWrap">
-  <canvas id="netCanvas"></canvas>
+<!-- HERO -->
+<div class="hero-wrap">
   <div class="hero-inner">
     <div class="eyebrow fade-up delay-1">
       <span class="eyebrow-line"></span>
@@ -113,16 +101,20 @@
   </div>
 </div>
 
+<!-- SERVICES STRIP -->
 <div class="services-strip">
-  <span class="strip-label">Služby</span>
-  <span class="chip hi">Optické sítě</span>
-  <span class="chip hi">Datové sítě</span>
-  <span class="chip">Strukturovaná kabeláž</span>
-  <span class="chip">Wi-Fi a AP</span>
-  <span class="chip">Kamerové systémy</span>
-  <span class="chip">Elektroinstalace</span>
+  <div class="services-strip-inner">
+    <span class="strip-label">Služby</span>
+    <span class="chip hi">Optické sítě</span>
+    <span class="chip hi">Datové sítě</span>
+    <span class="chip">Strukturovaná kabeláž</span>
+    <span class="chip">Wi-Fi a AP</span>
+    <span class="chip">Kamerové systémy</span>
+    <span class="chip">Elektroinstalace</span>
+  </div>
 </div>
 
+<!-- SERVICES -->
 <div class="section reveal">
   <div class="sec-eyebrow"><span class="sec-eyebrow-line"></span>Co děláme</div>
   <h2 class="sec-title">Komplexní řešení<br>pod jednou střechou</h2>
@@ -176,34 +168,34 @@
 
 <hr class="sec-divider">
 
-<div style="background:var(--navy2);">
-<div class="section reveal">
-  <div class="sec-eyebrow"><span class="sec-eyebrow-line"></span>Co jsme postavili</div>
-  <h2 class="sec-title">Realizované projekty</h2>
-  <p class="sec-sub">Výběr z dokončených projektů napříč sektory. Od dokumentace po předání a servis.</p>
-  <div class="filters">
-    <button class="filter-btn active" data-filter="vse">Vše</button>
-    <button class="filter-btn" data-filter="obec">Obce a veřejný sektor</button>
-    <button class="filter-btn" data-filter="prumysl">Průmysl a výroba</button>
-    <button class="filter-btn" data-filter="developer">Developeři</button>
-    <button class="filter-btn" data-filter="it">IT infrastruktura</button>
+<div class="section-bg" style="background:var(--navy2);">
+  <div class="section reveal">
+    <div class="sec-eyebrow"><span class="sec-eyebrow-line"></span>Co jsme postavili</div>
+    <h2 class="sec-title">Realizované projekty</h2>
+    <p class="sec-sub">Výběr z dokončených projektů napříč sektory. Od dokumentace po předání a servis.</p>
+    <div class="filters">
+      <button class="filter-btn active" data-filter="vse">Vše</button>
+      <button class="filter-btn" data-filter="obec">Obce a veřejný sektor</button>
+      <button class="filter-btn" data-filter="prumysl">Průmysl a výroba</button>
+      <button class="filter-btn" data-filter="developer">Developeři</button>
+      <button class="filter-btn" data-filter="it">IT infrastruktura</button>
+    </div>
+    <div class="proj-grid" id="projGrid">
+      <article class="proj-card" data-sector="obec">
+        <div class="proj-thumb thumb-obec"><span class="proj-sector sb-obec">Obec</span><span class="proj-year">2023</span><div class="thumb-ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg></div></div>
+        <div class="proj-body"><h3 class="proj-title">Optická síť obce Brušperk</h3><div class="proj-loc">Brušperk, MSK</div><p class="proj-desc">Páteřní optická síť propojující obecní úřad, školu, kulturní dům a 3 místní části.</p><div class="proj-tags"><span class="proj-tag">FTTH</span><span class="proj-tag">Optika</span></div><div class="proj-stats"><div><div class="ps-num">8,4 km</div><div class="ps-lbl">trasa</div></div><div><div class="ps-num">320+</div><div class="ps-lbl">svarů</div></div><div><div class="ps-num">6</div><div class="ps-lbl">lokalit</div></div></div></div>
+      </article>
+      <article class="proj-card" data-sector="prumysl">
+        <div class="proj-thumb thumb-prumysl"><span class="proj-sector sb-prumysl">Průmysl</span><span class="proj-year">2024</span><div class="thumb-ico"><svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M6 7h.01M10 7h8"/></svg></div></div>
+        <div class="proj-body"><h3 class="proj-title">Datová infrastruktura výrobního závodu</h3><div class="proj-loc">Ostrava-Kunčice</div><p class="proj-desc">Kompletní strukturovaná kabeláž a Wi-Fi pokrytí výrobní haly 12 000 m².</p><div class="proj-tags"><span class="proj-tag">Kabeláž</span><span class="proj-tag">Wi-Fi</span></div><div class="proj-stats"><div><div class="ps-num">12 000 m²</div><div class="ps-lbl">plocha</div></div><div><div class="ps-num">480+</div><div class="ps-lbl">konektorů</div></div><div><div class="ps-num">18</div><div class="ps-lbl">AP bodů</div></div></div></div>
+      </article>
+      <article class="proj-card" data-sector="developer">
+        <div class="proj-thumb thumb-developer"><span class="proj-sector sb-developer">Developer</span><span class="proj-year">2023</span><div class="thumb-ico"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></div></div>
+        <div class="proj-body"><h3 class="proj-title">Bytový komplex Nová Poruba</h3><div class="proj-loc">Ostrava-Poruba</div><p class="proj-desc">FTTH přípojky, kabeláž, IP videovrátné a kamery pro 4 bytové domy.</p><div class="proj-tags"><span class="proj-tag">FTTB</span><span class="proj-tag">Kamery</span></div><div class="proj-stats"><div><div class="ps-num">96</div><div class="ps-lbl">bytů</div></div><div><div class="ps-num">4</div><div class="ps-lbl">domy</div></div><div><div class="ps-num">24</div><div class="ps-lbl">kamer</div></div></div></div>
+      </article>
+    </div>
+    <div class="show-more"><a href="/reference/" class="btn-outline">Všechny projekty</a></div>
   </div>
-  <div class="proj-grid" id="projGrid">
-    <article class="proj-card" data-sector="obec">
-      <div class="proj-thumb thumb-obec"><span class="proj-sector sb-obec">Obec</span><span class="proj-year">2023</span><div class="thumb-ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg></div></div>
-      <div class="proj-body"><h3 class="proj-title">Optická síť obce Brušperk</h3><div class="proj-loc">Brušperk, MSK</div><p class="proj-desc">Páteřní optická síť propojující obecní úřad, školu, kulturní dům a 3 místní části.</p><div class="proj-tags"><span class="proj-tag">FTTH</span><span class="proj-tag">Optika</span></div><div class="proj-stats"><div><div class="ps-num">8,4 km</div><div class="ps-lbl">trasa</div></div><div><div class="ps-num">320+</div><div class="ps-lbl">svarů</div></div><div><div class="ps-num">6</div><div class="ps-lbl">lokalit</div></div></div></div>
-    </article>
-    <article class="proj-card" data-sector="prumysl">
-      <div class="proj-thumb thumb-prumysl"><span class="proj-sector sb-prumysl">Průmysl</span><span class="proj-year">2024</span><div class="thumb-ico"><svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M6 7h.01M10 7h8"/></svg></div></div>
-      <div class="proj-body"><h3 class="proj-title">Datová infrastruktura výrobního závodu</h3><div class="proj-loc">Ostrava-Kunčice</div><p class="proj-desc">Kompletní strukturovaná kabeláž a Wi-Fi pokrytí výrobní haly 12 000 m².</p><div class="proj-tags"><span class="proj-tag">Kabeláž</span><span class="proj-tag">Wi-Fi</span></div><div class="proj-stats"><div><div class="ps-num">12 000 m²</div><div class="ps-lbl">plocha</div></div><div><div class="ps-num">480+</div><div class="ps-lbl">konektorů</div></div><div><div class="ps-num">18</div><div class="ps-lbl">AP bodů</div></div></div></div>
-    </article>
-    <article class="proj-card" data-sector="developer">
-      <div class="proj-thumb thumb-developer"><span class="proj-sector sb-developer">Developer</span><span class="proj-year">2023</span><div class="thumb-ico"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></div></div>
-      <div class="proj-body"><h3 class="proj-title">Bytový komplex Nová Poruba</h3><div class="proj-loc">Ostrava-Poruba</div><p class="proj-desc">FTTH přípojky, strukturovaná kabeláž, IP videovrátné a kamery pro 4 bytové domy.</p><div class="proj-tags"><span class="proj-tag">FTTB</span><span class="proj-tag">Kamery</span></div><div class="proj-stats"><div><div class="ps-num">96</div><div class="ps-lbl">bytů</div></div><div><div class="ps-num">4</div><div class="ps-lbl">domy</div></div><div><div class="ps-num">24</div><div class="ps-lbl">kamer</div></div></div></div>
-    </article>
-  </div>
-  <div class="show-more"><a href="/reference/" class="btn-outline">Všechny projekty</a></div>
-</div>
 </div>
 
 <div class="cta-banner reveal">
