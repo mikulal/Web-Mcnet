@@ -1,0 +1,41 @@
+# MCnet, s.r.o. — llms.txt
+
+> MCnet, s.r.o. je česká společnost specializující se na projektování, výstavbu a správu optické a datové infrastruktury. Sídlíme ve Frýdek-Místku, působíme v Moravskoslezském kraji a po celé České republice. Na trhu od roku 1999.
+
+## Kontakt
+
+- Web: https://mcnet.lubosmikula.cz
+- E-mail: info@mcnet.cz
+- Telefon: +420 777 701 721
+- Adresa: Jana Opletala 924, Frýdek-Místek, 738 01, CZ
+- IČO: 25394720, DIČ: CZ25394720
+
+## Služby
+
+- **Optické sítě (FTTH/FTTB)** — projektování tras, výstavba, svařování optických vláken, měření a certifikace (Fluke DSX-8000, OTDR), správa a servis
+- **Datové sítě a strukturovaná kabeláž** — RJ45 datové zásuvky, patch panely, racky, aktivní prvky
+- **Wi-Fi a přístupové body** — návrh a instalace Wi-Fi pokrytí pro výrobní haly, kanceláře i bytové domy
+- **Kamerové systémy** — IP kamery, CCTV, NVR/DVR
+- **IP zvonky a interkom** — IP videovrátné a interkomové systémy pro bytové domy a průmysl
+- **Elektroinstalace** — silnoproudé a slaboproudé rozvody, rozvaděče, elektrorevize
+
+## Zkušenosti a reference
+
+- 25+ let na trhu (od roku 1999)
+- 25 000+ certifikovaných optických svarů
+- 50+ realizovaných projektů
+- Zákazníci: průmyslové podniky, obce a veřejný sektor, developeři, správci IT infrastruktury
+- Certifikace: ČSN EN normy, Fluke DSX-8000, OTDR měření
+
+## Stránky webu
+
+- [Domů](https://mcnet.lubosmikula.cz/)
+- [Služby](https://mcnet.lubosmikula.cz/sluzby/)
+- [Optické sítě](https://mcnet.lubosmikula.cz/sluzby/opticke-site/)
+- [Datové sítě](https://mcnet.lubosmikula.cz/sluzby/datove-site/)
+- [Kamerové systémy](https://mcnet.lubosmikula.cz/sluzby/kamerove-systemy/)
+- [IP zvonky](https://mcnet.lubosmikula.cz/sluzby/ip-zvonky/)
+- [Elektroinstalace](https://mcnet.lubosmikula.cz/sluzby/elektroinstalace/)
+- [Reference](https://mcnet.lubosmikula.cz/reference/)
+- [O firmě](https://mcnet.lubosmikula.cz/o-firme/)
+- [Kontakt](https://mcnet.lubosmikula.cz/kontakt/)
