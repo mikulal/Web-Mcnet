@@ -136,8 +136,9 @@
     .headline .accent::after { content: ''; position: absolute; bottom: -3px; left: 0; width: 100%; height: 2px; background: var(--blue); opacity: .35; transform: scaleX(0); transform-origin: left; animation: lineIn .6s .9s ease forwards; }
     @keyframes lineIn { to { transform: scaleX(1); } }
     .subline { font-size: 15px; font-weight: 400; line-height: 1.75; color: var(--muted); max-width: 500px; margin-bottom: 36px; }
-    .hero-actions { display: flex; align-items: center; gap: 12px; margin-bottom: 60px; }
-    .stats { display: grid; grid-template-columns: repeat(3,1fr); border-top: 1px solid var(--dimmer); padding: 36px 0 52px; }
+    .hero-actions { display: flex; align-items: center; gap: 12px; margin-bottom: 48px; }
+    .hero-stats { padding-top: 0; }
+    .stats { display: grid; grid-template-columns: repeat(3,1fr); padding: 28px 0 52px; }
     .stat { padding-right: 36px; border-right: 1px solid var(--dimmer); }
     .stat:last-child { border-right: none; padding-left: 36px; padding-right: 0; }
     .stat:nth-child(2) { padding-left: 36px; }
@@ -150,6 +151,8 @@
       .stats{grid-template-columns:1fr;}
       .stat{border-right:none;padding:14px 0;border-bottom:1px solid var(--dimmer);}
       .stat:last-child{border-bottom:none;}
+      .stat:nth-child(2),.stat:last-child{padding-left:0;}
+      .hero-stats{padding-top:0;}
       .stat-n{font-size:30px;}
     }
     /* FAQ */
@@ -166,8 +169,6 @@
   </style>
 </head>
 <body>
-
-<canvas id="networkBg"></canvas>
 
 <nav class="nav">
   <a href="/" class="nav-logo">MC<span>net</span></a>
@@ -199,6 +200,12 @@
       <a href="/kontakt/" class="btn-primary">Nezávazná poptávka</a>
       <a href="/reference/" class="btn-secondary">Zobrazit reference</a>
     </div>
+  </div>
+  <div class="pxnet-wrap fade-up delay-5">
+    <canvas class="pxnet" data-mode="strip" role="img" aria-label="Pixelová animace: světelný puls prochází zafukováním, svařováním, měřením, rozvaděčem a metalikou až k datům"></canvas>
+    <div class="pxnet-cap" aria-hidden="true"></div>
+  </div>
+  <div class="hero-inner hero-stats">
     <div class="stats fade-up delay-5">
       <div class="stat">
         <div class="stat-n">25<sup>+</sup></div>
@@ -362,11 +369,12 @@
 <footer class="footer">
   <div class="footer-inner">
     <div class="footer-logo">MC<span>net</span></div>
-    <div class="footer-info">MCnet, s.r.o. &nbsp;·&nbsp; IČO: 25394720 &nbsp;·&nbsp; Frýdek-Místek<br>info@mcnet.cz &nbsp;·&nbsp; +420 XXX XXX XXX</div>
+    <div class="footer-info">MCnet, s.r.o. &nbsp;·&nbsp; IČO: 25394720 &nbsp;·&nbsp; Frýdek-Místek<br>info@mcnet.cz &nbsp;·&nbsp; +420 777 701 721</div>
     <div class="footer-links"><a href="/gdpr/">GDPR</a><a href="/kontakt/">Kontakt</a></div>
   </div>
 </footer>
 
 <script src="/js/main.js"></script>
+<script src="/js/pixel-net.js"></script>
 </body>
 </html>

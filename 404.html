@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stránka nenalezena | MCnet</title>
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .nf { max-width: var(--max); margin: 0 auto; padding: 72px 48px 40px; }
+    .nf-code { font-size: 12px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--blue); margin-bottom: 20px; }
+    .nf h1 { font-family: 'Syne', sans-serif; font-size: clamp(32px, 4.4vw, 56px); font-weight: 800; line-height: 1.06; letter-spacing: -.02em; color: var(--cream); margin-bottom: 18px; }
+    .nf p { font-size: 15px; line-height: 1.75; color: var(--muted); max-width: 480px; margin-bottom: 32px; }
+    .nf-actions { display: flex; gap: 12px; flex-wrap: wrap; }
+    .nf-strip { border-top: 1px solid var(--dimmer); margin-bottom: 72px; }
+    @media (max-width: 960px) { .nf { padding: 48px 20px 32px; } }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="/" class="nav-logo">MC<span>net</span></a>
+  <ul class="nav-links">
+    <li><a href="/sluzby/">Služby</a></li>
+    <li><a href="/reference/">Reference</a></li>
+    <li><a href="/o-firme/">O firmě</a></li>
+    <li><a href="/aktuality/">Aktuality</a></li>
+    <li><a href="/kontakt/">Kontakt</a></li>
+  </ul>
+  <a href="/kontakt/" class="nav-cta">Poptávka</a>
+</nav>
+
+<main class="nf">
+  <div class="nf-code">Chyba 404</div>
+  <h1>Tady vlákno končí.</h1>
+  <p>Stránku, kterou hledáte, jsme nenašli. Signál ale běží dál — vraťte se na úvod nebo nám rovnou napište.</p>
+  <div class="nf-actions">
+    <a href="/" class="btn-primary">Zpět na úvod</a>
+    <a href="/kontakt/" class="btn-secondary">Kontakt</a>
+  </div>
+</main>
+
+<div class="pxnet-wrap nf-strip">
+  <canvas class="pxnet" data-mode="full" role="img" aria-label="Pixelová animace: světelný puls prochází celou stavbou sítě od zafouknutí kabelu po data"></canvas>
+  <div class="pxnet-cap" aria-hidden="true"></div>
+</div>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-logo">MC<span>net</span></div>
+    <div class="footer-info">MCnet, s.r.o. &nbsp;·&nbsp; IČO: 25394720 &nbsp;·&nbsp; Frýdek-Místek<br>info@mcnet.cz &nbsp;·&nbsp; +420 777 701 721</div>
+    <div class="footer-links"><a href="/gdpr/">GDPR</a><a href="/kontakt/">Kontakt</a></div>
+  </div>
+</footer>
+
+<script src="/js/main.js"></script>
+<script src="/js/pixel-net.js"></script>
+</body>
+</html>
