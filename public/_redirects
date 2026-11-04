@@ -1,0 +1,25 @@
+# Cloudflare Pages – trvalá přesměrování (301)
+# Doména mcnet.cz → www.mcnet.cz řešit v Cloudflare (Redirect Rule), ne zde.
+#
+# Starý web www.mcnet.cz (k 4. 11. 2026 jen stránka „Vaše IP adresa“, bez sitemap).
+# Před přepnutím DNS doplnit staré URL ze Search Console / site:mcnet.cz.
+# [DOPLNIT staré URL www.mcnet.cz]
+
+# Prototyp webu (mcnet.lubosmikula.cz, větev main do 11/2026)
+/sluzby/opticke-site       /sluzby/opticke-trasy          301
+/sluzby/opticke-site/      /sluzby/opticke-trasy          301
+/sluzby/datove-site        /sluzby/strukturovana-kabelaz  301
+/sluzby/datove-site/       /sluzby/strukturovana-kabelaz  301
+/sluzby/kamerove-systemy   /sluzby/                       301
+/sluzby/kamerove-systemy/  /sluzby/                       301
+/sluzby/ip-zvonky          /sluzby/                       301
+/sluzby/ip-zvonky/         /sluzby/                       301
+/sluzby/elektroinstalace   /sluzby/                       301
+/sluzby/elektroinstalace/  /sluzby/                       301
+/o-firme                   /kontakt                       301
+/o-firme/                  /kontakt                       301
+/aktuality                 /reference/                    301
+/aktuality/                /reference/                    301
+/gdpr                      /ochrana-osobnich-udaju        301
+/gdpr/                     /ochrana-osobnich-udaju        301
+/kontakt/                  /kontakt                       301

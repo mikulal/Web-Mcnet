@@ -459,6 +459,22 @@ ${sitemapPages.map((u) => `  <url><loc>${SITE}${u}</loc></url>`).join('\n')}
 </urlset>
 `);
 
+// ---------- llms.txt (shrnutí pro AI vyhledávače, NAP z firma.json) ----------
+const known_ = (v) => (isPh(v) ? null : v);
+const llms = [
+  `# ${firma.nazev}`, '',
+  '> Optické a datové sítě jako subdodávka pro stavební zakázky a veřejné zadavatele v Moravskoslezském kraji a okolí: optické trasy a páteře, strukturovaná kabeláž, OTDR měření a dokumentace, projekce slaboproudu a aktivní prvky.', '',
+  '## Firma', '',
+  `- Název: ${firma.nazev}`, `- IČO: ${firma.ico}, DIČ: ${firma.dic}`, `- Sídlo: ${adresa}`,
+  ...(known_(firma.telefon) ? [`- Telefon: ${firma.telefon}`] : []),
+  ...(known_(firma.email) ? [`- E-mail: ${firma.email}`] : []),
+  `- Působnost: ${firma.pusobnost.join(', ')}`, `- Web: ${SITE}/`, '',
+  '## Stránky', '',
+  ...out.filter(([p]) => p.rel !== '404.html').sort(([a], [b]) => a.url.length - b.url.length || a.url.localeCompare(b.url)).map(([p]) => `- [${p.meta.ogTitle && p.url === '/' ? 'Úvod' : p.meta.title.replace(/\s*\|\s*MCnet$/, '')}](${SITE}${p.url}): ${p.meta.description}`),
+  '',
+];
+fs.writeFileSync(path.join(PUB, 'llms.txt'), llms.join('\n'));
+
 // ---------- souhrn placeholderů ----------
 const ph = new Map();
 for (const [page, html] of out) {

@@ -1,0 +1,33 @@
+# MCnet, s.r.o.
+
+> Optické a datové sítě jako subdodávka pro stavební zakázky a veřejné zadavatele v Moravskoslezském kraji a okolí: optické trasy a páteře, strukturovaná kabeláž, OTDR měření a dokumentace, projekce slaboproudu a aktivní prvky.
+
+## Firma
+
+- Název: MCnet, s.r.o.
+- IČO: 25394720, DIČ: CZ25394720
+- Sídlo: J. Opletala 924, 738 01 Frýdek-Místek
+- Působnost: Moravskoslezský kraj, Olomoucký kraj, dle zakázky celá ČR
+- Web: https://www.mcnet.cz/
+
+## Stránky
+
+- [Úvod](https://www.mcnet.cz/): Optické trasy, strukturovaná kabeláž, OTDR měření a dokumentace jako subdodávka pro zhotovitele staveb a veřejné zadavatele v Moravskoslezském kraji.
+- [Doklady ke stažení – kvalifikace pro VZ](https://www.mcnet.cz/doklady): Kvalifikační doklady MCnet ke stažení: oprávnění TIČR, výpis z obchodního rejstříku, pojištění odpovědnosti, seznam referencí dle § 79 ZZVZ, profil.
+- [Kontakt – MCnet, s.r.o., Frýdek-Místek](https://www.mcnet.cz/kontakt): Kontakt na MCnet, s.r.o.: e-mail pro zaslání výkazu výměr, telefon, sídlo ve Frýdku-Místku, IČO, DIČ a datová schránka. Odpovídáme do dvou pracovních dnů.
+- [Služby – optika, kabeláž, měření, projekce](https://www.mcnet.cz/sluzby/): Optické trasy a páteře, strukturovaná kabeláž, OTDR měření s dokumentací a projekce slaboproudu. Subdodávka pro stavby v Moravskoslezském kraji.
+- [Reference – optické trasy a kabeláž](https://www.mcnet.cz/reference/): Přehled realizací MCnet: optické trasy, areálové páteře, strukturovaná kabeláž a DPS pro školy, věznice, policii a zhotovitele staveb v kraji MSK.
+- [Pro zhotovitele – optika jako subdodávka](https://www.mcnet.cz/pro-zhotovitele): Jak probíhá subdodávka optiky a kabeláže: nacenění z výkazu výměr, koordinace se stavbyvedoucím, realizace vlastními lidmi, předání s protokoly a DSP.
+- [Kabely B2ca a požární bezpečnost datových rozvodů](https://www.mcnet.cz/know-how/kabely-b2ca): Jak číst třídu reakce na oheň B2ca-s1,d1,a1 podle ČSN EN 13501-6, kdo ji určuje, jak se dokládá prohlášením o vlastnostech a proč LSOH nestačí.
+- [Datové sítě pro školy – kabeláž a Wi‑Fi](https://www.mcnet.cz/pro-zadavatele/skoly): Strukturovaná kabeláž, optická páteř, Wi‑Fi do tříd a aktivní prvky pro základní a střední školy. Montáž v etapách mimo výuku, DPS a dokumentace pro VZ.
+- [Optické trasy a páteře – subdodávka](https://www.mcnet.cz/sluzby/opticke-trasy): Zafukování optických kabelů, sváry, ukončení ve vanách a rozvaděčích, OTDR měření. Areálové a páteřní optické trasy jako subdodávka pro stavby v MSK.
+- [Ochrana osobních údajů](https://www.mcnet.cz/ochrana-osobnich-udaju): Jak MCnet, s.r.o. zpracovává osobní údaje z e-mailové a telefonické komunikace k poptávkám a zakázkám. Web nepoužívá cookies ani sledovací nástroje.
+- [Datové sítě pro obce, úřady a policii](https://www.mcnet.cz/pro-zadavatele/obce-a-urady): Optické propoje objektů obce, kabeláž úřadů a DPS pro bezpečnostní složky. Práce v bezpečnostním režimu policie a vězeňské služby, doklady pro VZ.
+- [OTDR měření a dokumentace skutečného provedení](https://www.mcnet.cz/sluzby/mereni-a-dokumentace): OTDR a přímá metoda měření útlumu, certifikace metalické kabeláže, měřicí protokoly a dokumentace skutečného provedení připravené k předání stavby.
+- [Měřicí protokoly a dokumentace předání optiky](https://www.mcnet.cz/know-how/protokoly-a-predani): Co mají obsahovat OTDR protokoly, měření přímou metodou, certifikace metaliky a dokumentace skutečného provedení, aby předání prošlo kontrolou TDI.
+- [Kabeláž ve zdravotnictví – B2ca, požární úseky](https://www.mcnet.cz/pro-zadavatele/zdravotnictvi): Datové a optické rozvody v nemocnicích a zařízeních sociální péče: ČSN 73 0835, kabely B2ca, prostupy požárními úseky, montáž za plného provozu oddělení.
+- [Strukturovaná kabeláž Cat6 / Cat6A](https://www.mcnet.cz/sluzby/strukturovana-kabelaz): Metalická strukturovaná kabeláž Cat6 a Cat6A pro školy, úřady a provozy: rozvaděče, patch panely, certifikační měření, kabely B2ca podle PBŘ stavby.
+- [Projekce slaboproudu a aktivní prvky](https://www.mcnet.cz/sluzby/projekce-a-aktivni-prvky): Studie a DPS slaboproudých rozvodů podle vyhl. 131/2024 Sb., výkaz výměr pro soutěž, návrh a dodávka switchů a Wi‑Fi HPE Aruba, konfigurace a zprovoznění.
+- [Areálové optické sítě pro průmysl](https://www.mcnet.cz/pro-zadavatele/prumyslove-arealy): Optické páteře a propoje objektů v průmyslových a komerčních areálech: HDPE chráničky, zafukování, venkovní kabely, práce za provozu výroby, OTDR měření.
+- [Optika jako subdodávka ve veřejné zakázce](https://www.mcnet.cz/know-how/optika-ve-verejne-zakazce): Poddodavatel optiky v nabídce do VZ: kvalifikace prostřednictvím jiné osoby podle § 83 ZZVZ, reference dle § 79, doklady, ocenění výkazu a předání.
+- [Výkaz výměr pro optickou trasu – co obsahuje](https://www.mcnet.cz/know-how/vykaz-vymer-opticka-trasa): Které položky má mít výkaz výměr pro optickou trasu: chráničky, kabel, rezervy, spojky, svary, ukončení, měření a dokumentace. S příkladem výpočtu svarů.
