@@ -84,7 +84,7 @@ Detailní stránky se generují až s `"detail": true`. Zatím: 0 z 7.
 
 | Placeholder | Stránky |
 |---|---|
-| `[EMAIL]` | /, /404, /doklady, /kontakt, /ochrana-osobnich-udaju, /pro-zhotovitele, /sluzby/, /sluzby/mereni-a-dokumentace, /sluzby/opticke-trasy, /sluzby/projekce-a-aktivni-prvky, /sluzby/strukturovana-kabelaz |
+| `[EMAIL]` | /, /404, /doklady, /know-how/kabely-b2ca, /know-how/optika-ve-verejne-zakazce, /know-how/protokoly-a-predani, /know-how/vykaz-vymer-opticka-trasa, /kontakt, /ochrana-osobnich-udaju, /pro-zadavatele/obce-a-urady, /pro-zadavatele/prumyslove-arealy, /pro-zadavatele/skoly, /pro-zadavatele/zdravotnictvi, /pro-zhotovitele, /reference/, /sluzby/, /sluzby/mereni-a-dokumentace, /sluzby/opticke-trasy, /sluzby/projekce-a-aktivni-prvky, /sluzby/strukturovana-kabelaz |
 | `[Foto: OTDR měření na optické vaně]` | /sluzby/mereni-a-dokumentace |
 | `[Foto: datový rozvaděč s patch panely Cat6A po zapojení]` | /sluzby/strukturovana-kabelaz |
 | `[Foto: koordinace na stavbě, trasa připravená k zafukování]` | /pro-zhotovitele |
@@ -92,12 +92,13 @@ Detailní stránky se generují až s `"detail": true`. Zatím: 0 z 7.
 | `[Foto: sváry v optické spojce na trase]` | /sluzby/opticke-trasy |
 | `[Foto: svářečka v terénu / výkop s HDPE]` | / |
 | `[Foto: ukončená optická vana, 48 vl., vlastní stavba]` | / |
-| `[ID DATOVÉ SCHRÁNKY]` | /, /404, /doklady, /kontakt, /ochrana-osobnich-udaju, /pro-zhotovitele, /sluzby/, /sluzby/mereni-a-dokumentace, /sluzby/opticke-trasy, /sluzby/projekce-a-aktivni-prvky, /sluzby/strukturovana-kabelaz |
-| `[OBJEDNATEL]` | /, /sluzby/mereni-a-dokumentace, /sluzby/opticke-trasy, /sluzby/projekce-a-aktivni-prvky, /sluzby/strukturovana-kabelaz |
-| `[TELEFON]` | /, /404, /doklady, /kontakt, /ochrana-osobnich-udaju, /pro-zhotovitele, /sluzby/, /sluzby/mereni-a-dokumentace, /sluzby/opticke-trasy, /sluzby/projekce-a-aktivni-prvky, /sluzby/strukturovana-kabelaz |
+| `[ID DATOVÉ SCHRÁNKY]` | /, /404, /doklady, /know-how/kabely-b2ca, /know-how/optika-ve-verejne-zakazce, /know-how/protokoly-a-predani, /know-how/vykaz-vymer-opticka-trasa, /kontakt, /ochrana-osobnich-udaju, /pro-zadavatele/obce-a-urady, /pro-zadavatele/prumyslove-arealy, /pro-zadavatele/skoly, /pro-zadavatele/zdravotnictvi, /pro-zhotovitele, /reference/, /sluzby/, /sluzby/mereni-a-dokumentace, /sluzby/opticke-trasy, /sluzby/projekce-a-aktivni-prvky, /sluzby/strukturovana-kabelaz |
+| `[OBJEDNATEL]` | /, /pro-zadavatele/obce-a-urady, /pro-zadavatele/prumyslove-arealy, /pro-zadavatele/skoly, /reference/, /sluzby/mereni-a-dokumentace, /sluzby/opticke-trasy, /sluzby/projekce-a-aktivni-prvky, /sluzby/strukturovana-kabelaz |
+| `[Reference ze zdravotnictví – doplnit zakázku ze seznamu]` | /pro-zadavatele/zdravotnictvi |
+| `[TELEFON]` | /, /404, /doklady, /know-how/kabely-b2ca, /know-how/optika-ve-verejne-zakazce, /know-how/protokoly-a-predani, /know-how/vykaz-vymer-opticka-trasa, /kontakt, /ochrana-osobnich-udaju, /pro-zadavatele/obce-a-urady, /pro-zadavatele/prumyslove-arealy, /pro-zadavatele/skoly, /pro-zadavatele/zdravotnictvi, /pro-zhotovitele, /reference/, /sluzby/, /sluzby/mereni-a-dokumentace, /sluzby/opticke-trasy, /sluzby/projekce-a-aktivni-prvky, /sluzby/strukturovana-kabelaz |
 | `[TIČR – rozsah a číslo oprávnění]` | /doklady |
 | `[doba uložení nerealizovaných poptávek]` | /ochrana-osobnich-udaju |
-| `[km]` | / |
-| `[n]` | /, /pro-zhotovitele |
-| `[rok]` | /, /sluzby/mereni-a-dokumentace, /sluzby/opticke-trasy, /sluzby/strukturovana-kabelaz |
-| `[rozsah]` | / |
+| `[km]` | /, /reference/ |
+| `[n]` | /, /pro-zhotovitele, /reference/ |
+| `[rok]` | /, /pro-zadavatele/prumyslove-arealy, /pro-zadavatele/skoly, /reference/, /sluzby/mereni-a-dokumentace, /sluzby/opticke-trasy, /sluzby/strukturovana-kabelaz |
+| `[rozsah]` | /, /reference/ |

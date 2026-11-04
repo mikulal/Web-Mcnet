@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Měřicí protokoly a dokumentace předání optiky | MCnet</title>
+<meta name="description" content="Co mají obsahovat OTDR protokoly, měření přímou metodou, certifikace metaliky a dokumentace skutečného provedení, aby předání prošlo kontrolou TDI.">
+<link rel="canonical" href="https://www.mcnet.cz/know-how/protokoly-a-predani">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="MCnet">
+<meta property="og:locale" content="cs_CZ">
+<meta property="og:title" content="Měřicí protokoly a dokumentace předání optiky">
+<meta property="og:description" content="Co mají obsahovat OTDR protokoly, měření přímou metodou, certifikace metaliky a dokumentace skutečného provedení, aby předání prošlo kontrolou TDI.">
+<meta property="og:url" content="https://www.mcnet.cz/know-how/protokoly-a-predani">
+<meta name="theme-color" content="#F3F1EC">
+<link rel="preload" href="../fonts/plex-sans-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../fonts/plex-sans-600.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<script>document.documentElement.className='js'</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","LocalBusiness"],"@id":"https://www.mcnet.cz/#firma","name":"MCnet, s.r.o.","legalName":"MCnet, s.r.o.","url":"https://www.mcnet.cz/","vatID":"CZ25394720","identifier":{"@type":"PropertyValue","propertyID":"IČO","value":"25394720"},"address":{"@type":"PostalAddress","streetAddress":"J. Opletala 924","postalCode":"738 01","addressLocality":"Frýdek-Místek","addressCountry":"CZ"},"areaServed":[{"@type":"AdministrativeArea","name":"Moravskoslezský kraj"},{"@type":"AdministrativeArea","name":"Olomoucký kraj"}],"knowsAbout":["optické sítě","strukturovaná kabeláž","OTDR měření","projekce slaboproudu","DPS"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Úvod","item":"https://www.mcnet.cz/"},{"@type":"ListItem","position":2,"name":"Protokoly a předání","item":"https://www.mcnet.cz/know-how/protokoly-a-predani"}]}]}</script>
+</head>
+<body>
+<a class="skip" href="#obsah">Přejít k obsahu</a>
+<header class="site-head">
+  <div class="wrap site-bar">
+    <a class="logo" href="/">
+      <b>MCnet</b>
+      <span>s.r.o. · Frýdek-Místek</span>
+    </a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav" aria-label="Hlavní navigace">
+        <a href="/sluzby/">Služby</a>
+        <a href="/reference/">Reference</a>
+        <a href="/pro-zhotovitele">Pro zhotovitele</a>
+        <a href="/doklady">Doklady</a>
+        <span class="tel">+420 [TELEFON]</span>
+    </nav>
+  </div>
+</header>
+<main id="obsah">
+  <section class="page-head">
+    <div class="wrap stack">
+      <nav aria-label="Drobečková navigace"><ol class="crumbs"><li><a href="/">Úvod</a></li><li aria-current="page">Protokoly a předání</li></ol></nav>
+      <span class="eyebrow">Know-how</span>
+      <h1 class="h1">Měřicí protokoly a dokumentace skutečného provedení</h1>
+      <p class="lead">Pro stavbyvedoucí a technický dozor, kteří přebírají optickou nebo metalickou síť. Co má být v protokolech, jak poznat neúplné měření a co patří do předávací dokumentace.</p>
+    </div>
+  </section>
+  <section class="sec">
+    <div class="wrap">
+      <div class="row">
+        <div class="c-8 prose">
+<h2 id="kontrola">Co se při předání kontroluje</h2>
+<p>Technický dozor investora porovnává předané doklady se zadávací dokumentací a s rozpočtem. Zajímá ho, zda je změřeno každé vlákno a každá linka, zda výsledky vyhovují limitům, zda dokumentace odpovídá skutečnosti a zda použité materiály mají požadované vlastnosti. Nejčastějším důvodem vrácení není špatný výsledek měření, ale neúplná dokumentace.</p>
+
+<h2 id="otdr">Protokol OTDR</h2>
+<p>Reflektometr ukazuje průběh vlákna po celé délce: konektory, svary, ohyby a konec vlákna. Protokol má obsahovat:</p>
+<ul>
+  <li>identifikaci trasy, kabelu a čísla vlákna, směr měření,</li>
+  <li>vlnovou délku, šířku pulzu a nastavený index lomu,</li>
+  <li>délku vlákna a tabulku událostí s útlumem každého svaru a konektoru,</li>
+  <li>celkový útlum úseku,</li>
+  <li>použití předřadného a koncového vlákna,</li>
+  <li>typ a výrobní číslo přístroje, datum měření a jméno měřiče.</li>
+</ul>
+<h3>Proč obousměrně</h3>
+<p>Při měření z jedné strany může svar dvou vláken s mírně odlišnými vlastnostmi vypadat jako zisk, z opačné strany jako vyšší útlum. Skutečný útlum svaru je průměr obou směrů. Jednosměrné měření proto u svarů nedává spolehlivou hodnotu, a pokud zadávací dokumentace požaduje hodnocení svarů, mělo by být měření obousměrné.</p>
+<h3>Proč předřadné vlákno</h3>
+<p>Bez předřadného vlákna leží první konektor v mrtvé zóně přístroje a jeho útlum v protokolu chybí. Bez koncového vlákna chybí poslední konektor.</p>
+
+<h2 id="olts">Přímá metoda a útlumový rozpočet</h2>
+<p>Měření zdrojem a měřičem výkonu dává celkový útlum trasy přesněji než OTDR. Výsledek se porovnává s útlumovým rozpočtem, který se spočítá z délky a počtu spojení. Příklad pro jednovidové vlákno na 1310 nm s plánovacími hodnotami podle ČSN EN 50173-1:</p>
+<dl class="kv">
+  <div><dt>Vlákno 2,3 km</dt><dd>2,3 × 0,4 dB/km = 0,92 dB</dd></div>
+  <div><dt>2 svary na trase</dt><dd>2 × 0,3 dB = 0,60 dB</dd></div>
+  <div><dt>2 konektorová spojení</dt><dd>2 × 0,75 dB = 1,50 dB</dd></div>
+  <div><dt>Rozpočet</dt><dd>3,02 dB</dd></div>
+</dl>
+<p>Naměřená hodnota pod rozpočtem trasu potvrzuje. Protokol musí uvádět způsob referencování měřicích šňůr, jinak není jasné, kolik konektorů je ve výsledku započteno.</p>
+
+<h2 id="metalika">Certifikace metalické kabeláže</h2>
+<p>Každá linka se měří certifikačním přístrojem v konfiguraci permanent link podle ČSN EN 50346, s limity třídy E nebo EA. Protokol ukazuje výsledek vyhověl / nevyhověl a rezervu ke každému parametru. Výsledek označený hvězdičkou leží v pásmu nejistoty přístroje. Zadávací dokumentace by měla říct, zda je takový výsledek přípustný. K PDF patří i nativní soubory z přístroje, ze kterých lze protokoly kdykoli znovu vygenerovat.</p>
+
+<h2 id="dsp">Dokumentace skutečného provedení</h2>
+<ul>
+  <li>Situace tras s polohou spojek, komor a rezerv, u sítí v zemi geodetické zaměření.</li>
+  <li>Schéma vláken: které vlákno kabelu je na kterém portu rozvaděče na obou koncích.</li>
+  <li>Tabulka portů metalické kabeláže s vazbou na zásuvky a místnosti.</li>
+  <li>Pohledy na rozvaděče se značením.</li>
+  <li>Změny proti projektu vyznačené a popsané.</li>
+</ul>
+
+<h2 id="doklady">Ostatní doklady k předání</h2>
+<ul>
+  <li>Prohlášení o vlastnostech kabelů s třídou reakce na oheň.</li>
+  <li>Revizní zpráva, pokud je součástí dodávky elektrická část rozvaděčů.</li>
+  <li>Doklady k prostupům požárními úseky.</li>
+  <li>Soupis provedených prací ve struktuře výkazu výměr.</li>
+  <li>Předávací protokol a záruční podmínky.</li>
+</ul>
+
+<h2 id="vazne">Na čem předání nejčastěji vázne</h2>
+<ul>
+  <li>Protokoly jen v PDF bez nativních souborů.</li>
+  <li>Měřená jen část vláken, „zbytek je rezervní“.</li>
+  <li>Číslování vláken v protokolech nesouhlasí se značením v rozvaděči.</li>
+  <li>Dokumentace skutečného provedení je kopie projektu.</li>
+  <li>Chybí prohlášení o vlastnostech nebo neodpovídá kabelu na stavbě.</li>
+</ul>
+
+<p class="end">Měření a předávací dokumentaci dodáváme i na trasách jiných montážních firem, viz <a href="/sluzby/mereni-a-dokumentace">Měření a dokumentace</a>.</p>
+        </div>
+        <aside class="c-4 aside">
+<div>
+  <h2>Obsah</h2>
+  <ul class="links">
+    <li><a href="#kontrola">Co se kontroluje</a></li>
+    <li><a href="#otdr">Protokol OTDR</a></li>
+    <li><a href="#olts">Přímá metoda</a></li>
+    <li><a href="#metalika">Certifikace metaliky</a></li>
+    <li><a href="#dsp">Skutečné provedení</a></li>
+    <li><a href="#doklady">Ostatní doklady</a></li>
+    <li><a href="#vazne">Na čem předání vázne</a></li>
+  </ul>
+</div>
+<div>
+  <h2>Know-how</h2>
+  <ul class="links">
+    <li><a href="/know-how/vykaz-vymer-opticka-trasa">Výkaz výměr pro optickou trasu</a></li>
+    <li><a href="/know-how/optika-ve-verejne-zakazce">Optika ve veřejné zakázce</a></li>
+    <li><a href="/know-how/kabely-b2ca">Kabely B2ca</a></li>
+  </ul>
+</div>
+        </aside>
+      </div>
+    </div>
+  </section>
+</main>
+<section class="contact" id="kontakt" aria-labelledby="kontakt-h">
+  <div class="wrap">
+    <div class="row">
+      <div class="c-7 stack">
+        <h2 class="h2" id="kontakt-h">Pošlete výkaz výměr. Ozveme se do dvou pracovních dnů.</h2>
+        <p class="sub">Stačí e-mail s výkazem nebo projektem v příloze. Na menší dotazy odpovídáme telefonem rovnou.</p>
+        <div class="btns">
+          <span class="btn is-pending">[EMAIL]</span>
+          <span class="btn btn-ghost mono is-pending">+420 [TELEFON]</span>
+        </div>
+      </div>
+      <div class="c-5 card">
+        <div>
+          <b>Ing. Luboš Mikula, Ph.D.</b>
+          <div>jednatel · projekce · stavbyvedoucí</div>
+        </div>
+        <div>
+          <b>MCnet, s.r.o.</b>
+          <div>J. Opletala 924</div>
+          <div>738 01 Frýdek-Místek</div>
+          <div>IČO 25394720 · DIČ CZ25394720</div>
+          <div>Datová schránka: [ID DATOVÉ SCHRÁNKY]</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="row foot-links">
+        <div class="c-3">
+          <h2>Služby</h2>
+          <ul><li><a href="/sluzby/opticke-trasy">Optické trasy a páteře</a></li><li><a href="/sluzby/strukturovana-kabelaz">Strukturovaná kabeláž</a></li><li><a href="/sluzby/mereni-a-dokumentace">Měření a dokumentace</a></li><li><a href="/sluzby/projekce-a-aktivni-prvky">Projekce a aktivní prvky</a></li></ul>
+        </div>
+        <div class="c-3">
+          <h2>Pro zadavatele</h2>
+          <ul><li><a href="/pro-zadavatele/skoly">Školy</a></li><li><a href="/pro-zadavatele/zdravotnictvi">Zdravotnictví</a></li><li><a href="/pro-zadavatele/prumyslove-arealy">Průmyslové areály</a></li><li><a href="/pro-zadavatele/obce-a-urady">Obce, úřady, bezpečnostní složky</a></li></ul>
+        </div>
+        <div class="c-3">
+          <h2>Know-how</h2>
+          <ul><li><a href="/know-how/vykaz-vymer-opticka-trasa">Výkaz výměr pro optickou trasu</a></li><li><a href="/know-how/protokoly-a-predani">Protokoly a předání</a></li><li><a href="/know-how/optika-ve-verejne-zakazce">Optika ve veřejné zakázce</a></li><li><a href="/know-how/kabely-b2ca">Kabely B2ca</a></li></ul>
+        </div>
+        <div class="c-3">
+          <h2>Firma</h2>
+          <ul><li><a href="/reference/">Reference</a></li><li><a href="/pro-zhotovitele">Pro zhotovitele</a></li><li><a href="/doklady">Doklady</a></li><li><a href="/kontakt">Kontakt</a></li><li><a href="/ochrana-osobnich-udaju">Ochrana osobních údajů</a></li></ul>
+        </div>
+    </div>
+    <div class="foot-bar">
+      <span>© 2026 MCnet, s.r.o. · IČO 25394720</span>
+      <span>Optické a datové sítě · Frýdek-Místek · Ostrava</span>
+    </div>
+  </div>
+</footer>
+<script src="../js/menu.js" defer></script>
+</body>
+</html>
