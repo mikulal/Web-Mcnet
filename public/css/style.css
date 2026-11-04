@@ -222,3 +222,7 @@ a.doc:hover{color:var(--accent)}
   .site-head nav,.menu-btn,.contact .btns{display:none}
   body{background:#fff}
 }
+
+/* Drobné utility */
+.mb-28{margin-bottom:28px}.mb-16{margin-bottom:16px}.mt-16{margin-top:16px}.gap-12{gap:12px}
+.aside-note{font:12px/1.5 var(--mono);color:var(--muted);margin:10px 0 0}
