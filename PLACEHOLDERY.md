@@ -6,7 +6,6 @@ Generováno skriptem `node src/build.mjs`. Po doplnění údajů v `data/*.json`
 
 - `opravneni_ticr`: [TIČR – rozsah a číslo oprávnění]
 - `linkedin`: [URL PROFILU LINKEDIN]
-- `naceneni_pracovnich_dnu`: [n]
 - `doklady.0.platnost`: [platnost]
 - `doklady.1.platnost`: [datum výpisu]
 - `doklady.2.platnost`: [limit] Kč · [platnost]
@@ -15,7 +14,7 @@ Generováno skriptem `node src/build.mjs`. Po doplnění údajů v `data/*.json`
 
 ## Reference (data/reference.json)
 
-Detailní stránky se generují až s `"detail": true`. Zatím: 3 z 11.
+Detailní stránky se generují až s `"detail": true`. Zatím: 3 z 10.
 
 ### Optická trasa kotelna SO06 – dočasný velín, Teplárna TAS Dětmarovice
 - vše vyplněno
@@ -36,17 +35,10 @@ Detailní stránky se generují až s `"detail": true`. Zatím: 3 z 11.
 - vše vyplněno
 
 ### Optická trasa SO06 – SO09, Teplárna TAS Dětmarovice
-- `objednatel`: [INVESTOR]
+- vše vyplněno
 
 ### Optická trasa SO04 – SO09, Teplárna TAS Dětmarovice
-- `objednatel`: [INVESTOR]
-
-### KŘP MSK, Frýdek-Místek – DPS
-- `objednatel`: [OBJEDNATEL]
-- `tabulka_objednatel`: [OBJEDNATEL]
-- `doba_realizace`: [od – do]
-- `rozsah`: DPS · [rozsah]
-- `rozsah_detail.1`: [profese a rozsah]
+- vše vyplněno
 
 ### Instalace přístupových bodů Wi‑Fi, CS-Cont Zlaté Hory
 - `sektor`: [sektor]
@@ -69,9 +61,4 @@ Detailní stránky se generují až s `"detail": true`. Zatím: 3 z 11.
 | Placeholder | Stránky |
 |---|---|
 | `[Foto: OTDR měření na optické vaně]` | /sluzby/mereni-a-dokumentace |
-| `[INVESTOR]` | /reference/detmarovice-so04-so09, /reference/detmarovice-so06-so09 |
-| `[OBJEDNATEL]` | /pro-zadavatele/obce-a-urady, /reference/, /sluzby/projekce-slaboproudu |
 | `[TIČR – rozsah a číslo oprávnění]` | /doklady |
-| `[doba uložení nerealizovaných poptávek]` | /ochrana-osobnich-udaju |
-| `[n]` | /, /pro-zhotovitele |
-| `[rozsah]` | /reference/ |

@@ -76,12 +76,12 @@ Vzor: britské case studies (NM Cabling, Mr Cable), délka 120–180 slov.
 - Title: „<Název stavby> – reference MCnet“, meta description 140–155 znaků s městem a rozsahem.
 
 Reference k zpracování (data doplní Luboš, do té doby `[PLACEHOLDER]`, nikdy vymyšlená čísla). Zdroj pravdy je `data/reference.json`; podklady ve složce `iCloudDrive\Projekty\08-Mcnet` (krycí listy OTDR, nabídky, osvědčení, Realizované stavby.docx). Upřesněno Lubošem 8. 11. 2026:
-- Teplárna TAS Dětmarovice – tři optické trasy (2026): kotelna SO06 – dočasný velín pro ČEZ ESL, s.r.o.; SO06 – SO09 pro DELAUDA, s.r.o.; SO04 – SO09 pro SYSTHERM, s.r.o.
+- Teplárna TAS Dětmarovice – tři optické trasy (2026, investor ČEZ): kotelna SO06 – dočasný velín pro ČEZ ESL, s.r.o.; SO06 – SO09 pro DELAUDA, s.r.o.; SO04 – SO09 pro SYSTHERM, s.r.o.
 - Páteřní rozvody MaR, Městská nemocnice Ostrava Fifejdy (přes VAE a.s., 2022–2024)
 - Rekonstrukce síťové infrastruktury SUŠ Ostrava pro Moravskoslezský kraj (přes VAE Energo, 2025)
 - IBC Ostrava – slaboproudé kabeláže, přímo pro Moravskoslezský kraj (ne optické propoje, ne přes TRIMR)
 - Síťová infrastruktura Matiční gymnázium Ostrava – studie, DPS, aktivní prvky (2026)
-- KŘP MSK Frýdek-Místek – DPS (2026)
+- KŘP MSK Frýdek-Místek – DPS: Luboš ji nezná, neuvádět.
 - Rekonstrukce rozvodů NN a SLP, OO PČR Frýdlant nad Ostravicí (2021, z Realizovaných staveb)
 - Věznici Vinařice MCnet nerealizoval – neuvádět.
 - Dodávka a zprovoznění aktivních prvků, Matiční gymnázium Ostrava (VZMR, 10/2026) – uvádět jen realizaci, ne studii

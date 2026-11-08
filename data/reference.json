@@ -211,7 +211,7 @@
         "autorizovaný projektant ČKAIT"
       ],
       "souvisejici": [
-        "krp-msk-frydek-mistek-dps",
+        "pcr-oo-frydlant-nad-ostravici",
         "pcr-oo-frydlant-nad-ostravici"
       ]
     },
@@ -219,9 +219,9 @@
       "slug": "detmarovice-so06-so09",
       "nazev": "Optická trasa SO06 – SO09, Teplárna TAS Dětmarovice",
       "mesto": "Dětmarovice",
-      "objednatel": "[INVESTOR]",
+      "objednatel": "ČEZ",
       "zhotovitel": "DELAUDA, s.r.o.",
-      "tabulka_objednatel": "DELAUDA, s.r.o.",
+      "tabulka_objednatel": "ČEZ / DELAUDA, s.r.o.",
       "sektor": "energetika",
       "sluzby": [
         "opticke-trasy",
@@ -256,9 +256,9 @@
       "slug": "detmarovice-so04-so09",
       "nazev": "Optická trasa SO04 – SO09, Teplárna TAS Dětmarovice",
       "mesto": "Dětmarovice",
-      "objednatel": "[INVESTOR]",
+      "objednatel": "ČEZ",
       "zhotovitel": "SYSTHERM s.r.o.",
-      "tabulka_objednatel": "SYSTHERM s.r.o.",
+      "tabulka_objednatel": "ČEZ / SYSTHERM s.r.o.",
       "sektor": "energetika",
       "sluzby": [
         "opticke-trasy",
@@ -288,39 +288,6 @@
       ],
       "description": "Optická trasa 24 vl. G.657A1 mezi SO04 a správní budovou Teplárny TAS Dětmarovice pro SYSTHERM: 300 m mikrotrubičky, 48 svarů, rozvaděč 45U.",
       "kratky_nazev": "Optická trasa SO04 – SO09, Dětmarovice"
-    },
-    {
-      "slug": "krp-msk-frydek-mistek-dps",
-      "nazev": "KŘP MSK, Frýdek-Místek – DPS",
-      "mesto": "Frýdek-Místek",
-      "objednatel": "[OBJEDNATEL]",
-      "zhotovitel": "",
-      "tabulka_objednatel": "[OBJEDNATEL]",
-      "sektor": "bezpečnostní složky",
-      "sluzby": [
-        "projekce-slaboproudu"
-      ],
-      "doba_realizace": "[od – do]",
-      "rok": "2026",
-      "rozsah": "DPS · [rozsah]",
-      "rozsah_detail": [
-        "DPS dle vyhl. 131/2024 Sb.",
-        "[profese a rozsah]"
-      ],
-      "na_uvodu": false,
-      "detail": false,
-      "odstavce": {
-        "zadani": "",
-        "omezeni": "",
-        "dodali": "",
-        "predano": ""
-      },
-      "fotky": [],
-      "souvisejici": [
-        "krp-msk-uo-karvina-dps",
-        "pcr-oo-frydlant-nad-ostravici"
-      ],
-      "description": ""
     },
     {
       "slug": "cs-cont-zlate-hory-wifi",
@@ -384,7 +351,7 @@
       },
       "fotky": [],
       "souvisejici": [
-        "krp-msk-frydek-mistek-dps",
+        "krp-msk-uo-karvina-dps",
         "ibc-ostrava-slaboproude-kabelaze"
       ],
       "description": ""
