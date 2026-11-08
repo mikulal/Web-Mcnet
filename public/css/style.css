@@ -261,4 +261,3 @@ a.doc:hover{color:var(--accent)}
 .dg-bg{fill:var(--card)}
 .dg-sheet{fill:var(--card);stroke:var(--ink);stroke-width:1}
 @media (max-width:900px){.photo-band .diagram .dg{height:auto}}
-@media (max-width:600px){.diagram-wide{display:none}}
