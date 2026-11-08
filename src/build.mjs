@@ -514,7 +514,6 @@ ${refPh.map(([n, l]) => `### ${n}\n${l.map(([k, v]) => `- \`${k}\`: ${v}`).join(
 
 - **Fotky ze staveb** (\`public/img/\`, WebP + JPEG, max. 1600 px): úvod 3×, služby 3×, Pro zhotovitele 1×, každá reference 1–2×. Zatím šedé bloky s popiskem.
 - **PDF doklady** do \`public/doklady/\` s názvy z \`firma.json\` → po buildu se z „připravujeme“ stanou odkazy.
-- **Reference ze zdravotnictví** pro /pro-zadavatele/zdravotnictvi (v seznamu žádná není).
 - **Další reference** „dle seznamu od Luboše“ – doplnit do \`data/reference.json\`.
 - **Doba uložení nerealizovaných poptávek** na /ochrana-osobnich-udaju; text stránky nechat zkontrolovat (příjemci údajů).
 - **Staré URL www.mcnet.cz** pro \`public/_redirects\` (dnes tam běží jen stránka „Vaše IP adresa“, bez sitemap).

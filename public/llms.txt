@@ -7,6 +7,7 @@
 - Název: MCnet, s.r.o.
 - IČO: 25394720, DIČ: CZ25394720
 - Sídlo: J. Opletala 924, 738 01 Frýdek-Místek
+- Telefon: +420 777 701 721
 - Působnost: Moravskoslezský kraj, Olomoucký kraj, dle zakázky celá ČR
 - Web: https://www.mcnet.cz/
 
@@ -16,7 +17,7 @@
 - [Doklady ke stažení – kvalifikace pro VZ](https://www.mcnet.cz/doklady): Kvalifikační doklady MCnet ke stažení: oprávnění TIČR, výpis z obchodního rejstříku, pojištění odpovědnosti, seznam referencí dle § 79 ZZVZ, profil.
 - [Kontakt – MCnet, s.r.o., Frýdek-Místek](https://www.mcnet.cz/kontakt): Kontakt na MCnet, s.r.o.: e-mail pro zaslání výkazu výměr, telefon, sídlo ve Frýdku-Místku, IČO, DIČ a datová schránka. Odpovídáme do dvou pracovních dnů.
 - [Služby – optika, kabeláž, měření, projekce](https://www.mcnet.cz/sluzby/): Optické trasy a páteře, strukturovaná kabeláž, OTDR měření s dokumentací a projekce slaboproudu. Subdodávka pro stavby v Moravskoslezském kraji.
-- [Reference – optické trasy a kabeláž](https://www.mcnet.cz/reference/): Přehled realizací MCnet: optické trasy, areálové páteře, strukturovaná kabeláž a DPS pro školy, věznice, policii a zhotovitele staveb v kraji MSK.
+- [Reference – optické trasy a kabeláž](https://www.mcnet.cz/reference/): Přehled realizací MCnet: optické trasy, areálové páteře, strukturovaná kabeláž a DPS pro školy, nemocnice, policii a zhotovitele staveb v kraji MSK.
 - [Pro zhotovitele – optika jako subdodávka](https://www.mcnet.cz/pro-zhotovitele): Jak probíhá subdodávka optiky a kabeláže: nacenění z výkazu výměr, koordinace se stavbyvedoucím, realizace vlastními lidmi, předání s protokoly a DSP.
 - [Kabely B2ca a požární bezpečnost datových rozvodů](https://www.mcnet.cz/know-how/kabely-b2ca): Jak číst třídu reakce na oheň B2ca-s1,d1,a1 podle ČSN EN 13501-6, kdo ji určuje, jak se dokládá prohlášením o vlastnostech a proč LSOH nestačí.
 - [Datové sítě pro školy – kabeláž a Wi‑Fi](https://www.mcnet.cz/pro-zadavatele/skoly): Strukturovaná kabeláž, optická páteř, Wi‑Fi do tříd a aktivní prvky pro základní a střední školy. Montáž v etapách mimo výuku, DPS a dokumentace pro VZ.

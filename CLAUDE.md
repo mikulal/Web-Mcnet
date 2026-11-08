@@ -74,14 +74,15 @@ Vzor: britské case studies (NM Cabling, Mr Cable), délka 120–180 slov.
 - Odkazy na 2 související reference.
 - Title: „<Název stavby> – reference MCnet“, meta description 140–155 znaků s městem a rozsahem.
 
-Reference k zpracování (data doplní Luboš, do té doby `[PLACEHOLDER]`, nikdy vymyšlená čísla):
-- Optická trasa Dětmarovice SO 06 – DELAUDA, s.r.o. (2026)
-- Věznice Vinařice – datové kabely MaR, II. etapa – VAE (2026)
+Reference k zpracování (data doplní Luboš, do té doby `[PLACEHOLDER]`, nikdy vymyšlená čísla). Zdroj pravdy je `data/reference.json`; podklady ve složce `iCloudDrive\Projekty\08-Mcnet` (krycí listy OTDR, nabídky, osvědčení, Realizované stavby.docx). Upřesněno Lubošem 8. 11. 2026:
+- Teplárna TAS Dětmarovice – tři optické trasy (2026): kotelna SO06 – dočasný velín pro ČEZ ESL, s.r.o.; SO06 – SO09 pro DELAUDA, s.r.o.; SO04 – SO09 pro SYSTHERM, s.r.o.
+- Páteřní rozvody MaR, Městská nemocnice Ostrava Fifejdy (přes VAE a.s., 2022–2024)
+- Rekonstrukce síťové infrastruktury SUŠ Ostrava pro Moravskoslezský kraj (přes VAE Energo, 2025)
+- IBC Ostrava – slaboproudé kabeláže, přímo pro Moravskoslezský kraj (ne optické propoje, ne přes TRIMR)
 - Síťová infrastruktura Matiční gymnázium Ostrava – studie, DPS, aktivní prvky (2026)
 - KŘP MSK Frýdek-Místek – DPS (2026)
-- Areál Fifejdy – optická páteř
-- SUŠ Ostrava, Poděbradova – strukturovaná kabeláž
-- IBC Ostrava – optické propoje, subdodávka pro TRIMR, v.o.s.
+- Rekonstrukce rozvodů NN a SLP, OO PČR Frýdlant nad Ostravicí (2021, z Realizovaných staveb)
+- Věznici Vinařice MCnet nerealizoval – neuvádět.
 - Další dle seznamu od Luboše
 
 ### Pro zhotovitele `/pro-zhotovitele`
@@ -163,8 +164,8 @@ Kontakt řeší `mailto:` a telefon. Pokud bude formulář, pak Cloudflare Pages
 Název:           MCnet, s.r.o.
 IČO:             25394720
 DIČ:             CZ25394720
-Sídlo:           [DOPLNIT – ulice č.p., 738 01 Frýdek-Místek]
-Telefon:         [DOPLNIT]
+Sídlo:           J. Opletala 924, 738 01 Frýdek-Místek (dle ARES)
+Telefon:         +420 777 701 721
 E-mail:          [DOPLNIT]
 Datová schránka: [DOPLNIT]
 Jednatel:        Ing. Luboš Mikula, Ph.D.

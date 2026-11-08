@@ -4,7 +4,6 @@ Generováno skriptem `node src/build.mjs`. Po doplnění údajů v `data/*.json`
 
 ## Firemní údaje (data/firma.json)
 
-- `telefon`: +420 [TELEFON]
 - `email`: [EMAIL]
 - `datova_schranka`: [ID DATOVÉ SCHRÁNKY]
 - `opravneni_ticr`: [TIČR – rozsah a číslo oprávnění]
@@ -19,59 +18,32 @@ Generováno skriptem `node src/build.mjs`. Po doplnění údajů v `data/*.json`
 
 ## Reference (data/reference.json)
 
-Detailní stránky se generují až s `"detail": true`. Zatím: 0 z 7.
+Detailní stránky se generují až s `"detail": true`. Zatím: 0 z 9.
 
-### Optická trasa Dětmarovice, SO 06
-- `objednatel`: [OBJEDNATEL / INVESTOR]
-- `sektor`: [sektor]
-- `doba_realizace`: [od – do]
-- `rozsah`: [km] trasy · [n] vl. SM G.652D
-- `rozsah_detail.0`: [délka trasy km]
-- `rozsah_detail.1`: [počet vláken, typ kabelu]
-- `rozsah_detail.2`: [počet svarů]
-- `rozsah_detail.3`: [ukončení – vany, rozvaděče]
+### Optická trasa kotelna SO06 – dočasný velín, Teplárna TAS Dětmarovice
+- vše vyplněno
 
-### Věznice Vinařice – datové kabely MaR, II. etapa
+### Optická trasa SO06 – SO09, Teplárna TAS Dětmarovice
+- `objednatel`: [INVESTOR]
+
+### Optická trasa SO04 – SO09, Teplárna TAS Dětmarovice
+- `objednatel`: [INVESTOR]
+
+### Páteřní rozvody MaR, Městská nemocnice Ostrava Fifejdy
+- `rozsah_detail.2`: [délka páteře, počet propojených objektů]
+
+### Rekonstrukce síťové infrastruktury, SUŠ Ostrava
+- vše vyplněno
+
+### IBC Ostrava – slaboproudé kabeláže
 - `doba_realizace`: [od – do]
-- `rozsah`: [n] linek · měření Cat6
-- `rozsah_detail.0`: [počet linek]
-- `rozsah_detail.1`: [kategorie, typ kabelu]
-- `rozsah_detail.2`: [počet rozvaděčů]
+- `rozsah`: [rozsah]
+- `rozsah_detail.0`: [počet linek, kategorie]
+- `rozsah_detail.1`: [počet rozvaděčů]
 
 ### Síťová infrastruktura, Matiční gymnázium Ostrava
 - `doba_realizace`: [od – do]
 - `rozsah_detail.2`: aktivní prvky – [počet a typ]
-
-### Areál Fifejdy – optická páteř
-- `objednatel`: [OBJEDNATEL]
-- `tabulka_objednatel`: [OBJEDNATEL]
-- `sektor`: [sektor]
-- `doba_realizace`: [od – do]
-- `rok`: [rok]
-- `rozsah`: [rozsah]
-- `rozsah_detail.0`: [délka páteře]
-- `rozsah_detail.1`: [počet vláken, typ kabelu]
-- `rozsah_detail.2`: [počet propojených objektů]
-
-### SUŠ Ostrava, Poděbradova – strukturovaná kabeláž
-- `objednatel`: [OBJEDNATEL]
-- `tabulka_objednatel`: [OBJEDNATEL]
-- `doba_realizace`: [od – do]
-- `rok`: [rok]
-- `rozsah`: [n] portů Cat6A · [n] vl.
-- `rozsah_detail.0`: [počet portů Cat6A]
-- `rozsah_detail.1`: [optika – počet vláken]
-- `rozsah_detail.2`: [počet rozvaděčů]
-
-### IBC Ostrava – optické propoje
-- `objednatel`: [OBJEDNATEL / INVESTOR]
-- `sektor`: [sektor]
-- `doba_realizace`: [od – do]
-- `rok`: [rok]
-- `rozsah`: [rozsah]
-- `rozsah_detail.0`: [počet propojů]
-- `rozsah_detail.1`: [počet vláken, typ]
-- `rozsah_detail.2`: [počet svarů]
 
 ### KŘP MSK, Frýdek-Místek – DPS
 - `objednatel`: [OBJEDNATEL]
@@ -80,11 +52,13 @@ Detailní stránky se generují až s `"detail": true`. Zatím: 0 z 7.
 - `rozsah`: DPS · [rozsah]
 - `rozsah_detail.1`: [profese a rozsah]
 
+### Rekonstrukce rozvodů NN a SLP, OO PČR Frýdlant nad Ostravicí
+- `rozsah_detail.1`: [počet linek, rozvaděčů]
+
 ## Mimo data – k doplnění nebo rozhodnutí
 
 - **Fotky ze staveb** (`public/img/`, WebP + JPEG, max. 1600 px): úvod 3×, služby 3×, Pro zhotovitele 1×, každá reference 1–2×. Zatím šedé bloky s popiskem.
 - **PDF doklady** do `public/doklady/` s názvy z `firma.json` → po buildu se z „připravujeme“ stanou odkazy.
-- **Reference ze zdravotnictví** pro /pro-zadavatele/zdravotnictvi (v seznamu žádná není).
 - **Další reference** „dle seznamu od Luboše“ – doplnit do `data/reference.json`.
 - **Doba uložení nerealizovaných poptávek** na /ochrana-osobnich-udaju; text stránky nechat zkontrolovat (příjemci údajů).
 - **Staré URL www.mcnet.cz** pro `public/_redirects` (dnes tam běží jen stránka „Vaše IP adresa“, bez sitemap).
@@ -104,12 +78,8 @@ Detailní stránky se generují až s `"detail": true`. Zatím: 0 z 7.
 | `[Foto: svářečka v terénu / výkop s HDPE]` | / |
 | `[Foto: ukončená optická vana, 48 vl., vlastní stavba]` | / |
 | `[ID DATOVÉ SCHRÁNKY]` | /, /404, /doklady, /know-how/kabely-b2ca, /know-how/optika-ve-verejne-zakazce, /know-how/protokoly-a-predani, /know-how/vykaz-vymer-opticka-trasa, /kontakt, /ochrana-osobnich-udaju, /pro-zadavatele/obce-a-urady, /pro-zadavatele/prumyslove-arealy, /pro-zadavatele/skoly, /pro-zadavatele/zdravotnictvi, /pro-zhotovitele, /reference/, /sluzby/, /sluzby/mereni-a-dokumentace, /sluzby/opticke-trasy, /sluzby/projekce-a-aktivni-prvky, /sluzby/strukturovana-kabelaz |
-| `[OBJEDNATEL]` | /, /pro-zadavatele/obce-a-urady, /pro-zadavatele/prumyslove-arealy, /pro-zadavatele/skoly, /reference/, /sluzby/mereni-a-dokumentace, /sluzby/opticke-trasy, /sluzby/projekce-a-aktivni-prvky, /sluzby/strukturovana-kabelaz |
-| `[Reference ze zdravotnictví – doplnit zakázku ze seznamu]` | /pro-zadavatele/zdravotnictvi |
-| `[TELEFON]` | /, /404, /doklady, /know-how/kabely-b2ca, /know-how/optika-ve-verejne-zakazce, /know-how/protokoly-a-predani, /know-how/vykaz-vymer-opticka-trasa, /kontakt, /ochrana-osobnich-udaju, /pro-zadavatele/obce-a-urady, /pro-zadavatele/prumyslove-arealy, /pro-zadavatele/skoly, /pro-zadavatele/zdravotnictvi, /pro-zhotovitele, /reference/, /sluzby/, /sluzby/mereni-a-dokumentace, /sluzby/opticke-trasy, /sluzby/projekce-a-aktivni-prvky, /sluzby/strukturovana-kabelaz |
+| `[OBJEDNATEL]` | /pro-zadavatele/obce-a-urady, /reference/, /sluzby/projekce-a-aktivni-prvky |
 | `[TIČR – rozsah a číslo oprávnění]` | /doklady |
 | `[doba uložení nerealizovaných poptávek]` | /ochrana-osobnich-udaju |
-| `[km]` | /, /reference/ |
-| `[n]` | /, /pro-zhotovitele, /reference/ |
-| `[rok]` | /, /pro-zadavatele/prumyslove-arealy, /pro-zadavatele/skoly, /reference/, /sluzby/mereni-a-dokumentace, /sluzby/opticke-trasy, /sluzby/strukturovana-kabelaz |
+| `[n]` | /, /pro-zhotovitele |
 | `[rozsah]` | /, /reference/ |
