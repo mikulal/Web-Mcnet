@@ -104,6 +104,7 @@ const parts = {
   },
   doklady() {
     const items = firma.doklady.map((d, i) => {
+      if (d.odkaz) return `<a class="doc" href="${esc(d.odkaz)}" rel="noopener"><span>${esc(d.nazev)}</span><span class="meta">${esc(d.platnost)} →</span></a>`;
       const exists = fs.existsSync(path.join(PUB, 'doklady', d.soubor));
       return exists
         ? `<a class="doc" href="/doklady/${d.soubor}"><span>${esc(d.nazev)}</span><span class="meta">PDF · ${esc(d.platnost)}</span></a>`

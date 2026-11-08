@@ -64,13 +64,14 @@
     },
     {
       "soubor": "mcnet-vypis-or.pdf",
-      "nazev": "Výpis z obchodního rejstříku",
-      "platnost": "[datum výpisu]"
+      "nazev": "Výpis z obchodního rejstříku (justice.cz)",
+      "platnost": "aktuální",
+      "odkaz": "https://or.justice.cz/ias/ui/rejstrik-$firma?ico=25394720"
     },
     {
       "soubor": "mcnet-pojisteni-odpovednosti.pdf",
-      "nazev": "Pojištění odpovědnosti – certifikát",
-      "platnost": "[limit] Kč · [platnost]"
+      "nazev": "Pojištění odpovědnosti – pojistka ČSOB Pojišťovna",
+      "platnost": "limit 20 000 000 Kč · od 29. 11. 2025"
     },
     {
       "soubor": "mcnet-seznam-referenci.pdf",

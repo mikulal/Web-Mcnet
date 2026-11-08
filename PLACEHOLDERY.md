@@ -7,8 +7,6 @@ Generováno skriptem `node src/build.mjs`. Po doplnění údajů v `data/*.json`
 - `opravneni_ticr`: [TIČR – rozsah a číslo oprávnění]
 - `linkedin`: [URL PROFILU LINKEDIN]
 - `doklady.0.platnost`: [platnost]
-- `doklady.1.platnost`: [datum výpisu]
-- `doklady.2.platnost`: [limit] Kč · [platnost]
 - `doklady.3.platnost`: [datum]
 - `doklady.4.platnost`: [datum]
 
