@@ -4,7 +4,6 @@ Generováno skriptem `node src/build.mjs`. Po doplnění údajů v `data/*.json`
 
 ## Firemní údaje (data/firma.json)
 
-- `datova_schranka`: [ID DATOVÉ SCHRÁNKY]
 - `opravneni_ticr`: [TIČR – rozsah a číslo oprávnění]
 - `linkedin`: [URL PROFILU LINKEDIN]
 - `naceneni_pracovnich_dnu`: [n]
@@ -70,7 +69,6 @@ Detailní stránky se generují až s `"detail": true`. Zatím: 3 z 11.
 | Placeholder | Stránky |
 |---|---|
 | `[Foto: OTDR měření na optické vaně]` | /sluzby/mereni-a-dokumentace |
-| `[ID DATOVÉ SCHRÁNKY]` | /, /404, /doklady, /know-how/kabely-b2ca, /know-how/optika-ve-verejne-zakazce, /know-how/protokoly-a-predani, /know-how/vykaz-vymer-opticka-trasa, /kontakt, /ochrana-osobnich-udaju, /pro-zadavatele/obce-a-urady, /pro-zadavatele/prumyslove-arealy, /pro-zadavatele/skoly, /pro-zadavatele/zdravotnictvi, /pro-zhotovitele, /reference/, /reference/detmarovice-kotelna-so06-docasny-velin, /reference/detmarovice-so04-so09, /reference/detmarovice-so06-so09, /sluzby/, /sluzby/aktivni-prvky, /sluzby/mereni-a-dokumentace, /sluzby/opticke-trasy, /sluzby/projekce-slaboproudu, /sluzby/strukturovana-kabelaz |
 | `[INVESTOR]` | /reference/detmarovice-so04-so09, /reference/detmarovice-so06-so09 |
 | `[OBJEDNATEL]` | /pro-zadavatele/obce-a-urady, /reference/, /sluzby/projekce-slaboproudu |
 | `[TIČR – rozsah a číslo oprávnění]` | /doklady |

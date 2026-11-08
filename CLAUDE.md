@@ -172,7 +172,8 @@ IČO:             25394720
 DIČ:             CZ25394720
 Sídlo:           J. Opletala 924, 738 01 Frýdek-Místek (dle ARES)
 Telefon:         +420 777 701 721
-Datová schránka: [DOPLNIT]
+Datová schránka: t4wksyx (ze smluv MGO a IBC)
+Zápis v OR:      Krajský soud v Ostravě, oddíl C, vložka 18136
 Kontakty:        Ing. Luboš Mikula, Ph.D. – poptávky, příprava staveb (není jednatel, neuvádět „jednatel“); Josef Mikula – realizace staveb
 E-maily:         lubos.mikula@mcnet.cz (poptávky a nacenění), josef.mikula@mcnet.cz, info@mcnet.cz (obecné dotazy), faktury@mcnet.cz, ucetni@mcnet.cz
 Oprávnění:       TIČR – [DOPLNIT rozsah a číslo]

@@ -5,6 +5,7 @@
   "nazev": "MCnet, s.r.o.",
   "ico": "25394720",
   "dic": "CZ25394720",
+  "zapis_or": "Krajský soud v Ostravě, oddíl C, vložka 18136",
   "sidlo": {
     "ulice": "J. Opletala 924",
     "psc": "738 01",
@@ -31,7 +32,7 @@
       "adresa": "ucetni@mcnet.cz"
     }
   ],
-  "datova_schranka": "[ID DATOVÉ SCHRÁNKY]",
+  "datova_schranka": "t4wksyx",
   "kontakty": [
     {
       "jmeno": "Ing. Luboš Mikula, Ph.D.",
