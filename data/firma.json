@@ -1,0 +1,32 @@
+{
+  "_poznamka": "Jediný zdroj firemních údajů (NAP). Hodnoty v hranatých závorkách jsou placeholdery – po doplnění spusť `node src/build.mjs`. Adresa převzata z ARES 4. 11. 2026 přesně v jeho zápisu; stejný zápis použít v Google Business Profile a na firmy.cz.",
+  "web": "https://www.mcnet.cz",
+  "znacka": "MCnet",
+  "nazev": "MCnet, s.r.o.",
+  "ico": "25394720",
+  "dic": "CZ25394720",
+  "sidlo": {
+    "ulice": "J. Opletala 924",
+    "psc": "738 01",
+    "obec": "Frýdek-Místek",
+    "stat": "CZ"
+  },
+  "telefon": "+420 [TELEFON]",
+  "email": "[EMAIL]",
+  "datova_schranka": "[ID DATOVÉ SCHRÁNKY]",
+  "jednatel": "Ing. Luboš Mikula, Ph.D.",
+  "jednatel_role": "jednatel · projekce · stavbyvedoucí",
+  "opravneni_ticr": "[TIČR – rozsah a číslo oprávnění]",
+  "hpe_partner": false,
+  "pusobnost": ["Moravskoslezský kraj", "Olomoucký kraj", "dle zakázky celá ČR"],
+  "linkedin": "[URL PROFILU LINKEDIN]",
+  "og_image": null,
+  "naceneni_pracovnich_dnu": "[n]",
+  "doklady": [
+    { "soubor": "mcnet-ticr-opravneni.pdf", "nazev": "Oprávnění TIČR – montáž, opravy, revize el. zařízení", "platnost": "[platnost]" },
+    { "soubor": "mcnet-vypis-or.pdf", "nazev": "Výpis z obchodního rejstříku", "platnost": "[datum výpisu]" },
+    { "soubor": "mcnet-pojisteni-odpovednosti.pdf", "nazev": "Pojištění odpovědnosti – certifikát", "platnost": "[limit] Kč · [platnost]" },
+    { "soubor": "mcnet-seznam-referenci.pdf", "nazev": "Seznam referencí pro kvalifikaci (§ 79 ZZVZ)", "platnost": "[datum]" },
+    { "soubor": "mcnet-firemni-profil.pdf", "nazev": "Firemní profil", "platnost": "[datum]" }
+  ]
+}

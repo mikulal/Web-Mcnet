@@ -1,0 +1,89 @@
+<!--meta
+{
+  "title": "Výkaz výměr pro optickou trasu – co obsahuje | MCnet",
+  "description": "Které položky má mít výkaz výměr pro optickou trasu: chráničky, kabel, rezervy, spojky, svary, ukončení, měření a dokumentace. S příkladem výpočtu svarů.",
+  "h1": "Co má obsahovat výkaz výměr pro optickou trasu",
+  "crumb": "Výkaz výměr pro optickou trasu",
+  "eyebrow": "Know-how",
+  "lead": "Pro rozpočtáře a nákupčí, kteří mají naceňovat nebo zadávat optickou část stavby. Když výkaz chybí nebo je sestavený jako jedna položka „komplet“, nabídky nejdou porovnat a rozdíl se vrátí jako vícepráce.",
+  "layout": "doc",
+  "ogType": "article"
+}
+-->
+<h2 id="proc">Proč na struktuře výkazu záleží</h2>
+<p>Optická trasa je z pohledu rozpočtu malá položka, ale skládá se z prací, které na sebe navazují a dělají je často různé profese: zemní práce, uložení chrániček, zafouknutí kabelu, sváry, ukončení, měření. Pokud výkaz nerozlišuje jednotlivé kroky, každý uchazeč si hranice dodávky domyslí jinak. Jeden do ceny zahrne kalibraci chrániček a měření oběma metodami, druhý ne. Při vyhodnocení vyhraje ten levnější a chybějící práce se objeví až při předání.</p>
+
+<h2 id="polozky">Položky, které ve výkazu nemají chybět</h2>
+<h3>Trasa a chráničky</h3>
+<ul>
+  <li>Chránička HDPE nebo svazek mikrotrubiček, s rozměrem a počtem trubiček, v metrech.</li>
+  <li>Kabelové a spojkové komory v kusech, s typem.</li>
+  <li>Protlaky a prostupy v kusech nebo metrech.</li>
+  <li>Kalibrace a tlaková zkouška chrániček před zafouknutím, v metrech.</li>
+  <li>Zemní práce jako samostatné položky, nebo výslovná poznámka, že jsou v jiném SO.</li>
+</ul>
+<h3>Kabel</h3>
+<ul>
+  <li>Typ kabelu: počet vláken, typ vlákna (např. G.652D, G.657A1), konstrukce (zafukovací, univerzální, vnitřní).</li>
+  <li>U vnitřních úseků třída reakce na oheň podle požárně bezpečnostního řešení.</li>
+  <li>Délka kabelu v metrech včetně technologických rezerv u spojek a rozvaděčů.</li>
+  <li>Zafouknutí nebo zatažení kabelu jako práce, v metrech, odděleně od dodávky kabelu.</li>
+</ul>
+<h3>Spojky a ukončení</h3>
+<ul>
+  <li>Optická spojka v kusech, s kapacitou kazet.</li>
+  <li>Optický rozvaděč nebo vana v kusech, s počtem portů a typem konektorů.</li>
+  <li>Pigtaily a spojky (adaptéry) v kusech.</li>
+  <li>Svar optického vlákna v kusech, včetně ochrany svaru.</li>
+  <li>Popis kabelů, vláken a portů.</li>
+</ul>
+<h3>Měření a dokumentace</h3>
+<ul>
+  <li>Měření OTDR na vlákno, s uvedením vlnových délek a zda obousměrně.</li>
+  <li>Měření útlumu přímou metodou na vlákno.</li>
+  <li>Dokumentace skutečného provedení jako samostatná položka.</li>
+  <li>Geodetické zaměření trasy, pokud se týká sítí v zemi.</li>
+</ul>
+
+<h2 id="svary">Měrné jednotky a výpočet svarů</h2>
+<p>Svary se počítají v kusech, ne v kompletu. Počet se odvodí z počtu vláken a míst, kde se vlákna spojují. Příklad: kabel 48 vláken, na trase dvě průběžné spojky, na obou koncích ukončení do vany pomocí pigtailů.</p>
+<dl class="kv">
+  <div><dt>Spojky na trase</dt><dd>2 × 48 = 96 svarů</dd></div>
+  <div><dt>Ukončení v rozvaděčích</dt><dd>2 × 48 = 96 svarů</dd></div>
+  <div><dt>Celkem</dt><dd>192 svarů</dd></div>
+  <div><dt>Měření OTDR</dt><dd>48 vláken × 2 směry × 2 vlnové délky</dd></div>
+</dl>
+<p>Pokud se na spojce odbočuje jen část vláken a zbytek prochází nepřerušený, svarů je méně. To má být patrné z projektu, jinak si každý uchazeč spočítá jiný počet.</p>
+
+<h2 id="chyby">Časté chyby</h2>
+<ul>
+  <li><strong>Optická trasa – 1 kpl.</strong> Nelze zkontrolovat, co je v ceně, a nelze fakturovat podle skutečně provedených prací.</li>
+  <li><strong>Kabel bez rezerv.</strong> Výkaz uvádí délku trasy, ne délku kabelu. Rozdíl chybí v nabídce i na stavbě.</li>
+  <li><strong>Měření jako jedna položka bez metody.</strong> Jeden uchazeč nacení jednosměrné OTDR, druhý obousměrné OTDR a přímou metodu.</li>
+  <li><strong>Chybí třída reakce na oheň.</strong> Uchazeči nacení nejlevnější vnitřní kabel a TDI ho při kontrole odmítne. Více v textu <a href="/know-how/kabely-b2ca">Kabely B2ca</a>.</li>
+  <li><strong>Nejasná hranice mezi SO a PS.</strong> Chráničky v jednom objektu, kabel ve druhém, kalibrace nikde.</li>
+</ul>
+
+<h2 id="kontrola">Kontrola před odesláním</h2>
+<p>Než výkaz pošlete uchazečům nebo subdodavatelům, projděte trasu od jednoho rozvaděče ke druhému a u každého kroku si odpovězte, ve které položce je. Pokud odpověď zní „to je v tom“, položka chybí.</p>
+
+<p class="end">Výkaz výměr nebo projekt optické trasy naceníme po položkách, viz <a href="/sluzby/opticke-trasy">Optické trasy a páteře</a>.</p>
+<!--aside-->
+<div>
+  <h2>Obsah</h2>
+  <ul class="links">
+    <li><a href="#proc">Proč na struktuře záleží</a></li>
+    <li><a href="#polozky">Položky výkazu</a></li>
+    <li><a href="#svary">Výpočet svarů</a></li>
+    <li><a href="#chyby">Časté chyby</a></li>
+    <li><a href="#kontrola">Kontrola před odesláním</a></li>
+  </ul>
+</div>
+<div>
+  <h2>Know-how</h2>
+  <ul class="links">
+    <li><a href="/know-how/protokoly-a-predani">Protokoly a předání</a></li>
+    <li><a href="/know-how/optika-ve-verejne-zakazce">Optika ve veřejné zakázce</a></li>
+    <li><a href="/know-how/kabely-b2ca">Kabely B2ca</a></li>
+  </ul>
+</div>
