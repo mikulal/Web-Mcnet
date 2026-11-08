@@ -11,7 +11,7 @@ Statický web firmy MCnet, s.r.o. (optické a datové sítě, Frýdek-Místek). 
 2. Elektromontážní firmy, které nemají vlastní optiku (vzor: TRIMR) – přebíráme sváry, měření a předání na už položených trasách.
 3. Veřejní zadavatelé a jejich projektanti (školy, nemocnice, obce, policie, věznice) – kontrolují kvalifikaci a reference.
 
-**Co web NEdělá:** necílí na jednotlivce, drobný servis, jednorázové sváry, „překopnutý kabel“. To patří značce Fajbr, která na webu MCnet není zmíněna. Nikdy nepoužívej klíčová slova typu „svařování optiky Ostrava“, „oprava optického kabelu“, „ceník sváru“.
+**Co web NEdělá:** necílí na jednotlivce, drobný servis, jednorázové sváry, „překopnutý kabel“. To patří značce Fajbr. Na webu MCnet se Fajbr zmiňuje jen jednou větou na úvodu a v patičce (servisní značka pro drobné zakázky v optice: svařování, ukončení, měření OTDR, opravy, celá ČR) s odkazem na https://fajbr.cz, nikde jinde. Nikdy nepoužívej klíčová slova typu „svařování optiky Ostrava“, „oprava optického kabelu“, „ceník sváru“.
 
 **Hlavní odlišení od konkurence:** nikdo v regionu nemá sekci „Pro zhotovitele“ ani doklady pro kvalifikaci do VZ ke stažení. Konkurence (SITEL, Global Elektronic, ceníkové weby) mluví k investorovi, operátorovi nebo koncovému zákazníkovi. My mluvíme k zhotoviteli.
 

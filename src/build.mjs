@@ -356,6 +356,7 @@ ${m.contact === false ? '' : contactBlock()}
     <div class="row foot-links">
         ${foot}
     </div>
+    <p class="foot-note">Drobné zakázky v optice, svařování, ukončení, měření OTDR a opravy po celé ČR, dělá naše servisní značka <a href="https://fajbr.cz">Fajbr</a>.</p>
     <div class="foot-bar">
       <span>© ${new Date().getFullYear()} ${esc(firma.nazev)} · IČO ${esc(firma.ico)}</span>
       <span>Optické a datové sítě · Frýdek-Místek · Ostrava</span>
