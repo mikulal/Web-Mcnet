@@ -386,7 +386,7 @@ const pages = walk(SRC).map((file) => {
 // Detailní stránky referencí
 const refTpl = parseSource(path.join(ROOT, 'src', 'templates', 'reference.html'));
 for (const r of refs.filter((x) => x.detail)) {
-  const title = `${r.nazev} – reference MCnet`;
+  const title = `${r.kratky_nazev || r.nazev} – reference MCnet`;
   const kv = [
     ['Objednatel', r.objednatel], ...(r.zhotovitel ? [['Zhotovitel', r.zhotovitel]] : []),
     ['Sektor', r.sektor], ['Doba realizace', r.doba_realizace], ['Rok', r.rok],

@@ -9,17 +9,34 @@
       "zhotovitel": "",
       "tabulka_objednatel": "ČEZ ESL, s.r.o.",
       "sektor": "energetika",
-      "sluzby": ["opticke-trasy", "mereni-a-dokumentace"],
-      "doba_realizace": "08/2026",
+      "sluzby": [
+        "opticke-trasy",
+        "mereni-a-dokumentace"
+      ],
+      "doba_realizace": "5.–7. 8. 2026",
       "rok": "2026",
-      "rozsah": "4 vl. SM G.657A1 · OTDR 1310/1550 nm",
-      "rozsah_detail": ["mikrokabel 4 vl. SM 9/125 G.657A1, zafouknutý", "tlaková zkouška chráničky", "OTDR obousměrně 1310/1550 nm, měřeno 6. 8. 2026"],
+      "rozsah": "4 vl. G.657A1 · 300 m chráničky · OTDR",
+      "rozsah_detail": [
+        "4 vl. SM 9/125 G.657A1, mikrokabel zafouknutý",
+        "mikrotrubička HDPE 14/10, cca 300 m, tlaková zkouška 8 bar",
+        "8 svarů, 2 optické vany 24× SC",
+        "OTDR obousměrně 1310/1550 nm, měřeno 6. 8. 2026"
+      ],
       "na_uvodu": true,
-      "detail": false,
-      "odstavce": { "zadani": "", "omezeni": "", "dodali": "", "predano": "" },
+      "detail": true,
+      "odstavce": {
+        "zadani": "Pro ČEZ ESL jsme v areálu Teplárny TAS Dětmarovice propojili kotelnu SO06 s dočasným velínem optickou trasou. Objednatel požadoval kabel se čtyřmi vlákny a jeho kompletní ukončení na obou koncích.",
+        "omezeni": "Trasa vede po stávajících technologických mostech NM1, NM3, SM1 a NM5, kolem budovy PK27, čerpací stanice a skládky biomasy. Montáž proto probíhala ve výšce z pojízdné plošiny a z lešení do 12 m. Na budově SO06 bylo nutné provést prostup fasádou. Provedení je trvalé, v chráničce s kotvením.",
+        "dodali": "Uložili jsme mikrotrubičku HDPE 14/10 v délce přibližně 300 m, ověřili její průchodnost a těsnost tlakovou zkouškou při 8 bar po dobu 10 minut a zafoukli 4vláknový mikrokabel G.657A1. Vlákna jsme na obou koncích svařili do optických van 24× SC a dodali SFP moduly pro připojení technologie.",
+        "predano": "Objednatel převzal protokol o zkoušce průchodnosti a těsnosti chráničky, krycí list a protokoly OTDR všech vláken, měřených obousměrně na 1310 a 1550 nm. Práce proběhly 5.–7. 8. 2026."
+      },
       "fotky": [],
-      "souvisejici": ["detmarovice-so06-so09", "detmarovice-so04-so09"],
-      "description": ""
+      "souvisejici": [
+        "detmarovice-so06-so09",
+        "detmarovice-so04-so09"
+      ],
+      "description": "Optická trasa 4 vl. G.657A1 z kotelny SO06 na dočasný velín Teplárny TAS Dětmarovice pro ČEZ ESL: 300 m chráničky, práce ve výškách, měření OTDR.",
+      "kratky_nazev": "Trasa kotelna SO06 – velín, Dětmarovice"
     },
     {
       "slug": "detmarovice-so06-so09",
@@ -29,37 +46,71 @@
       "zhotovitel": "DELAUDA, s.r.o.",
       "tabulka_objednatel": "DELAUDA, s.r.o.",
       "sektor": "energetika",
-      "sluzby": ["opticke-trasy", "mereni-a-dokumentace"],
-      "doba_realizace": "06/2026",
+      "sluzby": [
+        "opticke-trasy",
+        "mereni-a-dokumentace"
+      ],
+      "doba_realizace": "16. 6. – 3. 7. 2026",
       "rok": "2026",
-      "rozsah": "24 vl. SM G.657A1 · OTDR 1310/1550 nm",
-      "rozsah_detail": ["mikrokabel 24 vl. SM 9/125 G.657A1, zafouknutý", "OTDR obousměrně 1310/1550 nm, měřeno 19. 6. 2026"],
+      "rozsah": "24 vl. G.657A1 · 250 m chráničky · 48 svarů",
+      "rozsah_detail": [
+        "24 vl. SM 9/125 G.657A1, mikrokabel zafouknutý",
+        "mikrotrubička 14/10, 250 m, tlaková zkouška",
+        "48 svarů, 2 optické vany 24× SC",
+        "OTDR obousměrně 1310/1550 nm, měřeno 19. 6. 2026"
+      ],
       "na_uvodu": true,
-      "detail": false,
-      "odstavce": { "zadani": "", "omezeni": "", "dodali": "", "predano": "" },
+      "detail": true,
+      "odstavce": {
+        "zadani": "Pro společnost DELAUDA jsme v Teplárně TAS Dětmarovice vybudovali optickou trasu z objektu biomasové kotelny SO06 do objektu AB (SO09). Jde o obdobné propojení jako trasa ze SO04, kterou jsme v areálu dokončili v květnu 2026.",
+        "omezeni": "Celá trasa musela vést v chráničce. Z kotelny se trasa dostává na technologický most NM1 a na konci pokračuje připravenou chráničkou kabelovým kanálem pod budovou SO09.",
+        "dodali": "Položili jsme mikrotrubičku 14/10 v délce 250 m, ověřili ji tlakovou zkouškou a zafoukli 24vláknový mikrokabel G.657A1. Na obou koncích jsme vlákna svařili do optických van 24× SC, celkem 48 svarů, a dodali SFP moduly pro připojení technologie.",
+        "predano": "Předali jsme krycí list a protokoly OTDR všech 24 vláken, měřených z obou stran na 1310 a 1550 nm podle ČSN EN IEC 61280-4-1. Útlumy vláken, svarů i konektorů vyhověly limitům normy a projektové dokumentaci."
+      },
       "fotky": [],
-      "souvisejici": ["detmarovice-kotelna-so06-docasny-velin", "detmarovice-so04-so09"],
-      "description": ""
+      "souvisejici": [
+        "detmarovice-kotelna-so06-docasny-velin",
+        "detmarovice-so04-so09"
+      ],
+      "description": "Optická trasa 24 vl. G.657A1 z biomasové kotelny SO06 do objektu SO09, Teplárna TAS Dětmarovice, pro DELAUDA: 250 m chráničky, 48 svarů, OTDR.",
+      "kratky_nazev": "Optická trasa SO06 – SO09, Dětmarovice"
     },
     {
       "slug": "detmarovice-so04-so09",
       "nazev": "Optická trasa SO04 – SO09, Teplárna TAS Dětmarovice",
       "mesto": "Dětmarovice",
       "objednatel": "[INVESTOR]",
-      "zhotovitel": "SYSTHERM, s.r.o.",
-      "tabulka_objednatel": "SYSTHERM, s.r.o.",
+      "zhotovitel": "SYSTHERM s.r.o.",
+      "tabulka_objednatel": "SYSTHERM s.r.o.",
       "sektor": "energetika",
-      "sluzby": ["opticke-trasy", "mereni-a-dokumentace"],
+      "sluzby": [
+        "opticke-trasy",
+        "mereni-a-dokumentace"
+      ],
       "doba_realizace": "05/2026",
       "rok": "2026",
-      "rozsah": "24 vl. SM G.657A1 · OTDR 1310/1550 nm",
-      "rozsah_detail": ["mikrokabel 24 vl. SM 9/125 G.657A1, zafouknutý", "OTDR obousměrně 1310/1550 nm, měřeno 27. 5. 2026"],
+      "rozsah": "24 vl. G.657A1 · 300 m · 48 svarů · DR 45U",
+      "rozsah_detail": [
+        "24 vl. SM 9/125 G.657A1, mikrokabel zafouknutý",
+        "mikrotrubička 14/10, 300 m na žebřících a ve žlabech",
+        "48 svarů, 2 optické vany 24× SC, rozvaděč 45U",
+        "OTDR obousměrně 1310/1550 nm, měřeno 27. 5. 2026"
+      ],
       "na_uvodu": false,
-      "detail": false,
-      "odstavce": { "zadani": "", "omezeni": "", "dodali": "", "predano": "" },
+      "detail": true,
+      "odstavce": {
+        "zadani": "Pro SYSTHERM jsme při výstavbě nové kotelny v Teplárně TAS Dětmarovice dodali komunikační optický kabel mezi objektem SO04 a správní budovou (SO09) podle projektové dokumentace. Dodávka zahrnovala materiál, montáž a závěrečné měření.",
+        "omezeni": "Mikrotrubičky jsme ukládali do předem připravených tras na kabelových žebřících a ve žlabech, kde bylo nutné zajistit manipulační prostor. Práce ve výšce probíhaly ze samohybné plošiny do 10 m. Ukončení navazovalo na datové rozvaděče z ostatních částí projektu.",
+        "dodali": "Nainstalovali jsme 300 m mikrotrubičky 14/10, po tlakové zkoušce zafoukli 24vláknový mikrokabel G.657A1 a vlákna ukončili do dvou optických van 24× SC, celkem 48 svarů. Dodali jsme také svařovaný rozvaděč 45U, SFP moduly a napájecí lištu.",
+        "predano": "Předali jsme krycí list a protokoly OTDR všech 24 vláken, měřených 27. 5. 2026 obousměrně na 1310 a 1550 nm. Trasa byla bez závad a způsobilá k provozu."
+      },
       "fotky": [],
-      "souvisejici": ["detmarovice-so06-so09", "detmarovice-kotelna-so06-docasny-velin"],
-      "description": ""
+      "souvisejici": [
+        "detmarovice-so06-so09",
+        "detmarovice-kotelna-so06-docasny-velin"
+      ],
+      "description": "Optická trasa 24 vl. G.657A1 mezi SO04 a správní budovou Teplárny TAS Dětmarovice pro SYSTHERM: 300 m mikrotrubičky, 48 svarů, rozvaděč 45U.",
+      "kratky_nazev": "Optická trasa SO04 – SO09, Dětmarovice"
     },
     {
       "slug": "nemocnice-fifejdy-arealove-rozvody-mar",
@@ -69,16 +120,31 @@
       "zhotovitel": "VAE a.s.",
       "tabulka_objednatel": "Městská nemocnice Ostrava / VAE a.s.",
       "sektor": "zdravotnictví",
-      "sluzby": ["opticke-trasy", "projekce-a-aktivni-prvky"],
+      "sluzby": [
+        "opticke-trasy",
+        "projekce-a-aktivni-prvky"
+      ],
       "doba_realizace": "05/2022 – 02/2023, aktivní prvky 05/2023 – 09/2024",
       "rok": "2022–2024",
       "rozsah": "páteřní rozvody MaR · aktivní prvky",
-      "rozsah_detail": ["příprava stavby a instalace páteřních rozvodů pro areálové rozvody MaR", "instalace aktivních prvků a parametrizace sítě", "[délka páteře, počet propojených objektů]"],
+      "rozsah_detail": [
+        "příprava stavby a instalace páteřních rozvodů pro areálové rozvody MaR",
+        "instalace aktivních prvků a parametrizace sítě",
+        "[délka páteře, počet propojených objektů]"
+      ],
       "na_uvodu": true,
       "detail": false,
-      "odstavce": { "zadani": "", "omezeni": "", "dodali": "", "predano": "" },
+      "odstavce": {
+        "zadani": "",
+        "omezeni": "",
+        "dodali": "",
+        "predano": ""
+      },
       "fotky": [],
-      "souvisejici": ["sus-ostrava-sitova-infrastruktura", "detmarovice-so06-so09"],
+      "souvisejici": [
+        "sus-ostrava-sitova-infrastruktura",
+        "detmarovice-so06-so09"
+      ],
       "description": ""
     },
     {
@@ -89,16 +155,32 @@
       "zhotovitel": "VAE Energo, s.r.o.",
       "tabulka_objednatel": "Moravskoslezský kraj / VAE Energo, s.r.o.",
       "sektor": "školství",
-      "sluzby": ["strukturovana-kabelaz", "projekce-a-aktivni-prvky", "mereni-a-dokumentace"],
+      "sluzby": [
+        "strukturovana-kabelaz",
+        "projekce-a-aktivni-prvky",
+        "mereni-a-dokumentace"
+      ],
       "doba_realizace": "13. 6. – 9. 9. 2025",
       "rok": "2025",
       "rozsah": "Cat6A U/FTP, 2 objekty · aktivní prvky, Wi‑Fi, UPS",
-      "rozsah_detail": ["strukturovaná kabeláž Cat6A U/FTP, třída EA, objekty Poděbradova a Matiční", "aktivní prvky, přístupové body Wi‑Fi, UPS", "stavební přípomoce: SDK podhledy a kryty stoupaček"],
+      "rozsah_detail": [
+        "strukturovaná kabeláž Cat6A U/FTP, třída EA, objekty Poděbradova a Matiční",
+        "aktivní prvky, přístupové body Wi‑Fi, UPS",
+        "stavební přípomoce: SDK podhledy a kryty stoupaček"
+      ],
       "na_uvodu": true,
       "detail": false,
-      "odstavce": { "zadani": "", "omezeni": "", "dodali": "", "predano": "" },
+      "odstavce": {
+        "zadani": "",
+        "omezeni": "",
+        "dodali": "",
+        "predano": ""
+      },
       "fotky": [],
-      "souvisejici": ["maticni-gymnazium-ostrava", "ibc-ostrava-slaboproude-kabelaze"],
+      "souvisejici": [
+        "maticni-gymnazium-ostrava",
+        "ibc-ostrava-slaboproude-kabelaze"
+      ],
       "description": ""
     },
     {
@@ -109,16 +191,30 @@
       "zhotovitel": "",
       "tabulka_objednatel": "Moravskoslezský kraj",
       "sektor": "veřejná správa",
-      "sluzby": ["strukturovana-kabelaz", "mereni-a-dokumentace"],
+      "sluzby": [
+        "strukturovana-kabelaz",
+        "mereni-a-dokumentace"
+      ],
       "doba_realizace": "[od – do]",
       "rok": "2025",
       "rozsah": "[rozsah]",
-      "rozsah_detail": ["[počet linek, kategorie]", "[počet rozvaděčů]"],
+      "rozsah_detail": [
+        "[počet linek, kategorie]",
+        "[počet rozvaděčů]"
+      ],
       "na_uvodu": true,
       "detail": false,
-      "odstavce": { "zadani": "", "omezeni": "", "dodali": "", "predano": "" },
+      "odstavce": {
+        "zadani": "",
+        "omezeni": "",
+        "dodali": "",
+        "predano": ""
+      },
       "fotky": [],
-      "souvisejici": ["sus-ostrava-sitova-infrastruktura", "krp-msk-frydek-mistek-dps"],
+      "souvisejici": [
+        "sus-ostrava-sitova-infrastruktura",
+        "krp-msk-frydek-mistek-dps"
+      ],
       "description": ""
     },
     {
@@ -129,16 +225,31 @@
       "zhotovitel": "",
       "tabulka_objednatel": "Statutární město Ostrava",
       "sektor": "školství",
-      "sluzby": ["projekce-a-aktivni-prvky", "strukturovana-kabelaz"],
+      "sluzby": [
+        "projekce-a-aktivni-prvky",
+        "strukturovana-kabelaz"
+      ],
       "doba_realizace": "[od – do]",
       "rok": "2026",
       "rozsah": "studie + DPS · aktivní prvky",
-      "rozsah_detail": ["studie", "DPS", "aktivní prvky – [počet a typ]"],
+      "rozsah_detail": [
+        "studie",
+        "DPS",
+        "aktivní prvky – [počet a typ]"
+      ],
       "na_uvodu": true,
       "detail": false,
-      "odstavce": { "zadani": "", "omezeni": "", "dodali": "", "predano": "" },
+      "odstavce": {
+        "zadani": "",
+        "omezeni": "",
+        "dodali": "",
+        "predano": ""
+      },
       "fotky": [],
-      "souvisejici": ["sus-ostrava-sitova-infrastruktura", "krp-msk-frydek-mistek-dps"],
+      "souvisejici": [
+        "sus-ostrava-sitova-infrastruktura",
+        "krp-msk-frydek-mistek-dps"
+      ],
       "description": ""
     },
     {
@@ -149,16 +260,29 @@
       "zhotovitel": "",
       "tabulka_objednatel": "[OBJEDNATEL]",
       "sektor": "bezpečnostní složky",
-      "sluzby": ["projekce-a-aktivni-prvky"],
+      "sluzby": [
+        "projekce-a-aktivni-prvky"
+      ],
       "doba_realizace": "[od – do]",
       "rok": "2026",
       "rozsah": "DPS · [rozsah]",
-      "rozsah_detail": ["DPS dle vyhl. 131/2024 Sb.", "[profese a rozsah]"],
+      "rozsah_detail": [
+        "DPS dle vyhl. 131/2024 Sb.",
+        "[profese a rozsah]"
+      ],
       "na_uvodu": false,
       "detail": false,
-      "odstavce": { "zadani": "", "omezeni": "", "dodali": "", "predano": "" },
+      "odstavce": {
+        "zadani": "",
+        "omezeni": "",
+        "dodali": "",
+        "predano": ""
+      },
       "fotky": [],
-      "souvisejici": ["pcr-oo-frydlant-nad-ostravici", "ibc-ostrava-slaboproude-kabelaze"],
+      "souvisejici": [
+        "pcr-oo-frydlant-nad-ostravici",
+        "ibc-ostrava-slaboproude-kabelaze"
+      ],
       "description": ""
     },
     {
@@ -169,16 +293,29 @@
       "zhotovitel": "",
       "tabulka_objednatel": "Policie ČR (OIKT)",
       "sektor": "bezpečnostní složky",
-      "sluzby": ["strukturovana-kabelaz"],
+      "sluzby": [
+        "strukturovana-kabelaz"
+      ],
       "doba_realizace": "06/2021 – 09/2021",
       "rok": "2021",
       "rozsah": "rozvody NN a SLP · kanceláře, dohledová místnost",
-      "rozsah_detail": ["rozvody NN a SLP kanceláří a dohledové místnosti", "[počet linek, rozvaděčů]"],
+      "rozsah_detail": [
+        "rozvody NN a SLP kanceláří a dohledové místnosti",
+        "[počet linek, rozvaděčů]"
+      ],
       "na_uvodu": false,
       "detail": false,
-      "odstavce": { "zadani": "", "omezeni": "", "dodali": "", "predano": "" },
+      "odstavce": {
+        "zadani": "",
+        "omezeni": "",
+        "dodali": "",
+        "predano": ""
+      },
       "fotky": [],
-      "souvisejici": ["krp-msk-frydek-mistek-dps", "ibc-ostrava-slaboproude-kabelaze"],
+      "souvisejici": [
+        "krp-msk-frydek-mistek-dps",
+        "ibc-ostrava-slaboproude-kabelaze"
+      ],
       "description": ""
     }
   ]

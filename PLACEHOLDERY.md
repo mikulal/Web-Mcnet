@@ -18,7 +18,7 @@ Generováno skriptem `node src/build.mjs`. Po doplnění údajů v `data/*.json`
 
 ## Reference (data/reference.json)
 
-Detailní stránky se generují až s `"detail": true`. Zatím: 0 z 9.
+Detailní stránky se generují až s `"detail": true`. Zatím: 3 z 9.
 
 ### Optická trasa kotelna SO06 – dočasný velín, Teplárna TAS Dětmarovice
 - vše vyplněno
@@ -69,7 +69,7 @@ Detailní stránky se generují až s `"detail": true`. Zatím: 0 z 9.
 
 | Placeholder | Stránky |
 |---|---|
-| `[EMAIL]` | /, /404, /doklady, /know-how/kabely-b2ca, /know-how/optika-ve-verejne-zakazce, /know-how/protokoly-a-predani, /know-how/vykaz-vymer-opticka-trasa, /kontakt, /ochrana-osobnich-udaju, /pro-zadavatele/obce-a-urady, /pro-zadavatele/prumyslove-arealy, /pro-zadavatele/skoly, /pro-zadavatele/zdravotnictvi, /pro-zhotovitele, /reference/, /sluzby/, /sluzby/mereni-a-dokumentace, /sluzby/opticke-trasy, /sluzby/projekce-a-aktivni-prvky, /sluzby/strukturovana-kabelaz |
+| `[EMAIL]` | /, /404, /doklady, /know-how/kabely-b2ca, /know-how/optika-ve-verejne-zakazce, /know-how/protokoly-a-predani, /know-how/vykaz-vymer-opticka-trasa, /kontakt, /ochrana-osobnich-udaju, /pro-zadavatele/obce-a-urady, /pro-zadavatele/prumyslove-arealy, /pro-zadavatele/skoly, /pro-zadavatele/zdravotnictvi, /pro-zhotovitele, /reference/, /reference/detmarovice-kotelna-so06-docasny-velin, /reference/detmarovice-so04-so09, /reference/detmarovice-so06-so09, /sluzby/, /sluzby/mereni-a-dokumentace, /sluzby/opticke-trasy, /sluzby/projekce-a-aktivni-prvky, /sluzby/strukturovana-kabelaz |
 | `[Foto: OTDR měření na optické vaně]` | /sluzby/mereni-a-dokumentace |
 | `[Foto: datový rozvaděč s patch panely Cat6A po zapojení]` | /sluzby/strukturovana-kabelaz |
 | `[Foto: koordinace na stavbě, trasa připravená k zafukování]` | /pro-zhotovitele |
@@ -77,7 +77,8 @@ Detailní stránky se generují až s `"detail": true`. Zatím: 0 z 9.
 | `[Foto: sváry v optické spojce na trase]` | /sluzby/opticke-trasy |
 | `[Foto: svářečka v terénu / výkop s HDPE]` | / |
 | `[Foto: ukončená optická vana, 48 vl., vlastní stavba]` | / |
-| `[ID DATOVÉ SCHRÁNKY]` | /, /404, /doklady, /know-how/kabely-b2ca, /know-how/optika-ve-verejne-zakazce, /know-how/protokoly-a-predani, /know-how/vykaz-vymer-opticka-trasa, /kontakt, /ochrana-osobnich-udaju, /pro-zadavatele/obce-a-urady, /pro-zadavatele/prumyslove-arealy, /pro-zadavatele/skoly, /pro-zadavatele/zdravotnictvi, /pro-zhotovitele, /reference/, /sluzby/, /sluzby/mereni-a-dokumentace, /sluzby/opticke-trasy, /sluzby/projekce-a-aktivni-prvky, /sluzby/strukturovana-kabelaz |
+| `[ID DATOVÉ SCHRÁNKY]` | /, /404, /doklady, /know-how/kabely-b2ca, /know-how/optika-ve-verejne-zakazce, /know-how/protokoly-a-predani, /know-how/vykaz-vymer-opticka-trasa, /kontakt, /ochrana-osobnich-udaju, /pro-zadavatele/obce-a-urady, /pro-zadavatele/prumyslove-arealy, /pro-zadavatele/skoly, /pro-zadavatele/zdravotnictvi, /pro-zhotovitele, /reference/, /reference/detmarovice-kotelna-so06-docasny-velin, /reference/detmarovice-so04-so09, /reference/detmarovice-so06-so09, /sluzby/, /sluzby/mereni-a-dokumentace, /sluzby/opticke-trasy, /sluzby/projekce-a-aktivni-prvky, /sluzby/strukturovana-kabelaz |
+| `[INVESTOR]` | /reference/detmarovice-so04-so09, /reference/detmarovice-so06-so09 |
 | `[OBJEDNATEL]` | /pro-zadavatele/obce-a-urady, /reference/, /sluzby/projekce-a-aktivni-prvky |
 | `[TIČR – rozsah a číslo oprávnění]` | /doklady |
 | `[doba uložení nerealizovaných poptávek]` | /ochrana-osobnich-udaju |
