@@ -39,6 +39,183 @@
       "kratky_nazev": "Trasa kotelna SO06 – velín, Dětmarovice"
     },
     {
+      "slug": "ibc-ostrava-slaboproude-kabelaze",
+      "nazev": "Slaboproudé kabeláže, rozšíření prostor IBC Ostrava",
+      "mesto": "Ostrava",
+      "objednatel": "Moravskoslezský kraj",
+      "zhotovitel": "",
+      "tabulka_objednatel": "Moravskoslezský kraj",
+      "sektor": "veřejná správa",
+      "sluzby": [
+        "strukturovana-kabelaz",
+        "mereni-a-dokumentace"
+      ],
+      "doba_realizace": "01–02/2026",
+      "rok": "2026",
+      "rozsah": "120 portů Cat6 · 6 600 m B2ca-s1,d1,a1",
+      "rozsah_detail": [
+        "60 dvojitých datových zásuvek Cat6 (120 portů)",
+        "6 600 m UTP Cat6 LSOHFR B2ca-s1,d1,a1",
+        "měření datových kabelů s protokoly, revize, DSPS",
+        "zhotovitel stavby: stavební úpravy, VZT a NN v rámci dodávky"
+      ],
+      "na_uvodu": true,
+      "detail": false,
+      "odstavce": {
+        "zadani": "",
+        "omezeni": "",
+        "dodali": "",
+        "predano": ""
+      },
+      "fotky": [],
+      "souvisejici": [
+        "sus-ostrava-sitova-infrastruktura",
+        "krp-msk-uo-karvina-dps"
+      ],
+      "description": ""
+    },
+    {
+      "slug": "maticni-gymnazium-ostrava",
+      "nazev": "Dodávka a zprovoznění aktivních prvků, Matiční gymnázium Ostrava",
+      "mesto": "Ostrava",
+      "objednatel": "Matiční gymnázium, Ostrava, p. o.",
+      "zhotovitel": "",
+      "tabulka_objednatel": "Matiční gymnázium, Ostrava, p. o.",
+      "sektor": "školství",
+      "sluzby": [
+        "aktivni-prvky"
+      ],
+      "doba_realizace": "10/2026",
+      "rok": "2026",
+      "rozsah": "50 AP Wi‑Fi · 7 switchů 48 p. · NGFW",
+      "rozsah_detail": [
+        "50 přístupových bodů Wi‑Fi a Wi‑Fi kontrolér",
+        "2× switch 48 portů PoE+ 740 W, 5× switch 48 portů, uplinky 4×10G",
+        "perimetrický firewall NGFW s licencemi na 5 let",
+        "zapojení a zprovoznění, veřejná zakázka malého rozsahu"
+      ],
+      "na_uvodu": true,
+      "detail": false,
+      "odstavce": {
+        "zadani": "",
+        "omezeni": "",
+        "dodali": "",
+        "predano": ""
+      },
+      "fotky": [],
+      "souvisejici": [
+        "sus-ostrava-sitova-infrastruktura",
+        "cs-cont-zlate-hory-wifi"
+      ],
+      "description": ""
+    },
+    {
+      "slug": "sus-ostrava-sitova-infrastruktura",
+      "nazev": "Rekonstrukce síťové infrastruktury, SUŠ Ostrava",
+      "mesto": "Ostrava",
+      "objednatel": "Moravskoslezský kraj",
+      "zhotovitel": "VAE Energo, s.r.o.",
+      "tabulka_objednatel": "Moravskoslezský kraj / VAE Energo, s.r.o.",
+      "sektor": "školství",
+      "sluzby": [
+        "strukturovana-kabelaz",
+        "aktivni-prvky",
+        "mereni-a-dokumentace"
+      ],
+      "doba_realizace": "13. 6. – 9. 9. 2025",
+      "rok": "2025",
+      "rozsah": "Cat6A U/FTP, 2 objekty · aktivní prvky, Wi‑Fi, UPS",
+      "rozsah_detail": [
+        "strukturovaná kabeláž Cat6A U/FTP, třída EA, objekty Poděbradova a Matiční",
+        "aktivní prvky, přístupové body Wi‑Fi, UPS",
+        "stavební přípomoce: SDK podhledy a kryty stoupaček"
+      ],
+      "na_uvodu": true,
+      "detail": false,
+      "odstavce": {
+        "zadani": "",
+        "omezeni": "",
+        "dodali": "",
+        "predano": ""
+      },
+      "fotky": [],
+      "souvisejici": [
+        "maticni-gymnazium-ostrava",
+        "ibc-ostrava-slaboproude-kabelaze"
+      ],
+      "description": ""
+    },
+    {
+      "slug": "nemocnice-fifejdy-arealove-rozvody-mar",
+      "nazev": "Páteřní rozvody MaR, Městská nemocnice Ostrava Fifejdy",
+      "mesto": "Ostrava",
+      "objednatel": "Městská nemocnice Ostrava",
+      "zhotovitel": "VAE a.s.",
+      "tabulka_objednatel": "Městská nemocnice Ostrava / VAE a.s.",
+      "sektor": "zdravotnictví",
+      "sluzby": [
+        "opticke-trasy",
+        "aktivni-prvky"
+      ],
+      "doba_realizace": "05/2022 – 02/2023, aktivní prvky 05/2023 – 09/2024",
+      "rok": "2022–2024",
+      "rozsah": "páteřní rozvody MaR · aktivní prvky",
+      "rozsah_detail": [
+        "příprava stavby a instalace páteřních rozvodů pro areálové rozvody MaR",
+        "instalace aktivních prvků a parametrizace sítě",
+        "[délka páteře, počet propojených objektů]"
+      ],
+      "na_uvodu": true,
+      "detail": false,
+      "odstavce": {
+        "zadani": "",
+        "omezeni": "",
+        "dodali": "",
+        "predano": ""
+      },
+      "fotky": [],
+      "souvisejici": [
+        "sus-ostrava-sitova-infrastruktura",
+        "detmarovice-so06-so09"
+      ],
+      "description": ""
+    },
+    {
+      "slug": "krp-msk-uo-karvina-dps",
+      "zhotovitel": "",
+      "na_uvodu": true,
+      "detail": false,
+      "odstavce": {
+        "zadani": "",
+        "omezeni": "",
+        "dodali": "",
+        "predano": ""
+      },
+      "fotky": [],
+      "description": "",
+      "nazev": "DPS stavební připravenosti, ÚO Policie ČR Karviná",
+      "mesto": "Karviná",
+      "objednatel": "Krajské ředitelství policie Moravskoslezského kraje",
+      "tabulka_objednatel": "KŘP Moravskoslezského kraje",
+      "sektor": "bezpečnostní složky",
+      "sluzby": [
+        "projekce-slaboproudu"
+      ],
+      "doba_realizace": "09/2024",
+      "rok": "2024",
+      "rozsah": "DPS · UKS, EKV, CCTV, Wi‑Fi",
+      "rozsah_detail": [
+        "DPS stavební připravenosti, objekt Havířská 1511 (1 PP + 5 NP) a garáže",
+        "slaboproud: UKS, EKV, CCTV, Wi‑Fi, technické místnosti",
+        "koordinace profesí ASR, statika, ENN, UT, PZTS, ZTI, PBŘ",
+        "autorizovaný projektant ČKAIT"
+      ],
+      "souvisejici": [
+        "krp-msk-frydek-mistek-dps",
+        "pcr-oo-frydlant-nad-ostravici"
+      ]
+    },
+    {
       "slug": "detmarovice-so06-so09",
       "nazev": "Optická trasa SO06 – SO09, Teplárna TAS Dětmarovice",
       "mesto": "Dětmarovice",
@@ -59,7 +236,7 @@
         "48 svarů, 2 optické vany 24× SC",
         "OTDR obousměrně 1310/1550 nm, měřeno 19. 6. 2026"
       ],
-      "na_uvodu": true,
+      "na_uvodu": false,
       "detail": true,
       "odstavce": {
         "zadani": "Pro společnost DELAUDA jsme v Teplárně TAS Dětmarovice vybudovali optickou trasu z objektu biomasové kotelny SO06 do objektu AB (SO09). Jde o obdobné propojení jako trasa ze SO04, kterou jsme v areálu dokončili v květnu 2026.",
@@ -113,146 +290,6 @@
       "kratky_nazev": "Optická trasa SO04 – SO09, Dětmarovice"
     },
     {
-      "slug": "nemocnice-fifejdy-arealove-rozvody-mar",
-      "nazev": "Páteřní rozvody MaR, Městská nemocnice Ostrava Fifejdy",
-      "mesto": "Ostrava",
-      "objednatel": "Městská nemocnice Ostrava",
-      "zhotovitel": "VAE a.s.",
-      "tabulka_objednatel": "Městská nemocnice Ostrava / VAE a.s.",
-      "sektor": "zdravotnictví",
-      "sluzby": [
-        "opticke-trasy",
-        "projekce-a-aktivni-prvky"
-      ],
-      "doba_realizace": "05/2022 – 02/2023, aktivní prvky 05/2023 – 09/2024",
-      "rok": "2022–2024",
-      "rozsah": "páteřní rozvody MaR · aktivní prvky",
-      "rozsah_detail": [
-        "příprava stavby a instalace páteřních rozvodů pro areálové rozvody MaR",
-        "instalace aktivních prvků a parametrizace sítě",
-        "[délka páteře, počet propojených objektů]"
-      ],
-      "na_uvodu": true,
-      "detail": false,
-      "odstavce": {
-        "zadani": "",
-        "omezeni": "",
-        "dodali": "",
-        "predano": ""
-      },
-      "fotky": [],
-      "souvisejici": [
-        "sus-ostrava-sitova-infrastruktura",
-        "detmarovice-so06-so09"
-      ],
-      "description": ""
-    },
-    {
-      "slug": "sus-ostrava-sitova-infrastruktura",
-      "nazev": "Rekonstrukce síťové infrastruktury, SUŠ Ostrava",
-      "mesto": "Ostrava",
-      "objednatel": "Moravskoslezský kraj",
-      "zhotovitel": "VAE Energo, s.r.o.",
-      "tabulka_objednatel": "Moravskoslezský kraj / VAE Energo, s.r.o.",
-      "sektor": "školství",
-      "sluzby": [
-        "strukturovana-kabelaz",
-        "projekce-a-aktivni-prvky",
-        "mereni-a-dokumentace"
-      ],
-      "doba_realizace": "13. 6. – 9. 9. 2025",
-      "rok": "2025",
-      "rozsah": "Cat6A U/FTP, 2 objekty · aktivní prvky, Wi‑Fi, UPS",
-      "rozsah_detail": [
-        "strukturovaná kabeláž Cat6A U/FTP, třída EA, objekty Poděbradova a Matiční",
-        "aktivní prvky, přístupové body Wi‑Fi, UPS",
-        "stavební přípomoce: SDK podhledy a kryty stoupaček"
-      ],
-      "na_uvodu": true,
-      "detail": false,
-      "odstavce": {
-        "zadani": "",
-        "omezeni": "",
-        "dodali": "",
-        "predano": ""
-      },
-      "fotky": [],
-      "souvisejici": [
-        "maticni-gymnazium-ostrava",
-        "ibc-ostrava-slaboproude-kabelaze"
-      ],
-      "description": ""
-    },
-    {
-      "slug": "ibc-ostrava-slaboproude-kabelaze",
-      "nazev": "IBC Ostrava – slaboproudé kabeláže",
-      "mesto": "Ostrava",
-      "objednatel": "Moravskoslezský kraj",
-      "zhotovitel": "",
-      "tabulka_objednatel": "Moravskoslezský kraj",
-      "sektor": "veřejná správa",
-      "sluzby": [
-        "strukturovana-kabelaz",
-        "mereni-a-dokumentace"
-      ],
-      "doba_realizace": "[od – do]",
-      "rok": "2025",
-      "rozsah": "[rozsah]",
-      "rozsah_detail": [
-        "[počet linek, kategorie]",
-        "[počet rozvaděčů]"
-      ],
-      "na_uvodu": true,
-      "detail": false,
-      "odstavce": {
-        "zadani": "",
-        "omezeni": "",
-        "dodali": "",
-        "predano": ""
-      },
-      "fotky": [],
-      "souvisejici": [
-        "sus-ostrava-sitova-infrastruktura",
-        "krp-msk-frydek-mistek-dps"
-      ],
-      "description": ""
-    },
-    {
-      "slug": "maticni-gymnazium-ostrava",
-      "nazev": "Síťová infrastruktura, Matiční gymnázium Ostrava",
-      "mesto": "Ostrava",
-      "objednatel": "Statutární město Ostrava",
-      "zhotovitel": "",
-      "tabulka_objednatel": "Statutární město Ostrava",
-      "sektor": "školství",
-      "sluzby": [
-        "projekce-a-aktivni-prvky",
-        "strukturovana-kabelaz"
-      ],
-      "doba_realizace": "[od – do]",
-      "rok": "2026",
-      "rozsah": "studie + DPS · aktivní prvky",
-      "rozsah_detail": [
-        "studie",
-        "DPS",
-        "aktivní prvky – [počet a typ]"
-      ],
-      "na_uvodu": true,
-      "detail": false,
-      "odstavce": {
-        "zadani": "",
-        "omezeni": "",
-        "dodali": "",
-        "predano": ""
-      },
-      "fotky": [],
-      "souvisejici": [
-        "sus-ostrava-sitova-infrastruktura",
-        "krp-msk-frydek-mistek-dps"
-      ],
-      "description": ""
-    },
-    {
       "slug": "krp-msk-frydek-mistek-dps",
       "nazev": "KŘP MSK, Frýdek-Místek – DPS",
       "mesto": "Frýdek-Místek",
@@ -261,7 +298,7 @@
       "tabulka_objednatel": "[OBJEDNATEL]",
       "sektor": "bezpečnostní složky",
       "sluzby": [
-        "projekce-a-aktivni-prvky"
+        "projekce-slaboproudu"
       ],
       "doba_realizace": "[od – do]",
       "rok": "2026",
@@ -280,10 +317,44 @@
       },
       "fotky": [],
       "souvisejici": [
-        "pcr-oo-frydlant-nad-ostravici",
-        "ibc-ostrava-slaboproude-kabelaze"
+        "krp-msk-uo-karvina-dps",
+        "pcr-oo-frydlant-nad-ostravici"
       ],
       "description": ""
+    },
+    {
+      "slug": "cs-cont-zlate-hory-wifi",
+      "zhotovitel": "",
+      "na_uvodu": false,
+      "detail": false,
+      "odstavce": {
+        "zadani": "",
+        "omezeni": "",
+        "dodali": "",
+        "predano": ""
+      },
+      "fotky": [],
+      "description": "",
+      "nazev": "Instalace přístupových bodů Wi‑Fi, CS-Cont Zlaté Hory",
+      "mesto": "Zlaté Hory",
+      "objednatel": "ICZ a.s.",
+      "tabulka_objednatel": "ICZ a.s.",
+      "sektor": "[sektor]",
+      "sluzby": [
+        "aktivni-prvky"
+      ],
+      "doba_realizace": "07/2022",
+      "rok": "2022",
+      "rozsah": "11 AP Wi‑Fi · skutečný stav",
+      "rozsah_detail": [
+        "instalace 11 přístupových bodů Wi‑Fi",
+        "výkres skutečného stavu",
+        "akceptováno 14. 7. 2022"
+      ],
+      "souvisejici": [
+        "maticni-gymnazium-ostrava",
+        "sus-ostrava-sitova-infrastruktura"
+      ]
     },
     {
       "slug": "pcr-oo-frydlant-nad-ostravici",

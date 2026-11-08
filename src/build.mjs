@@ -42,6 +42,14 @@ function urlOf(rel) {
 }
 const depthPrefix = (rel) => '../'.repeat(rel.split(/[\\/]/).length - 1);
 
+// ---------- fotky (vlastní fotky ze zakázek, public/img/<název>.jpg + .webp) ----------
+const FOTKY = {
+  'opticka-vana-kazeta-svaru': { w: 840, h: 560, alt: 'Otevřená optická vana s kazetou svarů a mnohovidovými vlákny' },
+  'svarecka-u-rozvadece': { w: 840, h: 560, alt: 'Svářečka optických vláken na stole u venkovního rozvaděče' },
+  'datovy-rozvadec-patch-panely': { w: 840, h: 560, alt: 'Datový rozvaděč s patch panely a vyvázanými kabely' },
+  'opticka-vana-pigtaily': { w: 840, h: 560, alt: 'Optická vana s kazetou svarů a dvanácti pigtaily SC' },
+};
+
 // ---------- dílčí bloky ----------
 const parts = {
   tel(cls = '') {
@@ -103,13 +111,19 @@ const parts = {
     });
     return `<div class="docs">${items.join('\n')}</div>`;
   },
+  img(name, cls = '', eager = false) {
+    const f = FOTKY[name];
+    if (!f) { warn(`Neznámá fotka: ${name}`); return ''; }
+    if (!fs.existsSync(path.join(PUB, 'img', name + '.jpg'))) warn(`Chybí soubor public/img/${name}.jpg`);
+    return `<figure class="ph ${cls}"><picture><source srcset="/img/${name}.webp" type="image/webp"><img src="/img/${name}.jpg" width="${f.w}" height="${f.h}" alt="${esc(f.alt)}"${eager ? '' : ' loading="lazy"'} decoding="async"></picture></figure>`;
+  },
   photo(label, cls = '') {
     return `<div class="photo ${cls}" role="img" aria-label="Místo pro fotografii: ${esc(label)}">[Foto: ${esc(label)}]</div>`;
   },
 };
 
 // Tokeny v obsahu: {{firma.klic}}, {{adresa}}, {{tel}}, {{email}}, {{email_btn}}, {{tel_btn}},
-// {{ref_table:home|all}}, {{ref_list:slug,slug}}, {{ref_sluzba:sluzba}}, {{doklady}}, {{foto:popisek|trida}}
+// {{ref_table:home|all}}, {{ref_list:slug,slug}}, {{ref_sluzba:sluzba}}, {{doklady}}, {{foto:popisek|trida}}, {{img:nazev|trida|eager}}
 function render(tpl) {
   return tpl.replace(/\{\{([a-z_]+)(?:[.:]([^}]*))?\}\}/g, (m, name, arg) => {
     switch (name) {
@@ -127,6 +141,9 @@ function render(tpl) {
       case 'ref_list': return parts.refList(arg.split(',').map((s) => s.trim()));
       case 'ref_sluzba': return parts.refsForService(arg);
       case 'doklady': return parts.doklady();
+      case 'emaily': return firma.emaily.map((e) => `<div><dt>${esc(e.ucel)}</dt><dd><a href="mailto:${esc(e.adresa)}">${esc(e.adresa)}</a></dd></div>`).join('\n            ');
+      case 'osoby': return firma.kontakty.map((k) => `<div><dt>${esc(k.role[0].toUpperCase() + k.role.slice(1))}</dt><dd>${esc(k.jmeno)}${k.email ? `<br><a href="mailto:${esc(k.email)}">${esc(k.email)}</a>` : ''}</dd></div>`).join('\n            ');
+      case 'img': { const [n, cls, e] = arg.split('|'); return parts.img(n, cls || '', e === 'eager'); }
       case 'foto': { const [label, cls] = arg.split('|'); return parts.photo(label, cls || ''); }
       default: warn(`Neznámý token ${m}`); return m;
     }
@@ -211,7 +228,8 @@ const FOOT = [
     ['Optické trasy a páteře', '/sluzby/opticke-trasy'],
     ['Strukturovaná kabeláž', '/sluzby/strukturovana-kabelaz'],
     ['Měření a dokumentace', '/sluzby/mereni-a-dokumentace'],
-    ['Projekce a aktivní prvky', '/sluzby/projekce-a-aktivni-prvky'],
+    ['Projekce slaboproudu', '/sluzby/projekce-slaboproudu'],
+    ['Aktivní prvky', '/sluzby/aktivni-prvky'],
   ]],
   ['Pro zadavatele', [
     ['Školy', '/pro-zadavatele/skoly'],
@@ -251,10 +269,10 @@ function contactBlock() {
         </div>
       </div>
       <div class="c-5 card">
-        <div>
-          <b>${esc(firma.jednatel)}</b>
-          <div>${esc(firma.jednatel_role)}</div>
-        </div>
+        ${firma.kontakty.map((k) => `<div>
+          <b>${esc(k.jmeno)}</b>
+          <div>${esc(k.role)}</div>${k.email ? `<div><a href="mailto:${esc(k.email)}">${esc(k.email)}</a></div>` : ''}
+        </div>`).join('\n        ')}
         <div>
           <b>${esc(firma.nazev)}</b>
           <div>${esc(firma.sidlo.ulice)}</div>

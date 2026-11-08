@@ -12,21 +12,69 @@
     "stat": "CZ"
   },
   "telefon": "+420 777 701 721",
-  "email": "[EMAIL]",
+  "email": "info@mcnet.cz",
+  "emaily": [
+    {
+      "ucel": "Poptávky a obecné dotazy",
+      "adresa": "info@mcnet.cz"
+    },
+    {
+      "ucel": "Zasílání faktur",
+      "adresa": "faktury@mcnet.cz"
+    },
+    {
+      "ucel": "Účetnictví",
+      "adresa": "ucetni@mcnet.cz"
+    }
+  ],
   "datova_schranka": "[ID DATOVÉ SCHRÁNKY]",
-  "jednatel": "Ing. Luboš Mikula, Ph.D.",
-  "jednatel_role": "jednatel · projekce · stavbyvedoucí",
+  "kontakty": [
+    {
+      "jmeno": "Ing. Luboš Mikula, Ph.D.",
+      "role": "optické sítě",
+      "email": "lmikula@mcnet.cz",
+      "telefon": "+420 777 701 721"
+    },
+    {
+      "jmeno": "Josef Mikula",
+      "role": "realizace staveb"
+    }
+  ],
   "opravneni_ticr": "[TIČR – rozsah a číslo oprávnění]",
   "hpe_partner": false,
-  "pusobnost": ["Moravskoslezský kraj", "Olomoucký kraj", "dle zakázky celá ČR"],
+  "pusobnost": [
+    "Moravskoslezský kraj",
+    "Olomoucký kraj",
+    "dle zakázky celá ČR"
+  ],
   "linkedin": "[URL PROFILU LINKEDIN]",
-  "og_image": null,
+  "og_image": "/img/opticka-vana-pigtaily.jpg",
   "naceneni_pracovnich_dnu": "[n]",
   "doklady": [
-    { "soubor": "mcnet-ticr-opravneni.pdf", "nazev": "Oprávnění TIČR – montáž, opravy, revize el. zařízení", "platnost": "[platnost]" },
-    { "soubor": "mcnet-vypis-or.pdf", "nazev": "Výpis z obchodního rejstříku", "platnost": "[datum výpisu]" },
-    { "soubor": "mcnet-pojisteni-odpovednosti.pdf", "nazev": "Pojištění odpovědnosti – certifikát", "platnost": "[limit] Kč · [platnost]" },
-    { "soubor": "mcnet-seznam-referenci.pdf", "nazev": "Seznam referencí pro kvalifikaci (§ 79 ZZVZ)", "platnost": "[datum]" },
-    { "soubor": "mcnet-firemni-profil.pdf", "nazev": "Firemní profil", "platnost": "[datum]" }
+    {
+      "soubor": "mcnet-ticr-opravneni.pdf",
+      "nazev": "Oprávnění TIČR – montáž, opravy, revize el. zařízení",
+      "platnost": "[platnost]"
+    },
+    {
+      "soubor": "mcnet-vypis-or.pdf",
+      "nazev": "Výpis z obchodního rejstříku",
+      "platnost": "[datum výpisu]"
+    },
+    {
+      "soubor": "mcnet-pojisteni-odpovednosti.pdf",
+      "nazev": "Pojištění odpovědnosti – certifikát",
+      "platnost": "[limit] Kč · [platnost]"
+    },
+    {
+      "soubor": "mcnet-seznam-referenci.pdf",
+      "nazev": "Seznam referencí pro kvalifikaci (§ 79 ZZVZ)",
+      "platnost": "[datum]"
+    },
+    {
+      "soubor": "mcnet-firemni-profil.pdf",
+      "nazev": "Firemní profil",
+      "platnost": "[datum]"
+    }
   ]
 }

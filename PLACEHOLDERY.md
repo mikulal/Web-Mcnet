@@ -4,7 +4,6 @@ Generováno skriptem `node src/build.mjs`. Po doplnění údajů v `data/*.json`
 
 ## Firemní údaje (data/firma.json)
 
-- `email`: [EMAIL]
 - `datova_schranka`: [ID DATOVÉ SCHRÁNKY]
 - `opravneni_ticr`: [TIČR – rozsah a číslo oprávnění]
 - `linkedin`: [URL PROFILU LINKEDIN]
@@ -14,13 +13,27 @@ Generováno skriptem `node src/build.mjs`. Po doplnění údajů v `data/*.json`
 - `doklady.2.platnost`: [limit] Kč · [platnost]
 - `doklady.3.platnost`: [datum]
 - `doklady.4.platnost`: [datum]
-- `og_image`: chybí vlastní fotka pro Open Graph (např. /img/og.jpg, 1200×630)
 
 ## Reference (data/reference.json)
 
-Detailní stránky se generují až s `"detail": true`. Zatím: 3 z 9.
+Detailní stránky se generují až s `"detail": true`. Zatím: 3 z 11.
 
 ### Optická trasa kotelna SO06 – dočasný velín, Teplárna TAS Dětmarovice
+- vše vyplněno
+
+### Slaboproudé kabeláže, rozšíření prostor IBC Ostrava
+- vše vyplněno
+
+### Dodávka a zprovoznění aktivních prvků, Matiční gymnázium Ostrava
+- vše vyplněno
+
+### Rekonstrukce síťové infrastruktury, SUŠ Ostrava
+- vše vyplněno
+
+### Páteřní rozvody MaR, Městská nemocnice Ostrava Fifejdy
+- `rozsah_detail.2`: [délka páteře, počet propojených objektů]
+
+### DPS stavební připravenosti, ÚO Policie ČR Karviná
 - vše vyplněno
 
 ### Optická trasa SO06 – SO09, Teplárna TAS Dětmarovice
@@ -29,28 +42,15 @@ Detailní stránky se generují až s `"detail": true`. Zatím: 3 z 9.
 ### Optická trasa SO04 – SO09, Teplárna TAS Dětmarovice
 - `objednatel`: [INVESTOR]
 
-### Páteřní rozvody MaR, Městská nemocnice Ostrava Fifejdy
-- `rozsah_detail.2`: [délka páteře, počet propojených objektů]
-
-### Rekonstrukce síťové infrastruktury, SUŠ Ostrava
-- vše vyplněno
-
-### IBC Ostrava – slaboproudé kabeláže
-- `doba_realizace`: [od – do]
-- `rozsah`: [rozsah]
-- `rozsah_detail.0`: [počet linek, kategorie]
-- `rozsah_detail.1`: [počet rozvaděčů]
-
-### Síťová infrastruktura, Matiční gymnázium Ostrava
-- `doba_realizace`: [od – do]
-- `rozsah_detail.2`: aktivní prvky – [počet a typ]
-
 ### KŘP MSK, Frýdek-Místek – DPS
 - `objednatel`: [OBJEDNATEL]
 - `tabulka_objednatel`: [OBJEDNATEL]
 - `doba_realizace`: [od – do]
 - `rozsah`: DPS · [rozsah]
 - `rozsah_detail.1`: [profese a rozsah]
+
+### Instalace přístupových bodů Wi‑Fi, CS-Cont Zlaté Hory
+- `sektor`: [sektor]
 
 ### Rekonstrukce rozvodů NN a SLP, OO PČR Frýdlant nad Ostravicí
 - `rozsah_detail.1`: [počet linek, rozvaděčů]
@@ -69,18 +69,11 @@ Detailní stránky se generují až s `"detail": true`. Zatím: 3 z 9.
 
 | Placeholder | Stránky |
 |---|---|
-| `[EMAIL]` | /, /404, /doklady, /know-how/kabely-b2ca, /know-how/optika-ve-verejne-zakazce, /know-how/protokoly-a-predani, /know-how/vykaz-vymer-opticka-trasa, /kontakt, /ochrana-osobnich-udaju, /pro-zadavatele/obce-a-urady, /pro-zadavatele/prumyslove-arealy, /pro-zadavatele/skoly, /pro-zadavatele/zdravotnictvi, /pro-zhotovitele, /reference/, /reference/detmarovice-kotelna-so06-docasny-velin, /reference/detmarovice-so04-so09, /reference/detmarovice-so06-so09, /sluzby/, /sluzby/mereni-a-dokumentace, /sluzby/opticke-trasy, /sluzby/projekce-a-aktivni-prvky, /sluzby/strukturovana-kabelaz |
 | `[Foto: OTDR měření na optické vaně]` | /sluzby/mereni-a-dokumentace |
-| `[Foto: datový rozvaděč s patch panely Cat6A po zapojení]` | /sluzby/strukturovana-kabelaz |
-| `[Foto: koordinace na stavbě, trasa připravená k zafukování]` | /pro-zhotovitele |
-| `[Foto: rozvaděč po předání]` | / |
-| `[Foto: sváry v optické spojce na trase]` | /sluzby/opticke-trasy |
-| `[Foto: svářečka v terénu / výkop s HDPE]` | / |
-| `[Foto: ukončená optická vana, 48 vl., vlastní stavba]` | / |
-| `[ID DATOVÉ SCHRÁNKY]` | /, /404, /doklady, /know-how/kabely-b2ca, /know-how/optika-ve-verejne-zakazce, /know-how/protokoly-a-predani, /know-how/vykaz-vymer-opticka-trasa, /kontakt, /ochrana-osobnich-udaju, /pro-zadavatele/obce-a-urady, /pro-zadavatele/prumyslove-arealy, /pro-zadavatele/skoly, /pro-zadavatele/zdravotnictvi, /pro-zhotovitele, /reference/, /reference/detmarovice-kotelna-so06-docasny-velin, /reference/detmarovice-so04-so09, /reference/detmarovice-so06-so09, /sluzby/, /sluzby/mereni-a-dokumentace, /sluzby/opticke-trasy, /sluzby/projekce-a-aktivni-prvky, /sluzby/strukturovana-kabelaz |
+| `[ID DATOVÉ SCHRÁNKY]` | /, /404, /doklady, /know-how/kabely-b2ca, /know-how/optika-ve-verejne-zakazce, /know-how/protokoly-a-predani, /know-how/vykaz-vymer-opticka-trasa, /kontakt, /ochrana-osobnich-udaju, /pro-zadavatele/obce-a-urady, /pro-zadavatele/prumyslove-arealy, /pro-zadavatele/skoly, /pro-zadavatele/zdravotnictvi, /pro-zhotovitele, /reference/, /reference/detmarovice-kotelna-so06-docasny-velin, /reference/detmarovice-so04-so09, /reference/detmarovice-so06-so09, /sluzby/, /sluzby/aktivni-prvky, /sluzby/mereni-a-dokumentace, /sluzby/opticke-trasy, /sluzby/projekce-slaboproudu, /sluzby/strukturovana-kabelaz |
 | `[INVESTOR]` | /reference/detmarovice-so04-so09, /reference/detmarovice-so06-so09 |
-| `[OBJEDNATEL]` | /pro-zadavatele/obce-a-urady, /reference/, /sluzby/projekce-a-aktivni-prvky |
+| `[OBJEDNATEL]` | /pro-zadavatele/obce-a-urady, /reference/, /sluzby/projekce-slaboproudu |
 | `[TIČR – rozsah a číslo oprávnění]` | /doklady |
 | `[doba uložení nerealizovaných poptávek]` | /ochrana-osobnich-udaju |
 | `[n]` | /, /pro-zhotovitele |
-| `[rozsah]` | /, /reference/ |
+| `[rozsah]` | /reference/ |

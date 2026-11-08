@@ -34,7 +34,8 @@ Všechny URL malými písmeny, bez diakritiky, bez koncovky .html (Cloudflare Pa
 /sluzby/opticke-trasy               Optické trasy a páteře
 /sluzby/strukturovana-kabelaz       Strukturovaná kabeláž
 /sluzby/mereni-a-dokumentace        Měření a dokumentace
-/sluzby/projekce-a-aktivni-prvky    Projekce slaboproudu, aktivní prvky
+/sluzby/projekce-slaboproudu        Projekce slaboproudu (studie, DPS)
+/sluzby/aktivni-prvky               Aktivní prvky (HPE Aruba, Cisco, Dell, Ubiquiti, MikroTik)
 /reference/                         Seznam referencí (tabulka)
 /reference/<slug>                   Jedna reference (viz formát níže)
 /pro-zhotovitele                    Jak probíhá subdodávka
@@ -59,7 +60,7 @@ Přesně podle schváleného návrhu (artboard „Homepage – desktop“ v Clau
 1. Hero – pouze text, bez obrázku a bez tabulky: eyebrow, H1 „Optickou část stavby odevzdáme hotovou. Včetně protokolů.“, podtitulek, 2 tlačítka („Poslat výkaz výměr k nacenění“ → /kontakt, „Prohlédnout reference“ → /reference/).
 2. Pás dvou fotek ze staveb (7/12 + 5/12).
 3. Vybrané realizace – tabulka 6 řádků (č. · Stavba · Objednatel/zhotovitel · Rozsah · Rok), odkaz „Všechny reference“.
-4. Co dodáváme – 4 sloupce, každý s názvem, 2 větami a řádkem technické specifikace v mono.
+4. Co dodáváme – 5 sloupců (od 8. 11. 2026 projekce a aktivní prvky zvlášť), každý s názvem, 2 větami a řádkem technické specifikace v mono.
 5. Pro zhotovitele – 4 kroky (nacenění z výkazu výměr → koordinace se stavbou → realizace vlastními lidmi → předání s dokumentací).
 6. Doklady ke stažení – seznam PDF.
 7. Kontakt – tmavý blok s výzvou „Pošlete výkaz výměr. Ozveme se do dvou pracovních dnů.“, e-mail, telefon, adresa, IČO, DIČ, datová schránka.
@@ -83,6 +84,11 @@ Reference k zpracování (data doplní Luboš, do té doby `[PLACEHOLDER]`, nikd
 - KŘP MSK Frýdek-Místek – DPS (2026)
 - Rekonstrukce rozvodů NN a SLP, OO PČR Frýdlant nad Ostravicí (2021, z Realizovaných staveb)
 - Věznici Vinařice MCnet nerealizoval – neuvádět.
+- Dodávka a zprovoznění aktivních prvků, Matiční gymnázium Ostrava (VZMR, 10/2026) – uvádět jen realizaci, ne studii
+- DPS stavební připravenosti, ÚO Policie ČR Karviná, Havířská 1511 (KŘP MSK, 09/2024)
+- Instalace 11 AP Wi‑Fi, CS-Cont Zlaté Hory (objednatel ICZ a.s., 2022)
+- Na úvodu z Dětmarovic jen trasa pro ČEZ.
+- Fotky: zatím 4 vlastní fotky převzaté z webu Fajbr (public/img), seznam v FOTKY v src/build.mjs.
 - Další dle seznamu od Luboše
 
 ### Pro zhotovitele `/pro-zhotovitele`
@@ -166,9 +172,9 @@ IČO:             25394720
 DIČ:             CZ25394720
 Sídlo:           J. Opletala 924, 738 01 Frýdek-Místek (dle ARES)
 Telefon:         +420 777 701 721
-E-mail:          [DOPLNIT]
 Datová schránka: [DOPLNIT]
-Jednatel:        Ing. Luboš Mikula, Ph.D.
+Kontakty:        Ing. Luboš Mikula, Ph.D. – optické sítě (není jednatel, neuvádět „jednatel“); Josef Mikula – realizace staveb
+E-maily:         info@mcnet.cz (poptávky), faktury@mcnet.cz, ucetni@mcnet.cz, lmikula@mcnet.cz
 Oprávnění:       TIČR – [DOPLNIT rozsah a číslo]
 Partnerství:     HPE (po dokončení registrace)
 Působnost:       Moravskoslezský kraj, Olomoucký kraj, dle zakázky celá ČR

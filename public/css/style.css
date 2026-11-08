@@ -229,3 +229,14 @@ a.doc:hover{color:var(--accent)}
 /* Drobné utility */
 .mb-28{margin-bottom:28px}.mb-16{margin-bottom:16px}.mt-16{margin-top:16px}.gap-12{gap:12px}
 .aside-note{font:12px/1.5 var(--mono);color:var(--muted);margin:10px 0 0}
+
+/* Vlastní fotky */
+.ph{margin:0;background:var(--photo);border:1px solid var(--line)}
+.ph img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+.photo-band .ph img{height:360px;aspect-ratio:auto}
+@media (max-width:900px){.photo-band .ph img{height:240px}}
+
+/* Služby v pěti sloupcích (úvod, přehled) */
+.svc-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:24px}
+@media (max-width:1100px){.svc-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:900px){.svc-grid{grid-template-columns:minmax(0,1fr)}}
