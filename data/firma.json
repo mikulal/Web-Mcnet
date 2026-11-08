@@ -46,7 +46,6 @@
       "email": "josef.mikula@mcnet.cz"
     }
   ],
-  "opravneni_ticr": "[TIČR – rozsah a číslo oprávnění]",
   "hpe_partner": false,
   "pusobnost": [
     "Moravskoslezský kraj",
@@ -57,11 +56,6 @@
   "og_image": "/img/opticka-vana-pigtaily.jpg",
   "naceneni_pracovnich_dnu": "3",
   "doklady": [
-    {
-      "soubor": "mcnet-ticr-opravneni.pdf",
-      "nazev": "Oprávnění TIČR – montáž, opravy, revize el. zařízení",
-      "platnost": "[platnost]"
-    },
     {
       "soubor": "mcnet-vypis-or.pdf",
       "nazev": "Výpis z obchodního rejstříku (justice.cz)",

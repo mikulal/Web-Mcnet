@@ -95,7 +95,7 @@ Reference k zpracování (data doplní Luboš, do té doby `[PLACEHOLDER]`, nikd
 Rozvedené 4 kroky z úvodu + odstavec „Přebíráme optiku na už položených trasách“ (sváry, měření, předání pro elektrofirmy) + co potřebujeme k nacenění (výkaz výměr nebo PD, termín, místo, kontakt na stavbyvedoucího) + co dodáváme k předání (seznam dokladů). Jedno CTA: e-mail s výkazem.
 
 ### Doklady `/doklady`
-Seznam PDF s datem platnosti: oprávnění TIČR, výpis z OR, pojištění odpovědnosti, seznam referencí pro kvalifikaci (§ 79 ZZVZ), firemní profil. Soubory ve složce `/public/doklady/`, názvy `mcnet-ticr-opravneni.pdf` atd. Dokud soubor neexistuje, položka je šedá s textem „připravujeme“, ne nefunkční odkaz.
+Seznam PDF s datem platnosti: výpis z OR (odkaz na justice.cz, PDF obsahuje osobní údaje jednatele), pojištění odpovědnosti, seznam referencí pro kvalifikaci (§ 79 ZZVZ), firemní profil. Soubory ve složce `/public/doklady/`, názvy `mcnet-ticr-opravneni.pdf` atd. Dokud soubor neexistuje, položka je šedá s textem „připravujeme“, ne nefunkční odkaz.
 
 ### Pro zadavatele (4 stránky)
 Každá 300–500 slov: specifika sektoru (normy, požární bezpečnost, provoz za chodu, bezpečnostní režim), co typicky obsahuje zakázka, 1–2 reference ze seznamu, CTA. Konkrétní normy: ČSN EN 50173-1, ČSN EN 50174-2, ČSN 73 0810, ČSN 73 0835 (zdravotnictví), vyhl. 131/2024 Sb. (DPS), třídy reakce na oheň dle ČSN EN 13501-6 (B2ca-s1,d1,a1).
@@ -176,7 +176,7 @@ Datová schránka: t4wksyx (ze smluv MGO a IBC)
 Zápis v OR:      Krajský soud v Ostravě, oddíl C, vložka 18136
 Kontakty:        Ing. Luboš Mikula, Ph.D. – poptávky, příprava staveb (není jednatel, neuvádět „jednatel“); Josef Mikula – realizace staveb
 E-maily:         lubos.mikula@mcnet.cz (poptávky a nacenění), josef.mikula@mcnet.cz, info@mcnet.cz (obecné dotazy), faktury@mcnet.cz, ucetni@mcnet.cz
-Oprávnění:       TIČR – [DOPLNIT rozsah a číslo]
+Oprávnění:       TIČR – MCnet vlastní oprávnění nemá (na disku je jen oprávnění M. Spiška), na webu neuvádět (Luboš 8. 11. 2026)
 Partnerství:     HPE (po dokončení registrace)
 Působnost:       Moravskoslezský kraj, Olomoucký kraj, dle zakázky celá ČR
 ```

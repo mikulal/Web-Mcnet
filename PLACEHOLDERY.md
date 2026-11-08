@@ -4,11 +4,9 @@ Generováno skriptem `node src/build.mjs`. Po doplnění údajů v `data/*.json`
 
 ## Firemní údaje (data/firma.json)
 
-- `opravneni_ticr`: [TIČR – rozsah a číslo oprávnění]
 - `linkedin`: [URL PROFILU LINKEDIN]
-- `doklady.0.platnost`: [platnost]
+- `doklady.2.platnost`: [datum]
 - `doklady.3.platnost`: [datum]
-- `doklady.4.platnost`: [datum]
 
 ## Reference (data/reference.json)
 
@@ -59,4 +57,3 @@ Detailní stránky se generují až s `"detail": true`. Zatím: 3 z 10.
 | Placeholder | Stránky |
 |---|---|
 | `[Foto: OTDR měření na optické vaně]` | /sluzby/mereni-a-dokumentace |
-| `[TIČR – rozsah a číslo oprávnění]` | /doklady |
