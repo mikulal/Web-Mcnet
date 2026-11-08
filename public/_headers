@@ -1,0 +1,7 @@
+# Kopie na pages.dev se nemají indexovat (produkční i náhledové nasazení).
+# Adresa zůstává dostupná, bez přesměrování. Indexovat se má jen www.mcnet.cz.
+https://web-mcnet.pages.dev/*
+  X-Robots-Tag: noindex
+
+https://:branch.web-mcnet.pages.dev/*
+  X-Robots-Tag: noindex
