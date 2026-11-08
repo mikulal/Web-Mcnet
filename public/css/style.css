@@ -240,3 +240,25 @@ a.doc:hover{color:var(--accent)}
 .svc-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:24px}
 @media (max-width:1100px){.svc-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media (max-width:900px){.svc-grid{grid-template-columns:minmax(0,1fr)}}
+
+/* Technická schémata (inline SVG, ve stylu výkresu) */
+.diagram{margin:0;background:var(--card);border:1px solid var(--line)}
+.diagram .dg{display:block;width:100%;height:auto}
+.photo-band .diagram .dg{height:360px}
+.dg-ttl{font:500 13px var(--mono);letter-spacing:.08em;text-transform:uppercase;fill:var(--muted)}
+.dg-t{font:400 13px var(--mono);fill:var(--muted)}
+.dg-ink{fill:var(--ink)}
+.dg-n{font:400 13px var(--mono);fill:var(--accent)}
+.dg-ln{fill:none;stroke:var(--ink);stroke-width:1.5}
+.dg-thin{fill:none;stroke:var(--line);stroke-width:1}
+.dg-thin-ink{fill:none;stroke:var(--ink);stroke-width:1}
+.dg-grid line{stroke:var(--line);stroke-width:1;stroke-dasharray:2 4}
+.dg-duct{fill:none;stroke:var(--photo);stroke-width:9;stroke-linecap:round}
+.dg-box{fill:var(--card);stroke:var(--accent);stroke-width:1.5}
+.dg-pt{fill:var(--accent)}
+.dg-ev{stroke:var(--accent);stroke-width:1;stroke-dasharray:3 4;opacity:.6}
+.dg-trace{fill:none;stroke:var(--ink);stroke-width:1.5;stroke-linejoin:round}
+.dg-bg{fill:var(--card)}
+.dg-sheet{fill:var(--card);stroke:var(--ink);stroke-width:1}
+@media (max-width:900px){.photo-band .diagram .dg{height:auto}}
+@media (max-width:600px){.diagram-wide{display:none}}

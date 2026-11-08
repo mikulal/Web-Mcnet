@@ -12,10 +12,14 @@
     "stat": "CZ"
   },
   "telefon": "+420 777 701 721",
-  "email": "info@mcnet.cz",
+  "email": "lubos.mikula@mcnet.cz",
   "emaily": [
     {
-      "ucel": "Poptávky a obecné dotazy",
+      "ucel": "Poptávky a nacenění",
+      "adresa": "lubos.mikula@mcnet.cz"
+    },
+    {
+      "ucel": "Obecné dotazy",
       "adresa": "info@mcnet.cz"
     },
     {
@@ -31,13 +35,14 @@
   "kontakty": [
     {
       "jmeno": "Ing. Luboš Mikula, Ph.D.",
-      "role": "optické sítě",
-      "email": "lmikula@mcnet.cz",
+      "role": "poptávky, příprava staveb",
+      "email": "lubos.mikula@mcnet.cz",
       "telefon": "+420 777 701 721"
     },
     {
       "jmeno": "Josef Mikula",
-      "role": "realizace staveb"
+      "role": "realizace staveb",
+      "email": "josef.mikula@mcnet.cz"
     }
   ],
   "opravneni_ticr": "[TIČR – rozsah a číslo oprávnění]",

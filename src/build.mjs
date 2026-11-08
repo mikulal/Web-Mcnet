@@ -123,7 +123,7 @@ const parts = {
 };
 
 // Tokeny v obsahu: {{firma.klic}}, {{adresa}}, {{tel}}, {{email}}, {{email_btn}}, {{tel_btn}},
-// {{ref_table:home|all}}, {{ref_list:slug,slug}}, {{ref_sluzba:sluzba}}, {{doklady}}, {{foto:popisek|trida}}, {{img:nazev|trida|eager}}
+// {{ref_table:home|all}}, {{ref_list:slug,slug}}, {{ref_sluzba:sluzba}}, {{doklady}}, {{foto:popisek|trida}}, {{img:nazev|trida|eager}}, {{svg:nazev|trida}}
 function render(tpl) {
   return tpl.replace(/\{\{([a-z_]+)(?:[.:]([^}]*))?\}\}/g, (m, name, arg) => {
     switch (name) {
@@ -143,6 +143,7 @@ function render(tpl) {
       case 'doklady': return parts.doklady();
       case 'emaily': return firma.emaily.map((e) => `<div><dt>${esc(e.ucel)}</dt><dd><a href="mailto:${esc(e.adresa)}">${esc(e.adresa)}</a></dd></div>`).join('\n            ');
       case 'osoby': return firma.kontakty.map((k) => `<div><dt>${esc(k.role[0].toUpperCase() + k.role.slice(1))}</dt><dd>${esc(k.jmeno)}${k.email ? `<br><a href="mailto:${esc(k.email)}">${esc(k.email)}</a>` : ''}</dd></div>`).join('\n            ');
+      case 'svg': { const [n, cls] = arg.split('|'); const f = path.join(ROOT, 'src', 'svg', n + '.svg'); if (!fs.existsSync(f)) { warn(`Chybí src/svg/${n}.svg`); return ''; } return `<figure class="diagram ${cls || ''}">${fs.readFileSync(f, 'utf8').trim()}</figure>`; }
       case 'img': { const [n, cls, e] = arg.split('|'); return parts.img(n, cls || '', e === 'eager'); }
       case 'foto': { const [label, cls] = arg.split('|'); return parts.photo(label, cls || ''); }
       default: warn(`Neznámý token ${m}`); return m;
