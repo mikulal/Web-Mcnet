@@ -95,6 +95,7 @@ Reference k zpracování (data doplní Luboš, do té doby `[PLACEHOLDER]`, nikd
 Rozvedené 4 kroky z úvodu + odstavec „Přebíráme optiku na už položených trasách“ (sváry, měření, předání pro elektrofirmy) + co potřebujeme k nacenění (výkaz výměr nebo PD, termín, místo, kontakt na stavbyvedoucího) + co dodáváme k předání (seznam dokladů). Jedno CTA: e-mail s výkazem.
 
 ### Doklady `/doklady`
+**Stav 9. 11. 2026: zmrazeno** (Luboš). `doklady_zobrazit: false` v `data/firma.json` skryje stránku, menu, patičku i bloky `<!--if:doklady-->`; pojistka čeká v `doklady-archiv/`. Po zapnutí ji vrátit do `public/doklady/`.
 Seznam PDF s datem platnosti: výpis z OR (odkaz na justice.cz, PDF obsahuje osobní údaje jednatele), pojištění odpovědnosti, seznam referencí pro kvalifikaci (§ 79 ZZVZ), firemní profil. Soubory ve složce `/public/doklady/`, názvy `mcnet-ticr-opravneni.pdf` atd. Dokud soubor neexistuje, položka je šedá s textem „připravujeme“, ne nefunkční odkaz.
 
 ### Pro zadavatele (4 stránky)
@@ -156,7 +157,8 @@ Název, adresa a telefon musí být písmeno po písmeni stejné na webu, v Goog
 - Cíl Lighthouse ≥ 95 ve všech kategoriích na mobilu.
 - Fonty `font-display: swap`, preload pro Plex Sans 400/600.
 - Obrázky s explicitními `width`/`height`.
-- Žádné externí skripty kromě případně Cloudflare Web Analytics (bez cookies, bez lišty).
+- Žádné externí skripty. Statistiky: Umami na vlastním VPS (statistiky.minipujcovnaostrava.cz, web „MCnet“), skript i odesílání přes `/u/` na vlastní doméně (`functions/u/[[path]].js`), bez cookies a bez lišty; domény v `data/firma.json` → `statistiky`.
+- CSS a JS se načítají s `?v=<hash obsahu>` (build), protože `_headers` je cachuje na den.
 
 **Formulář**
 Kontakt řeší `mailto:` a telefon. Pokud bude formulář, pak Cloudflare Pages Function → e-mail, pole: firma, jméno, telefon, e-mail, zpráva, příloha (výkaz výměr, PDF/XLSX do 10 MB). Souhlas GDPR jednou větou s odkazem na /ochrana-osobnich-udaju.

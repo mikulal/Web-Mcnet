@@ -1,5 +1,6 @@
 <svg class="dg" viewBox="0 0 451 360" role="img" aria-labelledby="dg-otdr-t" xmlns="http://www.w3.org/2000/svg">
   <title id="dg-otdr-t">Křivka měření OTDR na 1310 nm: konektor, svar s útlumem 0,03 dB a konec vlákna</title>
+  <style>.dg-ttl{font:500 13px var(--mono);letter-spacing:.08em;text-transform:uppercase;fill:var(--muted)}.dg-t{font:400 13px var(--mono);fill:var(--muted)}.dg-ink{fill:var(--ink)}.dg-n{font:400 13px var(--mono);fill:var(--accent)}.dg-ln{fill:none;stroke:var(--ink);stroke-width:1.5}.dg-thin{fill:none;stroke:var(--line);stroke-width:1}.dg-thin-ink{fill:none;stroke:var(--ink);stroke-width:1}.dg-grid line{stroke:var(--line);stroke-width:1;stroke-dasharray:2 4}.dg-duct{fill:none;stroke:var(--photo);stroke-width:9;stroke-linecap:round}.dg-box{fill:var(--card);stroke:var(--accent);stroke-width:1.5}.dg-pt{fill:var(--accent)}.dg-ev{stroke:var(--accent);stroke-width:1;stroke-dasharray:3 4;opacity:.6}.dg-trace{fill:none;stroke:var(--ink);stroke-width:1.5;stroke-linejoin:round}.dg-bg{fill:var(--card)}.dg-sheet{fill:var(--card);stroke:var(--ink);stroke-width:1}</style>
   <text class="dg-ttl" x="24" y="34">OTDR · 1310 nm · A→B</text>
   <!-- mřížka -->
   <g class="dg-grid">

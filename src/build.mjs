@@ -17,6 +17,10 @@ const refs = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/reference.json'), 
 const SITE = firma.web.replace(/\/$/, '');
 
 const warnings = [];
+import crypto from 'node:crypto';
+const ver = (f) => crypto.createHash('sha1').update(fs.readFileSync(path.join(PUB, f))).digest('hex').slice(0, 8);
+const VER_CSS = ver('css/style.css'), VER_JS = ver('js/menu.js');
+const DOKLADY = firma.doklady_zobrazit !== false;
 const warn = (msg) => warnings.push(msg);
 
 // ---------- pomocné ----------
@@ -126,6 +130,7 @@ const parts = {
 // Tokeny v obsahu: {{firma.klic}}, {{adresa}}, {{tel}}, {{email}}, {{email_btn}}, {{tel_btn}},
 // {{ref_table:home|all}}, {{ref_list:slug,slug}}, {{ref_sluzba:sluzba}}, {{doklady}}, {{foto:popisek|trida}}, {{img:nazev|trida|eager}}, {{svg:nazev|trida}}
 function render(tpl) {
+  tpl = tpl.replace(/<!--if:doklady-->([\s\S]*?)<!--\/if:doklady-->/g, (m, inner) => (DOKLADY ? inner : ''));
   return tpl.replace(/\{\{([a-z_]+)(?:[.:]([^}]*))?\}\}/g, (m, name, arg) => {
     switch (name) {
       case 'firma': {
@@ -223,7 +228,7 @@ const NAV = [
   ['Služby', '/sluzby/'],
   ['Reference', '/reference/'],
   ['Pro zhotovitele', '/pro-zhotovitele'],
-  ['Doklady', '/doklady'],
+  ...(DOKLADY ? [['Doklady', '/doklady']] : []),
 ];
 const FOOT = [
   ['Služby', [
@@ -248,7 +253,7 @@ const FOOT = [
   ['Firma', [
     ['Reference', '/reference/'],
     ['Pro zhotovitele', '/pro-zhotovitele'],
-    ['Doklady', '/doklady'],
+    ...(DOKLADY ? [['Doklady', '/doklady']] : []),
     ['Kontakt', '/kontakt'],
     ['Ochrana osobních údajů', '/ochrana-osobnich-udaju'],
   ]],
@@ -346,7 +351,7 @@ ${m.noindex ? '<meta name="robots" content="noindex">\n' : ''}${og.map(([k, v]) 
 <meta name="theme-color" content="#F3F1EC">
 <link rel="preload" href="${P}fonts/plex-sans-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="${P}fonts/plex-sans-600.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="${P}css/style.css">
+<link rel="stylesheet" href="${P}css/style.css?v=${VER_CSS}">
 <link rel="icon" href="${P}favicon.svg" type="image/svg+xml">
 <script>document.documentElement.className='js'</script>
 <script type="application/ld+json">${jsonLd(page)}</script>
@@ -383,7 +388,8 @@ ${m.contact === false ? '' : contactBlock()}
     </div>
   </div>
 </footer>
-<script src="${P}js/menu.js" defer></script>
+<script src="${P}js/menu.js?v=${VER_JS}" defer></script>${firma.statistiky ? `
+<script defer src="/u/script.js" data-website-id="${firma.statistiky.umami_id}" data-host-url="/u" data-domains="${firma.statistiky.domeny}"></script>` : ''}
 </body>
 </html>
 `;
@@ -397,7 +403,7 @@ function parseSource(file) {
   return { meta: JSON.parse(mm[1]), body: raw.slice(mm[0].length) };
 }
 
-const pages = walk(SRC).map((file) => {
+const pages = walk(SRC).filter((file) => DOKLADY || path.basename(file) !== 'doklady.html').map((file) => {
   const rel = path.relative(SRC, file);
   const { meta, body } = parseSource(file);
   return { rel, url: urlOf(rel), meta, body, absAssets: rel === '404.html' };

@@ -15,7 +15,6 @@
 ## Stránky
 
 - [Úvod](https://www.mcnet.cz/): Optické trasy, strukturovaná kabeláž, OTDR měření a dokumentace jako subdodávka pro zhotovitele staveb a veřejné zadavatele v Moravskoslezském kraji.
-- [Doklady ke stažení – kvalifikace pro VZ](https://www.mcnet.cz/doklady): Kvalifikační doklady MCnet pro veřejné zakázky: výpis z obchodního rejstříku, pojištění odpovědnosti, seznam referencí dle § 79 ZZVZ a firemní profil.
 - [Kontakt – MCnet, s.r.o., Frýdek-Místek](https://www.mcnet.cz/kontakt): Kontakt na MCnet, s.r.o.: e-mail pro zaslání výkazu výměr, telefon, sídlo ve Frýdku-Místku, IČO, DIČ a datová schránka. Odpovídáme do dvou pracovních dnů.
 - [Služby – optika, kabeláž, měření, projekce](https://www.mcnet.cz/sluzby/): Optické trasy, strukturovaná kabeláž, OTDR měření s dokumentací, projekce slaboproudu a aktivní prvky. Subdodávka pro stavby v Moravskoslezském kraji.
 - [Reference – optické trasy a kabeláž](https://www.mcnet.cz/reference/): Přehled realizací MCnet: optické trasy, areálové páteře, strukturovaná kabeláž a DPS pro školy, nemocnice, policii a zhotovitele staveb v kraji MSK.

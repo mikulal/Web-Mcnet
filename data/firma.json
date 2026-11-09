@@ -77,5 +77,11 @@
       "nazev": "Firemní profil",
       "platnost": "[datum]"
     }
-  ]
+  ],
+  "statistiky": {
+    "_poznamka": "Umami na VPS (statistiky.minipujcovnaostrava.cz, web „MCnet“), proxy /u/ ve functions/u/. Měří se jen na uvedených doménách; náhled redesign-2026 je tu dočasně, po spuštění www.mcnet.cz odebrat.",
+    "umami_id": "86cb8b55-0bb8-4e1b-bb1c-af547e02abdf",
+    "domeny": "www.mcnet.cz,mcnet.cz,redesign-2026.web-mcnet.pages.dev"
+  },
+  "doklady_zobrazit": false
 }
